@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favicon.ico">
-    <title>ProClena - HTML Website Template - Contact Us</title>
+    <title>AMECRO - Contact Us</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="css/vendor/animate.min.css" rel="stylesheet">
@@ -56,22 +56,24 @@
         <h1 class="text-center h-decor">Contact Us</h1>
         <div class="block fullwidth no-pad">
             <div class="container">
-                <div id="googleMap" class="google-map"></div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.673466537798!2d138.58340051519409!3d-34.88954508038636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c8e93ca2b0b1%3A0xdfc8b044d57725c8!2s39A%20Elizabeth%20St%2C%20Prospect%20SA%205082%2C%20Australia!5e0!3m2!1sen!2slk!4v1627362152922!5m2!1sen!2slk"
+                    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
-        <div class="block">
+        <div class=" block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <h2>General Office</h2>
                         <div class="contact-info-sm">
                             <h5>Address</h5>
-                            <i class="icon icon-map-marker"></i>3261 Anmoore Road
-                            <br>Brooklyn, NY 11230
+                            <i class="icon icon-map-marker"></i>No.39A, Elizabeth Street,
+                            <br>Prospect SA 5082
                         </div>
                         <div class="contact-info-sm">
                             <h5>Phone 24/7</h5>
-                            <i class="icon icon-technology"></i>800-123-4567, Fax: 718-724-3312
+                            <i class="icon icon-technology"></i>+61 466654500
                         </div>
                         <div class="contact-info-sm">
                             <h5>Operating Hours</h5>
