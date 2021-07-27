@@ -99,8 +99,8 @@
                     </ul>
                 </div>
             </div>
-            <!-- <div class="page-header-top-right">
-                <div class="header-search">
+            <div class="page-header-top-right">
+                <!-- <div class="header-search">
                     <div class="header-search-toggle"><i class="icon-search"></i></div>
                     <div class="header-search-drop">
                         <form action="#" class="form-inline">
@@ -108,10 +108,10 @@
                             <button type="submit"><i class="icon-search"></i></button>
                         </form>
                     </div>
-                </div>
+                </div> -->
                 <div class="header-cart">
-                    <a href="#" class="icon icon-cart"></a>
-                    <span class="badge">3</span>
+                    <!-- <a href="#" class="icon icon-cart"></a> -->
+                    <!-- <span class="badge">3</span> -->
                     <div class="header-cart-dropdown">
                         <div class="prd-sm">
                             <div class="prd-sm-img">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <a href="#" class="menu-toggle"><i class="icon-menu"></i><i class="icon-cancel2"></i></a>
-            </div> -->
+            </div>
         </div>
     </div>
 </header>
