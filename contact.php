@@ -99,13 +99,14 @@
 								<li><a href="index-rtl.html">HOME RTL MODE</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">About Us<span class="arrow"></span></a>
+						<!-- <li><a href="about.html">About Us<span class="arrow"></span></a>
 							<ul class="sub-menu">
-								<li><a href="blog-posts.html">About us</a></li>
-								<li><a href="gallery.html">Gallery Creative</a></li>
-								<li><a href="gallery-simple.html">Simple Gallery</a></li>
-							</ul>
-						</li>
+								<li><a href="about.php">About us</a></li> -->
+								<!-- <li><a href="gallery.html">Gallery Creative</a></li>
+								<li><a href="gallery-simple.html">Simple Gallery</a></li> -->
+							<!-- </ul>
+						</li> -->
+						<li><a href="about.php">About us</a></li>
 						<li><a href="services.html">Our Services<span class="arrow"></span></a>
 							<ul class="sub-menu">
 								<li><a href="service-page-1.html">Apartment Cleaning</a></li>
@@ -129,7 +130,7 @@
 						</li>
 						<li><a href="testimonials.html">Testimonials</a></li>
 						<li><a href="shop.html">Shop</a></li>
-						<li class="active"><a href="contact.html">Contacts</a></li>
+						<li class="active"><a href="contact.php">Contacts</a></li>
 					</ul>
 				</div>
 			</div>
@@ -204,17 +205,16 @@
 					<h2>General Office</h2>
 					<div class="contact-info-sm">
 						<h5>Address</h5>
-						<i class="icon icon-map-marker"></i>3261 Anmoore Road
-						<br>Brooklyn, NY 11230
+						<i class="icon icon-map-marker"></i> No. 39A,
+						<br>Elizabeth Street, Prospect SA5082
 					</div>
 					<div class="contact-info-sm">
-						<h5>Phone 24/7</h5>
-						<i class="icon icon-technology"></i>800-123-4567, Fax: 718-724-3312
+						<h5>Contact</h5>
+						<i class="icon icon-technology"></i>+61 466654500
 					</div>
 					<div class="contact-info-sm">
-						<h5>Operating Hours</h5>
-						<i class="icon icon-clock"></i>Mon-Fri: 9:00 am – 5:00 pm
-						<br>Sat-Sun: 11:00 am – 16:00 pm
+						<h5>Email</h5>
+						<i class="icon icon-technology"></i>info@amecro.com.au
 					</div>
 				</div>
 				<div class="divider visible-sm visible-xs"></div>
@@ -245,7 +245,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="block">
+	<!-- <div class="block">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -305,7 +305,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </main>
 <!-- Footer -->
 <footer class="page-footer page-footer--style2">

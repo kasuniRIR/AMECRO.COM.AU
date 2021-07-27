@@ -190,9 +190,9 @@
 		<!--About Text block-->
 		<div class="block fullwidth no-pad">
 			<div class="container">
-				<h1 class="text-center h-decor">About Our Company</h1>
+				<h1 class="text-center h-decor">ABOUT</h1>
 				<div class="text-center max-700">
-					<p class="p-lg">Cleaning can be a chore and we know you have many choices when you consider hiring a comprehensive, high quality, reliable cleaning service. </p>
+					<p class="p-lg">We are a team of a well-experienced international trading team with over 30 years of experience in providing tailored solutions for clients' requirements. </p>
 				</div>
 			</div>
 			<div class="container-fluid">
@@ -203,9 +203,12 @@
 					</div>
 					<div class="col-50 bg-text">
 						<div class="bg-text-inside">
-							<h4>More than 10 years of cleaning experience</h4>
-							<p>Cleaning Company service is a fully integrated janitorial cleaning services company that provides comprehensive, high quality, reliable cleaning solutions to commercial, corporate, industrial and residential clients.</p>
-							<p>Our diligent management and work ethic are central to Cleaning Company service business philosophy and critical to delivering consistent, quality cleaning services. We pride ourselves on making our management accountable to the client through direct access and interaction with our managing director.</p>
+							<h4>About Us</h4>
+							<p>We source products from simple office solutions to complicated engineering solutions through our network of the world's leading manufacturers from the USA, UK, EU, India, and China catering to a wide range of clients in varied sectors.</p>
+							<p>We offer the best deals for our clients in terms of pricing, payment terms, product quality, reliability, and shipping costs. Any type of assistance needed for installation, warranty, etc will be handled by us with ease for the clients.</p>
+							<p>Our global clients span from Australia, Middle East, Africa to South Asia.</p><br/>
+							<h5>Endorsements</h5>
+							<p>"We appreciate the support that AMECRO has given us to source some of the critical items for our operations at great prices." - Nathan Donnarumma - Operations Manager - Servicing SA, Adelaide.</p>
 						</div>
 					</div>
 				</div>
