@@ -58,9 +58,9 @@
                             <div class="side-block">
                                 <h3>Categories</h3>
                                 <ul class="category-list">
-                                    <li><a href="#">environmental Solution</a></li>
-                                    <li><a href="#">Medical Furniture</a></li>
-                                    <li><a href="#">Kindergarden Furniture</a></li>
+                                    <li><a href="#">Environmental Solution</a></li>
+                                    <li><a href="#">Medical Furniture Solution</a></li>
+                                    <li><a href="#">Kindergarden Furniture Solution</a></li>
                                 </ul>
                             </div>
                             <!-- <div class="side-block">
