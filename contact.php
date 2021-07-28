@@ -9,7 +9,7 @@
         content="html 5 template, cleaning service template, cleaning template, cleaning company template">
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favamecro.ico">
     <title>AMECRO - Contact Us</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
         <div class="block breadcrumbs">
             <div class="container">
                 <ul class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Contact Us</li>
                 </ul>
             </div>
@@ -77,13 +77,13 @@
                         </div>
                         <div class="contact-info-sm">
                             <h5>Operating Hours</h5>
-                            <i class="icon icon-clock"></i>Mon-Fri: 9:00 am – 5:00 pm
+                            <i class="icon icon-clock"></i>Mon-Fri: 8:00 am – 5:00 pm
                             <br>Sat-Sun: 11:00 am – 16:00 pm
                         </div>
                     </div>
                     <div class="divider visible-sm visible-xs"></div>
                     <div class="col-md-8">
-                        <h2 class="text-center h-lg h-decor">Get in Touch</h2>
+                        <!-- <h2 class="text-center h-lg h-decor">Get in Touch</h2>
                         <form class="contact-form" id="contactForm" method="post" novalidate="novalidate">
                             <div class="successform text-center">
                                 <p>Your message was sent successfully!</p>
@@ -107,12 +107,12 @@
                                 id="hiddenRecaptcha">
                             <br>
                             <button type="submit" class="btn">Send Message</button>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
         </div>
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
     <!-- Footer -->
     <?php
