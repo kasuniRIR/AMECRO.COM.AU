@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="html 5 template, cleaning service template, cleaning template, cleaning company template">
+    <meta name="description"
+        content="html 5 template, cleaning service template, cleaning template, cleaning company template">
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favamecro.ico">
@@ -23,7 +24,8 @@
     <link href="fonts/icomoon/style.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,800"
+        rel="stylesheet">
 </head>
 
 <body class="page-index">
@@ -51,7 +53,7 @@
                 </div>
                 <div id="mainSlider">
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/slide-3.jpg);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -59,7 +61,8 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp" data-animation-delay="2s">Get a Quote</a>
+                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                            data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,14 +77,15 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp" data-animation-delay="2s">Free Estimate</a>
+                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                            data-animation-delay="2s">Free Estimate</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/slide-1.jpg);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -89,7 +93,8 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp" data-animation-delay="2s">Free Estimate</a>
+                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                            data-animation-delay="2s">Free Estimate</a>
                                     </div>
                                 </div>
                             </div>
@@ -307,8 +312,14 @@
                         </ul> -->
                         <div class="tab-content tab-content-nopad">
                             <div id="about1" class="tab-pane fade in active">
-                                <p>We are a team of a well-experienced international trading team with over 30 years of experience in providing tailored solutions for clients' requirements. We source products from simple office solutions to complicated engineering solutions through our network of the world's leading manufacturers from the USA, UK, EU, India, and China catering to a wide range of clients in varied sectors.</p><br />
-                                <p>We offer the best deals for our clients in terms of pricing, payment terms, product quality, reliability, and shipping costs. Any type of assistance needed for installation, warranty, etc will be handled by us with ease for the clients. </p>
+                                <p>We are a team of a well-experienced international trading team with over 30 years of
+                                    experience in providing tailored solutions for clients' requirements. We source
+                                    products from simple office solutions to complicated engineering solutions through
+                                    our network of the world's leading manufacturers from the USA, UK, EU, India, and
+                                    China catering to a wide range of clients in varied sectors.</p><br />
+                                <p>We offer the best deals for our clients in terms of pricing, payment terms, product
+                                    quality, reliability, and shipping costs. Any type of assistance needed for
+                                    installation, warranty, etc will be handled by us with ease for the clients. </p>
                                 <div class="divider-sm"></div>
                                 <h4>Our global clients span from</h4>
                                 <div class="row">
@@ -398,28 +409,35 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="images/content/index-img-1.jpg" class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
-                        <img src="images/content/index-img-1-mobile.jpg" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
+                        <img src="images/content/index-img-1.jpg"
+                            class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
+                        <img src="images/content/index-img-1-mobile.jpg"
+                            class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
                     </div>
                     <div class="divider-xl visible-xs"></div>
                     <div class="col-sm-7 col-md-7 col-lg-6">
                         <h2>Why choose us</h2>
-                        <p class="p-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius sunt, perspiciatis accusantium molestias ea eum quas. Vero minus magni laborum vitae dicta, ad consequuntur omnis qui numquam!
+                        <p class="p-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate
+                            incidunt eius sunt, perspiciatis accusantium molestias ea eum quas. Vero minus magni laborum
+                            vitae dicta, ad consequuntur omnis qui numquam!
                         </p>
                         <div class="marker-box">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">Top-Rated Company</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius sunt, </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius
+                                sunt, </p>
                         </div>
                         <div class="marker-box">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">Superior Quality</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius sunt, </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius
+                                sunt, </p>
                         </div>
                         <div class="marker-box hidden-md">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">Eco-Friendly Products</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius sunt, </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius
+                                sunt, </p>
                         </div>
                     </div>
                 </div>
@@ -433,11 +451,14 @@
                 <div class="testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-item-inside">
-                            <p><i>We appreciate the support that AMECRO has given us to source some of the critical items for our operations at great prices.</i></p>
+                            <p><i>We appreciate the support that AMECRO has given us to source some of the critical
+                                    items for our operations at great prices.</i></p>
                         </div>
                         <div class="testimonial-item-author">
                             <img src="images/content/testimonial-author-1.png" alt="">
-                            <div><span class="testimonial-item-name">Nathan Donnarumma.</span> <span class="testimonial-item-position">- Operations Manager - Servicing SA, Adelaide. </span></div>
+                            <div><span class="testimonial-item-name">Nathan Donnarumma.</span> <span
+                                    class="testimonial-item-position">- Operations Manager - Servicing SA, Adelaide.
+                                </span></div>
                         </div>
                     </div>
                     <!-- <div class="testimonial-item">
@@ -812,8 +833,12 @@
                         <h2><span>Special Orders<br class="clearfix visible-xs"></span></h2>
                         <h5>Ready for a cleaner facility</h5>
                         <div class="divider-sm"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore, nemo praesentium mollitia vel veniam, porro veritatis accusamus ut repellendus libero delectus voluptatem. Aliquam saepe porro, magnam illo a eveniet!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis, blanditiis placeat magni tenetur quod cupiditate provident fugiat ex, architecto quas, perspiciatis saepe. Soluta perferendis officiis consequatur dolore, odit eius.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore, nemo
+                            praesentium mollitia vel veniam, porro veritatis accusamus ut repellendus libero delectus
+                            voluptatem. Aliquam saepe porro, magnam illo a eveniet!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis, blanditiis
+                            placeat magni tenetur quod cupiditate provident fugiat ex, architecto quas, perspiciatis
+                            saepe. Soluta perferendis officiis consequatur dolore, odit eius.</p>
                         <div class="divider-sm"></div>
                         <a href="contact.php" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
@@ -845,36 +870,41 @@
 
         <div class="block fullwidth-bg inset-lg-1 bg-cover js-bg-parallax" data-bg="images/block-bg-5.jpg">
             <div class="container">
-                <div class="row counter-row">
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-user-rating"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="1500" data-speed="1000">1500</span>+</span>
-                            <div class="counter-item-text">Happy Customers</div>
+                <center>
+                    <div class="row counter-row">
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="counter-item">
+                                <div class="counter-item-icon"><i class="icon-user-rating"></i></div>
+                                <span class="counter-item-number number"><span class="count" data-to="1500"
+                                        data-speed="1000">1500</span>+</span>
+                                <div class="counter-item-text">Happy Customers</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-award"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="100" data-speed="1000">100</span>%</span>
-                            <div class="counter-item-text">Service Guarantee</div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="counter-item">
+                                <div class="counter-item-icon"><i class="icon-award"></i></div>
+                                <span class="counter-item-number number"><span class="count" data-to="100"
+                                        data-speed="1000">100</span>%</span>
+                                <div class="counter-item-text">Service Guarantee</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-648324users"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="30" data-speed="1000">30</span>+</span>
-                            <div class="counter-item-text">Trusted Brands</div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="counter-item">
+                                <div class="counter-item-icon"><i class="icon-648324users"></i></div>
+                                <span class="counter-item-number number"><span class="count" data-to="30"
+                                        data-speed="1000">30</span>+</span>
+                                <div class="counter-item-text">Trusted Brands</div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- <div class="col-xs-6 col-sm-3">
+                        <!-- <div class="col-xs-6 col-sm-3">
                         <div class="counter-item">
                             <div class="counter-item-icon"><i class="icon-cleaning"></i></div>
                             <span class="counter-item-number number"><span class="count" data-to="1000" data-speed="1000">1000+</span></span>
                             <div class="counter-item-text">Cleans Completed</div>
                         </div>
                     </div> -->
-                </div>
+                    </div>
+                </center>
             </div>
         </div>
         <!--/Text Block -->
@@ -883,11 +913,14 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-6">
-                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive" alt=""></div>
+                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive"
+                                alt=""></div>
                     </div>
                     <div class="col-sm-6">
                         <h2>Environmental Solution</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, assumenda explicabo quia dolorem eaque odit totam quas provident, eum quo nobis, aut commodi iure tenetur praesentium perspiciatis asperiores. Neque, blanditiis?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, assumenda explicabo quia
+                            dolorem eaque odit totam quas provident, eum quo nobis, aut commodi iure tenetur praesentium
+                            perspiciatis asperiores. Neque, blanditiis?</p>
                         <div class="marker-box">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">100% Safe & Organic</h4>
@@ -899,7 +932,7 @@
                             <h4 class="marker-box-title">We Care About The Earth</h4>
                             <p>All of our packaging, bottles, cleaning equipment, even our uniforms come from recycled,
                                 fairtrade or low impact origins.</p>
-                        </div><br/>
+                        </div><br />
                         <div class="divider-sm"></div>
                         <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
@@ -920,7 +953,9 @@
                             cost perspective, it is important to ensure the accuracy of all costs involved.</p>
                         <p>This cost calculator is provided to clients to assist you in establishing the estimated
                             cleaning cost for your company:</p> -->
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed et tempore ipsum placeat dolores dolor aliquid deserunt sit aspernatur, quo, molestiae sequi. Optio distinctio voluptas, ex dolore dicta expedita quod.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed et tempore ipsum placeat
+                            dolores dolor aliquid deserunt sit aspernatur, quo, molestiae sequi. Optio distinctio
+                            voluptas, ex dolore dicta expedita quod.</p>
                         <div class="divider-sm"></div>
                         <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
@@ -955,7 +990,8 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-6">
-                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive" alt=""></div>
+                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive"
+                                alt=""></div>
                     </div>
                     <div class="col-sm-6">
                         <h2>Kindergarden Furniture</h2>
@@ -967,7 +1003,9 @@
                             <p>We combine high concentrates of pure organic essential oils with quality plant-derived
                                 ingredients.</p>
                         </div> -->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vero sit beatae, ut unde eveniet enim ipsa quas blanditiis excepturi ipsum in, dignissimos facere nulla pariatur! Exercitationem doloremque praesentium nostrum!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vero sit beatae, ut unde
+                            eveniet enim ipsa quas blanditiis excepturi ipsum in, dignissimos facere nulla pariatur!
+                            Exercitationem doloremque praesentium nostrum!</p>
                         <div class="marker-box">
                             <!-- <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">We Care About The Earth</h4>
@@ -975,7 +1013,8 @@
                                 fairtrade or low impact origins.</p> -->
 
                             <div class="divider-sm"></div>
-                            <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
+                            <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn
+                                More</a>
                         </div>
                     </div>
                 </div>
