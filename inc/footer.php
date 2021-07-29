@@ -17,7 +17,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-sm-4">
+            <!-- <div class="col-sm-4">
                 <h4>Cleaning Services</h4>
                 <ul class="marker-list">
                     <li><a href="service-page-1.html">Apartment Cleaning</a></li>
@@ -28,7 +28,21 @@
                     <li><a href="service-page-6.html">Carper Cleaning</a></li>
                     <li><a href="service-page-5.html">After Renovation</a></li>
                 </ul>
+            </div> -->
+
+            <div class="col-sm-4">
+                <h4>FB Updates</h4>
+                <!-- <ul class="marker-list">
+                    <li><a href="service-page-1.html">Apartment Cleaning</a></li>
+                    <li><a href="service-page-8.html">Commercial Cleaning</a></li>
+                    <li><a href="service-page-9.html">Residential Cleaning</a></li>
+                    <li><a href="service-page-3.html">Move In / Move Out Cleaning Services</a></li>
+                    <li><a href="service-page-7.html">Window Cleaning</a></li>
+                    <li><a href="service-page-6.html">Carper Cleaning</a></li>
+                    <li><a href="service-page-5.html">After Renovation</a></li>
+                </ul> -->
             </div>
+
             <div class="col-sm-4">
                 <h4>Contact Information</h4>
                 <div class="page-footer-info">
@@ -44,8 +58,7 @@
                     <i class="icon icon-clock1"></i>8:00 am – 5:00 pm
                     <br>
                 </div>
-                <div class="btn-wrap"><a href="order-form.html" class="btn animation" data-animation="tada">Get a
-                        Free Estimate</a></div>
+                <div class="btn-wrap"><a href="order-form.html" class="btn animation" data-animation="tada">Contact Us</a></div>
             </div>
         </div>
     </div>
