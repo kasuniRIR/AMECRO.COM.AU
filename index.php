@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="html 5 template, cleaning service template, cleaning template, cleaning company template">
+    <meta name="description" content="html 5 template, cleaning service template, cleaning template, cleaning company template">
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favicon.ico">
@@ -24,8 +23,7 @@
     <link href="fonts/icomoon/style.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,800"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,800" rel="stylesheet">
 </head>
 
 <body class="page-index">
@@ -37,8 +35,8 @@
 </div>
 -->
     <?php
-	include('./inc/header.php');
- ?>
+    include('./inc/header.php');
+    ?>
     <main class="page-main">
         <!-- Slider -->
         <div class="block">
@@ -53,7 +51,7 @@
                 </div>
                 <div id="mainSlider">
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/slide-1.jpg);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -61,15 +59,14 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
-                                            data-animation-delay="2s">Free Estimate</a>
+                                        <a href="order-form.html" class="btn" data-animation="fadeInUp" data-animation-delay="2s">Free Estimate</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/slide-2.jpg);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -77,15 +74,14 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
-                                            data-animation-delay="2s">Free Estimate</a>
+                                        <a href="order-form.html" class="btn" data-animation="fadeInUp" data-animation-delay="2s">Free Estimate</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/slide-3.jpg);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -93,8 +89,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
-                                            data-animation-delay="2s">Free Estimate</a>
+                                        <a href="order-form.html" class="btn" data-animation="fadeInUp" data-animation-delay="2s">Free Estimate</a>
                                     </div>
                                 </div>
                             </div>
@@ -104,13 +99,13 @@
             </div>
         </div>
         <!-- Slider -->
-		<!-- Product Range  -->
-		<div class="block">
+        <!-- Product Range  -->
+        <div class="block">
             <div class="container">
                 <h2 class="text-center h-lg h-decor">Product Range</h2>
                 <div class="text-center max-700">
-                    <p class="p-lg">We write about industry developments, training, health and safety, eco-friendly
-                        cleaning products, recycling practices and advice for working with professional cleaners.</p>
+                    <!-- <p class="p-lg">We write about industry developments, training, health and safety, eco-friendly
+                        cleaning products, recycling practices and advice for working with professional cleaners.</p> -->
                 </div>
                 <div class="news-carousel row">
                     <div class="col-sm-4">
@@ -121,11 +116,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">16 December, 2018</div>
-                            <h3 class="news-prw-title">Confessions of an Office Cleaner</h3>
-                            <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
+                            <h3 class="news-prw-title">Outdoor Trash Bins</h3>
+                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
+                                that our office cleaners...</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -136,11 +131,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">22 December, 2018</div>
-                            <h3 class="news-prw-title">Professional Carpet Cleaning: Which Is Best?</h3>
-                            <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
-                                regular cleaning.</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">22 December, 2018</div> -->
+                            <h3 class="news-prw-title">Indoor Trash Bins</h3>
+                            <!-- <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
+                                regular cleaning.</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -151,11 +146,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">27 December, 2018</div>
-                            <h3 class="news-prw-title">Ensure Good Hygiene at the Office</h3>
-                            <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
-                                the office vacuumed a few times a week...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">27 December, 2018</div> -->
+                            <h3 class="news-prw-title">Sorting Bins</h3>
+                            <!-- <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
+                                the office vacuumed a few times a week...</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -166,11 +161,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">16 December, 2018</div>
-                            <h3 class="news-prw-title">Confessions of an Office Cleaner</h3>
-                            <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
+                            <h3 class="news-prw-title">Medical Trash Cans</h3>
+                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
+                                that our office cleaners...</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -181,11 +176,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">22 December, 2018</div>
-                            <h3 class="news-prw-title">Professional Carpet Cleaning: Which Is Best?</h3>
-                            <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
-                                regular cleaning.</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">22 December, 2018</div> -->
+                            <h3 class="news-prw-title">Instrument Tables</h3>
+                            <!-- <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
+                                regular cleaning.</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -196,17 +191,47 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">27 December, 2018</div>
-                            <h3 class="news-prw-title">Ensure Good Hygiene at the Office</h3>
-                            <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
-                                the office vacuumed a few times a week...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">27 December, 2018</div> -->
+                            <h3 class="news-prw-title">Refraction units</h3>
+                            <!-- <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
+                                the office vacuumed a few times a week...</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="news-prw">
+                            <div class="news-prw-image">
+                                <a href="blog-post-page.html">
+                                    <img src="images/content/news-img-1.jpg" alt="">
+                                    <span><i class="icon-link"></i></span>
+                                </a>
+                            </div>
+                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
+                            <h3 class="news-prw-title">Tables</h3>
+                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
+                                that our office cleaners...</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="news-prw">
+                            <div class="news-prw-image">
+                                <a href="blog-post-page.html">
+                                    <img src="images/content/news-img-1.jpg" alt="">
+                                    <span><i class="icon-link"></i></span>
+                                </a>
+                            </div>
+                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
+                            <h3 class="news-prw-title">Chairs</h3>
+                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
+                                that our office cleaners...</p> -->
+                            <a href="blog-post-page.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-		<!-- End Product Range  -->
+        <!-- End Product Range  -->
 
         <!-- Services block -->
         <!-- <div class="block">
@@ -226,7 +251,7 @@
                                 <li>Dust all furniture</li>
                                 <li>Clean the toilet</li>
                             </ul>
-                            <a href="service-page-1.html" class="btn btn-border">Read more</a>
+                            <a href="service-page-1.html" class="btn btn-border">View</a>
                         </div>
                     </div>
                     <div class="col-sm-2 col-lg-4">
@@ -275,35 +300,32 @@
                 <div class="row zindex-1">
                     <div class="col-sm-7 col-lg-9">
                         <h2 class="h-lg">About Our Company</h2>
-                        <ul class="nav nav-tabs nav-tabs--sm">
+                        <!-- <ul class="nav nav-tabs nav-tabs--sm">
                             <li class="active"><a data-toggle="tab" href="#about1">Some Words</a></li>
                             <li><a data-toggle="tab" href="#about2">How it Works</a></li>
                             <li><a data-toggle="tab" href="#about3">With Us</a></li>
-                        </ul>
+                        </ul> -->
                         <div class="tab-content tab-content-nopad">
                             <div id="about1" class="tab-pane fade in active">
-                                <p>Cleaning can be a chore and we know you have many choices when you consider hiring a
-                                    maid service. Because of that, we are constantly thriving to improve our already
-                                    high standards to have you see us as the absolute best in the industry. It’s not
-                                    enough to have trust in the cleaning crew that you let into your home… you also have
-                                    to trust that they will perform a first-class cleaning job for you. </p>
+                                <p>We are a team of a well-experienced international trading team with over 30 years of experience in providing tailored solutions for clients' requirements. We source products from simple office solutions to complicated engineering solutions through our network of the world's leading manufacturers from the USA, UK, EU, India, and China catering to a wide range of clients in varied sectors.</p><br/>
+                                <p>We offer the best deals for our clients in terms of pricing, payment terms, product quality, reliability, and shipping costs. Any type of assistance needed for installation, warranty, etc will be handled by us with ease for the clients. </p>
                                 <div class="divider-sm"></div>
-                                <h4>We Provide</h4>
+                                <h4>Our global clients span from</h4>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <ul class="marker-list">
-                                            <li>One-off, weekly or fortnightly visits</li>
-                                            <li>Vetted & background-checked cleaners</li>
-                                            <li>Online booking and payment</li>
+                                            <li>Australia</li>
+                                            <li>Middle East</li>
+                                            <li>Africa to South Asia</li>
                                         </ul>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <!-- <div class="col-lg-6">
                                         <ul class="marker-list">
                                             <li>Keep the same cleaner for every visit</li>
                                             <li>All cleaning materials and equipment</li>
                                             <li>100% satisfaction guarantee</li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div id="about2" class="tab-pane fade">
@@ -376,14 +398,12 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="images/content/index-img-1.jpg"
-                            class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
-                        <img src="images/content/index-img-1-mobile.jpg"
-                            class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
+                        <img src="images/content/index-img-1.jpg" class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
+                        <img src="images/content/index-img-1-mobile.jpg" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
                     </div>
                     <div class="divider-xl visible-xs"></div>
                     <div class="col-sm-7 col-md-7 col-lg-6">
-                        <h2>Reasons to Choose Us</h2>
+                        <h2>Why choose us</h2>
                         <p class="p-lg">Behind our commitment to excellence are few key attributes that define who we
                             are and what makes us different from any other.
                         </p>
@@ -413,22 +433,18 @@
         <!-- Testimonials Single Block -->
         <div class="block fullwidth-bg bg-cover block-testimonials-bg inset-lg-1" data-bg="images/block-bg-3.jpg">
             <div class="container">
-                <h2 class="text-center h-lg">Happy Customers,<br class="clearfix visible-xs"> Happy Homes</h2>
+                <h2 class="text-center h-lg">Happy Customers,<br class="clearfix visible-xs"></h2>
                 <div class="testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-item-inside">
-                            <p><i>As a handyman with some of the same clients, I see not only the incredible job
-                                    Cleaning Company do, but how much her clients appreciate the attention to detail,
-                                    care, and products used. When they leave a job the place is not only expertly clean
-                                    but it always feels and smells that way when you walk in the door!</i></p>
+                            <p><i>We appreciate the support that AMECRO has given us to source some of the critical items for our operations at great prices.</i></p>
                         </div>
                         <div class="testimonial-item-author">
                             <img src="images/content/testimonial-author-1.png" alt="">
-                            <div><span class="testimonial-item-name">Jesse Hudson.</span> <span
-                                    class="testimonial-item-position">Dothan, Alabama</span></div>
+                            <div><span class="testimonial-item-name">Nathan Donnarumma.</span> <span class="testimonial-item-position">- Operations Manager - Servicing SA, Adelaide. </span></div>
                         </div>
                     </div>
-                    <div class="testimonial-item">
+                    <!-- <div class="testimonial-item">
                         <div class="testimonial-item-inside">
                             <p><i>They are very professional and do a great job cleaning the house!! I locked myself out
                                     of my house the other day and they were the only ones with a key. They were kind
@@ -437,10 +453,9 @@
                         </div>
                         <div class="testimonial-item-author">
                             <img src="images/content/testimonial-author-2.png" alt="">
-                            <div><span class="testimonial-item-name">Shirley R. Sanchez.</span> <span
-                                    class="testimonial-item-position">Evanston, Illinois</span></div>
+                            <div><span class="testimonial-item-name">Shirley R. Sanchez.</span> <span class="testimonial-item-position">Evanston, Illinois</span></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -448,10 +463,10 @@
         <!-- News block -->
         <div class="block">
             <div class="container">
-                <h2 class="text-center h-lg h-decor">Cleaning Industry News</h2>
+                <h2 class="text-center h-lg h-decor">Solutions</h2>
                 <div class="text-center max-700">
-                    <p class="p-lg">We write about industry developments, training, health and safety, eco-friendly
-                        cleaning products, recycling practices and advice for working with professional cleaners.</p>
+                    <!-- <p class="p-lg">We write about industry developments, training, health and safety, eco-friendly
+                        cleaning products, recycling practices and advice for working with professional cleaners.</p> -->
                 </div>
                 <div class="news-carousel row">
                     <div class="col-sm-4">
@@ -462,11 +477,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">16 December, 2018</div>
-                            <h3 class="news-prw-title">Confessions of an Office Cleaner</h3>
-                            <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
+                            <h3 class="news-prw-title">Environmental Solutions</h3>
+                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
+                                that our office cleaners...</p> -->
+                            <!-- <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -477,11 +492,11 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">22 December, 2018</div>
-                            <h3 class="news-prw-title">Professional Carpet Cleaning: Which Is Best?</h3>
-                            <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
+                            <!-- <div class="news-prw-date">22 December, 2018</div> -->
+                            <h3 class="news-prw-title">Medical Furniture</h3>
+                            <!-- <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
                                 regular cleaning.</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -492,14 +507,14 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <div class="news-prw-date">27 December, 2018</div>
-                            <h3 class="news-prw-title">Ensure Good Hygiene at the Office</h3>
-                            <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
+                            <!-- <div class="news-prw-date">27 December, 2018</div> -->
+                            <h3 class="news-prw-title">Kindergarten Furniture</h3>
+                            <!-- <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
                                 the office vacuumed a few times a week...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
+                            <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <!-- <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
                                 <a href="blog-post-page.html">
@@ -513,8 +528,8 @@
                                 that our office cleaners...</p>
                             <a href="blog-post-page.html" class="btn btn-border">Read more</a>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
+                    </div> -->
+                    <!-- <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
                                 <a href="blog-post-page.html">
@@ -528,8 +543,8 @@
                                 regular cleaning.</p>
                             <a href="blog-post-page.html" class="btn btn-border">Read more</a>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
+                    </div> -->
+                    <!-- <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
                                 <a href="blog-post-page.html">
@@ -543,53 +558,15 @@
                                 the office vacuumed a few times a week...</p>
                             <a href="blog-post-page.html" class="btn btn-border">Read more</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         <!-- /News block -->
         <!-- Facts block -->
-        <div class="block fullwidth-bg inset-lg-1 bg-cover js-bg-parallax" data-bg="images/block-bg-5.jpg">
-            <div class="container">
-                <div class="row counter-row">
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-user-rating"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="1500"
-                                    data-speed="1000">1500</span>+</span>
-                            <div class="counter-item-text">Happy Customers</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-award"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="100"
-                                    data-speed="1000">100</span>%</span>
-                            <div class="counter-item-text">Service Guarantee</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-648324users"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="30"
-                                    data-speed="1000">30</span>+</span>
-                            <div class="counter-item-text">Cleaners</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-cleaning"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="1000"
-                                    data-speed="1000">1000+</span></span>
-                            <div class="counter-item-text">Cleans Completed</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- /Facts block -->
         <!-- Prices block  -->
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <h2 class="text-center h-lg h-decor">Choose Your Pricing Plan</h2>
                 <div class="text-center max-800">
@@ -828,15 +805,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- /Prices block -->
+
         <!-- Text Block -->
         <div class="block fullwidth-bg block-bg-grey">
             <div class="container">
                 <div class="row service-house-row">
                     <div class="col-lg-5 inset-pad">
-                        <h2>We Offer <span>Free<br class="clearfix visible-xs"> In-Home</span> Estimates,<br
-                                class="clearfix visible-xs"> So Why Wait?</h2>
+                        <h2><span>Special Orders<br class="clearfix visible-xs"></span></h2>
                         <h5>Ready for a cleaner facility</h5>
                         <div class="divider-sm"></div>
                         <p>When it comes to gauging a complete and effective cleaning and sanitation solution, from a
@@ -844,8 +821,7 @@
                         <p>This cost calculator is provided to clients to assist you in establishing the estimated
                             cleaning cost for your company:</p>
                         <div class="divider-sm"></div>
-                        <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada"><i
-                                class="icon-calc"></i>Calculate now</a>
+                        <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
                     <div class="col-lg-7">
                         <div class="service-house-wrap">
@@ -872,17 +848,51 @@
                 </div>
             </div>
         </div>
+
+        <div class="block fullwidth-bg inset-lg-1 bg-cover js-bg-parallax" data-bg="images/block-bg-5.jpg">
+            <div class="container">
+                <div class="row counter-row">
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="counter-item">
+                            <div class="counter-item-icon"><i class="icon-user-rating"></i></div>
+                            <span class="counter-item-number number"><span class="count" data-to="1500" data-speed="1000">1500</span>+</span>
+                            <div class="counter-item-text">Happy Customers</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="counter-item">
+                            <div class="counter-item-icon"><i class="icon-award"></i></div>
+                            <span class="counter-item-number number"><span class="count" data-to="100" data-speed="1000">100</span>%</span>
+                            <div class="counter-item-text">Service Guarantee</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="counter-item">
+                            <div class="counter-item-icon"><i class="icon-648324users"></i></div>
+                            <span class="counter-item-number number"><span class="count" data-to="30" data-speed="1000">30</span>+</span>
+                            <div class="counter-item-text">Trusted Brands</div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xs-6 col-sm-3">
+                        <div class="counter-item">
+                            <div class="counter-item-icon"><i class="icon-cleaning"></i></div>
+                            <span class="counter-item-number number"><span class="count" data-to="1000" data-speed="1000">1000+</span></span>
+                            <div class="counter-item-text">Cleans Completed</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
         <!--/Text Block -->
         <!-- Text Block -->
         <div class="block m-bottom-45">
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-6">
-                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive"
-                                alt=""></div>
+                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive" alt=""></div>
                     </div>
                     <div class="col-sm-6">
-                        <h2>Natural Cleaning Products</h2>
+                        <h2>Environmental Solution</h2>
                         <p class="p-lg">We feel good about cleaning with our self-formulated, natural products that are
                             better for the environment</p>
                         <div class="marker-box">
@@ -903,10 +913,10 @@
         </div>
         <!--/Text Block -->
     </main>
-	<!-- Footer -->
+    <!-- Footer -->
     <?php
-		include('./inc/footer.php');
-	?>
+    include('./inc/footer.php');
+    ?>
     <!-- External JavaScripts -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
