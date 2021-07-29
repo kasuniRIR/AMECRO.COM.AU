@@ -13,6 +13,8 @@ if (!isset($_SESSION['email'])) {
 
 <head>
 
+    <title>ADMIN PANEL</title>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,7 +29,7 @@ if (!isset($_SESSION['email'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
     </script>
-     <link rel="icon" href="../favamecro.ico">
+    <link rel="icon" href="../favamecro.ico">
 
     <style>
     form {
@@ -201,7 +203,7 @@ if (!isset($_SESSION['email'])) {
                             </div>
                         </div>
                         <div class="row">
-                            <hr  style="width: 98%"/>
+                            <hr style="width: 98%" />
                             <div class="col-md-offset-1 col-md-6">
                                 <strong>Specifications</strong>
                                 <br /><br />
