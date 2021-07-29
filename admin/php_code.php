@@ -1,61 +1,56 @@
 <?php include ('../database/connection.php');
 
 	// initialize variables
-    $img = [];
-	$model = "";
-	$year = 0;
-    $engine = 0;
-	$rental = 0;
-    $week = 0;
-    $month = 0;
-    $passenger = 0;
-    $luggage = 0;
-	$type = "";
-    $transmission = "";
-    $fuel = "";
-	$door = "";
-    $musicOn = "";
-    $ac = "";
-    $ideal = "";
-    $availability = "";
-	$id = 0;
-	$update = false;
+    $prdName    = "";
+    $prdFeature = "";
+    $img        = [];
+    $tableTop   = "";
+    $elevationTable = "";
+    $elevationChair = "";
+    $maxLoad    = "";
+    $elevationPhoropterarm = "";
+    $phoropterRotation = "";
+    $tableRotation  = "";
+    $chargingPort   = "";
+    $topLamp        = "";
+    $fuse           = "";
+    $voltage        = "";
+    $inputPower     = "";
+    $tableWeight    = "";
+    $chairWeight    = "";
 
-	if (isset($_POST['save'])) {
+	if (isset($_POST['medical'])) {
+        $prdName = $_POST['prdName'];
+        $prdFeature = $_POST['prdFeature'];
         $img = $_FILES['img']['name'];
-		$model = $_POST['model'];
-		$year = $_POST['year'];
-        $engine = $_POST['engine'];
-		$rental = $_POST['rental'];
-        $week = $_POST['week'];
-        $month = $_POST['month'];
-        $passenger = $_POST['passenger'];
-        $luggage = $_POST['luggage'];
-		$type = $_POST['type'];
-        $transmission = $_POST['transmission'];
-		$fuel = $_POST['fuel'];
-        $door = $_POST['door'];
-        $musicOn = $_POST['musicOn'];
-        $ac = $_POST['ac'];
-        $ideal = $_POST['ideal'];
-        $availability = $_POST['availability'];
+        $tableTop = $_POST['tableTop'];
+        $elevationTable = $_POST['elevationTable'];
+        $elevationChair = $_POST['elevationChair'];
+        $maxLoad        = $_POST['maxLoad'];
+        $elevationPhoropterarm = $_POST['elevationPhoropterarm'];
+        $phoropterRotation  = $_POST['phoropterRotation'];
+        $tableRotation  = $_POST['tableRotation'];
+        $chargingPort   = $_POST['chargingPort'];
+        $topLamp    = $_POST['topLamp'];
+        $fuse       = $_POST['fuse'];
+        $voltage    = $_POST['voltage'];
+        $inputPower = $_POST['inputPower'];
+        $tableWeight= $_POST['tableWeight'];
+		$chairWeight= $_POST['chairWeight'];
 		
-         if(file_exists("upload/".$_FILES["img"]["name"]))
+         if(file_exists("upload/medical/".$_FILES["img"]["name"]))
         {
            $store = $_FILES["img"]["name"];
            $_SESSION['status'] = "Image already exists. '.$store.'";
      
         }else{
-
-		$qry = "INSERT INTO car (img, model, year, engine, rental, week, month, passenger, luggage, type, transmission, fuel, door, musicOn, ac, ideal, availability) VALUES ('$img', '$model', '$year', '$engine', '$rental', '$week', '$month', '$passenger','$luggage', '$type', '$transmission', '$fuel', '$door','$musicOn', '$ac', '$ideal', '$availability')"; 
-        $run = mysqli_query($db, $qry);
-        $_SESSION['message'] = "Added successfully"; 
-        if($run){
-            move_uploaded_file($_FILES["img"]["tmp_name"],"upload/".$_FILES["img"]["name"]);
-          }
-          else{
-            $_SESSION['success'] = "not added";
-          }
+            // move_uploaded_file($_FILES["img"]["tmp_name"],"upload/medical/".$_FILES["img"]["name"]);
+            $temp = explode(".", $_FILES["img"]["name"]);
+            $newfilename = round(microtime(true)) . '.' . end($temp);
+            move_uploaded_file($_FILES["img"]["tmp_name"], "upload/medical/" . $newfilename);
+            $qry = "INSERT INTO medical (prdName, prdFeature, img, tableTop, elevationTable, elevationChair, maxLoad, elevationPhoropterarm, phoropterRotation, tableRotation, chargingPort, topLamp, fuse, voltage, inputPower, tableWeight, chairWeight) VALUES ('$prdName', '$prdFeature', '$newfilename', '$tableTop', '$elevationTable', '$elevationChair', '$maxLoad', '$elevationPhoropterarm','$phoropterRotation', '$tableRotation', '$chargingPort', '$topLamp', '$fuse','$voltage', '$inputPower', '$tableWeight', '$chairWeight')"; 
+            $run = mysqli_query($db, $qry);
+            $_SESSION['message'] = "Added successfully"; 
          }
         }
 		
