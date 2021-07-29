@@ -80,6 +80,7 @@ if (isset($_GET['m_edit'])) {
 
     <!-- Custom styles for this template-->
     <link href="../admin//styles//sb-admin-2.min.css" rel="stylesheet">
+    <link rel="icon" href="../favamecro.ico">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -100,7 +101,7 @@ if (isset($_GET['m_edit'])) {
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="medicalDashboard.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-users-cog"></i>
                 </div>

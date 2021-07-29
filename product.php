@@ -54,13 +54,13 @@
                 <h1 class="text-center h-decor">Product Range</h1>
                 <div class="row">
                     <div class="col-md-4 col-lg-3 column-filters">
-                        <div class="column-filters-inside">
-                            <div class="side-block">
+                        <div class="column-filters-inside" style = "width: 280px;">
+                            <div class="side-block" style = "width: 350px;">
                                 <h3>Categories</h3>
                                 <ul class="category-list">
                                     <li><a href="#">Environmental Solutions</a></li>
                                     <li><a href="#">Medical Furniture Solutions</a></li>
-                                    <li><a href="#">Kindergarden Furniture <br> Solutions</a></li>
+                                    <li><a href="#">Kindergarden Furniture Solutions</a></li>
                                 </ul>
                             </div>
                             <!-- <div class="side-block">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-md-8 col-lg-9">
                         <div class="filters-row">
-                            <div class="filters-row-left"><span>Environmental Solution</span>
+                            <div class="filters-row-left"><span>Environmental Solutions</span>
                                 <div class="form-inline">
                                     <!-- <div class="select-wrapper select-wrapper--sm">
                                         <select name="service" class="input-custom input-custom--sm">

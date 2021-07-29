@@ -15,7 +15,7 @@ if (!isset($_SESSION['email'])) {
 <head>
 
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <title>View Dashboard</title>
+    <title>ADMIN PANEL</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -25,6 +25,7 @@ if (!isset($_SESSION['email'])) {
 
     <!-- Custom styles for this template-->
     <link href="../admin//styles//sb-admin-2.min.css" rel="stylesheet">
+    <link rel="icon" href="../favamecro.ico">
 
     <style>
     form {
@@ -63,7 +64,7 @@ if (!isset($_SESSION['email'])) {
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="medicalDashboard.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-users-cog"></i>
                 </div>
