@@ -46,7 +46,7 @@
                     <li><a href="#"><i class="icon-instagram-logo1"></i></a></li>
                 </ul>
                 <div class="quote-button-wrap">
-                    <a href="order-form.html" class="btn"><i class="icon icon-bell"></i>Get a Quote</a>
+                    <a href="contact.php" class="btn"><i class="icon icon-bell"></i>Get a Quote</a>
                 </div>
             </div>
         </div>
