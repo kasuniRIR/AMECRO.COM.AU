@@ -5,8 +5,9 @@
             <div class="col-sm-4">
                 <!-- <div class="footer-ribbon"><img src="images/footer-ribbon.png" alt=""></div> -->
                 <div class="page-footer-text">
-                    <p>We use natural and eco-friendly cleaning products and have a customer satisfaction guarantee.
+                    <p>Group Companies
                     </p>
+                    <br><br><br><br>
                 </div>
                 <h4>Newsletter</h4>
                 <form action="#" class="form-newsletter">
@@ -40,8 +41,8 @@
                     <i class="icon icon-letter"></i><a href="info@amecro.com.au">info@amecro.com.au</a>
                 </div>
                 <div class="page-footer-info">
-                    <i class="icon icon-clock1"></i>Mon-Fri: 8:00 am – 5:00 pm
-                    <br> Sat-Sun: 11:00 am – 16:00 pm
+                    <i class="icon icon-clock1"></i>8:00 am – 5:00 pm
+                    <br>
                 </div>
                 <div class="btn-wrap"><a href="order-form.html" class="btn animation" data-animation="tada">Get a
                         Free Estimate</a></div>
