@@ -27,6 +27,7 @@ if (!isset($_SESSION['email'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
     </script>
+     <link rel="icon" href="../favamecro.ico">
 
     <style>
     form {
@@ -71,7 +72,7 @@ if (!isset($_SESSION['email'])) {
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="adminPanel.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="medicalDashboard.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-users-cog"></i>
                 </div>
@@ -200,7 +201,7 @@ if (!isset($_SESSION['email'])) {
                             </div>
                         </div>
                         <div class="row">
-                            <hr />
+                            <hr  style="width: 98%"/>
                             <div class="col-md-offset-1 col-md-6">
                                 <strong>Specifications</strong>
                                 <br /><br />
