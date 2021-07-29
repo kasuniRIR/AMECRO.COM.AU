@@ -46,7 +46,8 @@ if (!isset($_SESSION['email'])) {
         width: 50%;
         text-align: center;
     }
-    .des{
+
+    .des {
         width: 100%;
         table-layout: auto;
     }
@@ -71,16 +72,6 @@ if (!isset($_SESSION['email'])) {
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="adminDashboard.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>ADMIN PANEL</span></a>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
@@ -236,10 +227,10 @@ if (!isset($_SESSION['email'])) {
                                 <td><?php echo $row['tableWeight']; ?></td>
                                 <td><?php echo $row['chairWeight']; ?></td>
                                 <td>
-                                    <a href="editVehicleDetails.php?edit=<?php echo $row['m_id']; ?>"
+                                    <a href="editMedicalDashboard.php?m_edit=<?php echo $row['m_id']; ?>"
                                         class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
                                     &nbsp; &nbsp; &nbsp; &nbsp;
-                                    <a href="php_code.php?del=<?php echo $row['m_id']; ?>" class="del_btn"><i
+                                    <a href="php_code.php?m_del=<?php echo $row['m_id']; ?>" class="del_btn"><i
                                             class="fa fa-trash" style="color:grey"></i></a>
                                 </td>
                             </tr>
