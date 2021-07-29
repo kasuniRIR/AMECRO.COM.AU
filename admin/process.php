@@ -18,7 +18,7 @@ session_start();
             if(mysqli_fetch_assoc($result))
             {
                 $_SESSION['email'] = $_POST['email'];
-                header("location: index.php");
+                header("location: medicalDashboard.php");
             }
             else
             {
