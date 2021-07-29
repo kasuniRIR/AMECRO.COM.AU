@@ -191,7 +191,7 @@ if (!isset($_SESSION['email'])) {
                                 <div class="col-15">
                                     <label>Feature</label>
                                     <textarea name="prdFeature" class="form-control" value=""></textarea>
-                                    
+
                                 </div><br>
                                 <div class="col-15">
                                     <label for="img">Product Image (please upload 270 x 355 size)</label>

@@ -1,4 +1,5 @@
-<?php include('../database/connection.php');
+<?php 
+include('../database/connection.php');
 
 if(!$db){
 	die('error in db' . mysqli_error($conn));
