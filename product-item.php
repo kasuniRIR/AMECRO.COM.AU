@@ -9,7 +9,7 @@
         content="html 5 template, cleaning service template, cleaning template, cleaning company template">
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favamecro.ico">
     <title>AMECRO - Product Page</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@
                     <div class="col-sm-6">
                         <div class="product-block-gallery">
                             <div class="product-previews" id="productPreviews">
-                                <a href="#" class="product-previews-item" data-image="images/product/prd-big-1.jpg"
+                                <!-- <a href="#" class="product-previews-item" data-image="images/product/prd-big-1.jpg"
                                     data-zoom-image="images/product/prd-big-1.jpg">
                                     <img src="images/product/prd-thumb-1.jpg" />
                                 </a>
@@ -65,7 +65,7 @@
                                 <a href="#" class="product-previews-item" data-image="images/product/prd-big-3.jpg"
                                     data-zoom-image="images/product/prd-big-3.jpg">
                                     <img src="images/product/prd-thumb-3.jpg" />
-                                </a>
+                                </a> -->
                             </div>
                             <div class="product-block-mainimage">
                                 <img id="mainImage" src="images/product/prd-big-1.jpg"
@@ -77,13 +77,13 @@
                     <div class="col-sm-6">
                         <div class="product-block-info">
                             <h2 class="product-block-title">Super Angle Pro Broom Dustpan</h2>
-                            <div class="rating"><span class="rating rating-4"><i class="icon-star-black"></i><i
+                            <!-- <div class="rating"><span class="rating rating-4"><i class="icon-star-black"></i><i
                                         class="icon-star-black"></i><i class="icon-star-black"></i><i
                                         class="icon-star-black"></i><i class="icon-star-black"></i></span>
                                 <a href="#" class="rating-text">2 customer reviews</a>
-                            </div>
-                            <div class="product-block-price">$145,98</div>
-                            <div class="product-block-price-comment">+ Free Shipping</div>
+                            </div> -->
+                            <!-- <div class="product-block-price">$145,98</div>
+                            <div class="product-block-price-comment">+ Free Shipping</div> -->
                             <div class="product-block-description">
                                 <div class="row no-gutter">
                                     <div class="col-sm-6 hidden-xs">
@@ -108,7 +108,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product-block-actions">
+                            <!-- <div class="product-block-actions">
                                 <div class="qty-count">
                                     <span class="count-reduce">–</span>
                                     <input type="text" class="count-input" value="1">
@@ -116,7 +116,7 @@
                                 </div>
                                 <a href="#" class="btn btn-invert btn-lg product-block-add-to-cart "><i
                                         class="icon-market"></i>Add To Cart</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs nav-tabs--sm" role="tablist">
                     <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Description</a></li>
-                    <li><a href="#tab2" role="tab" data-toggle="tab">Reviews (2)</a></li>
+                    <!-- <li><a href="#tab2" role="tab" data-toggle="tab">Reviews (2)</a></li> -->
                 </ul>
                 <!-- Tab panels -->
                 <div class="tab-content tab-content-nopad">
@@ -139,7 +139,7 @@
                             areas and kill 99.9% of viruses & bacteria.Powerful Cleaner the hydrogen peroxide formula
                             releases thousands of micro bubbles that penetrate to dissolve grease and soap scum.Cuts
                             through tough grease and soap scum.</p>
-                        <p><b>Lysol® Power & Free™ Oxygen Splash Scent Multi-Purpose Cleaner </b></p>
+                        <p><b>Specification</b></p>
                         <ul class="marker-list">
                             <li>Kills 99.9% of Viruses & Bacteria when used as directed</li>
                             <li>No harsh chemical residue</li>
@@ -179,7 +179,7 @@
                         <div class="prd-info">
                             <h3><a href="product.html">Clorox Clean-Up All Purpose Cleaner with Bleach</a></h3>
                             <div class="price">$2.99</div>
-                            <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
+                            <a href="#" class="btn"><i class="icon-market"></i>Get a Quote</a>
                         </div>
                     </div>
                     <div class="prd">
@@ -190,7 +190,7 @@
                         <div class="prd-info">
                             <h3><a href="product.html">O-Cedar Microfiber EasyWring Spin Mop & Bucket System</a></h3>
                             <div class="price">$33.79</div>
-                            <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
+                            <a href="#" class="btn"><i class="icon-market"></i>Get a Quote</a>
                         </div>
                     </div>
                     <div class="prd">
@@ -201,10 +201,10 @@
                         <div class="prd-info">
                             <h3><a href="product.html">Scotch-Brite Non-Scratch Sponge</a></h3>
                             <div class="price">$2.99</div>
-                            <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
+                            <a href="#" class="btn"><i class="icon-market"></i>Get a Quote</a>
                         </div>
                     </div>
-                    <div class="prd">
+                    <!-- <div class="prd">
                         <div class="prd-img">
                             <a href="product.html"><img src="images/product/prd-4.jpg" class="img-responsive"
                                     alt=""></a>
@@ -217,8 +217,8 @@
                             <div class="price">$2.99</div>
                             <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
                         </div>
-                    </div>
-                    <div class="prd">
+                    </div> -->
+                    <!-- <div class="prd">
                         <div class="prd-img">
                             <a href="product.html"><img src="images/product/prd-5.jpg" class="img-responsive"
                                     alt=""></a>
@@ -231,7 +231,7 @@
                             <div class="price">$5.99</div>
                             <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="prd">
                         <div class="prd-img">
                             <a href="product.html"><img src="images/product/prd-6.jpg" class="img-responsive"
@@ -239,11 +239,11 @@
                         </div>
                         <div class="prd-info">
                             <h3><a href="product.html">Pledge Multi Surface Antibacterial Everyday Cleaner</a></h3>
-                            <div class="rating rating-5"><i class="icon-star-black"></i><i
+                            <!-- <div class="rating rating-5"><i class="icon-star-black"></i><i
                                     class="icon-star-black"></i><i class="icon-star-black"></i><i
-                                    class="icon-star-black"></i><i class="icon-star-black"></i></div>
+                                    class="icon-star-black"></i><i class="icon-star-black"></i></div> -->
                             <div class="price">$2.11</div>
-                            <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
+                            <a href="#" class="btn"><i class="icon-market"></i>Get a Quote</a>
                         </div>
                     </div>
                 </div>

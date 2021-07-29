@@ -9,7 +9,7 @@
         content="html 5 template, cleaning service template, cleaning template, cleaning company template">
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favamecro.ico">
     <title>ProClena - HTML Website Template - About Us Page</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +53,7 @@
                 <h1 class="text-center h-decor">About Our Company</h1>
                 <div class="text-center max-700">
                     <p class="p-lg">Cleaning can be a chore and we know you have many choices when you consider hiring a
-                        comprehensive, high quality, reliable cleaning service. </p>
+                        comprehensive, high quality, reliable cleaning service.</p>
                 </div>
             </div>
             <div class="container-fluid">
@@ -65,14 +65,19 @@
                     </div>
                     <div class="col-50 bg-text">
                         <div class="bg-text-inside">
-                            <h4>More than 10 years of cleaning experience</h4>
-                            <p>Cleaning Company service is a fully integrated janitorial cleaning services company that
-                                provides comprehensive, high quality, reliable cleaning solutions to commercial,
-                                corporate, industrial and residential clients.</p>
-                            <p>Our diligent management and work ethic are central to Cleaning Company service business
-                                philosophy and critical to delivering consistent, quality cleaning services. We pride
-                                ourselves on making our management accountable to the client through direct access and
-                                interaction with our managing director.</p>
+                            <h4>We are a team of a well-experienced</h4>
+                            <p>international trading team with over 30 years
+                               of experience in providing tailored solutions for clients' requirements. We source 
+                               products from simple office solutions to complicated engineering solutions through 
+                               our network of the world's leading manufacturers from the USA, UK, EU, India, and 
+                               China catering to a wide range of clients in varied sectors.</p>
+
+                            <p>We offer the best deals for our clients in terms of pricing, payment terms, product 
+                               quality, reliability, and shipping costs. Any type of assistance needed for installation,
+                               warranty, etc will be handled by us with ease for the clients. </p>
+
+                            <p>Our global clients span from Australia, Middle East, Africa to South Asia. </p>
+
                         </div>
                     </div>
                 </div>
@@ -251,13 +256,9 @@
             <div class="container">
                 <div class="row row-flex flex-column-sm align-center">
                     <div class="col-sm-6">
-                        <h2>Satisfaction Guaranteed!</h2>
-                        <p class="p-lg">The experts at The Cleaning Company are committed to providing thorough house
-                            cleaning services for our customers nationwide.</p>
-                        <p>If you are not happy with any area we’ve cleaned, simply call within 24 hours and we will
-                            come back out and reclean it free of charge. This makes hiring Cleaning Company virtually
-                            risk free. Our maids are thoroughly screened through our rigorous recruitment process, and
-                            every one of them goes through our Maid University training process. </p>
+                        <h2>Amecro Australia</h2>
+                        <p class="p-lg">Tagline - Your local partner in Global Sourcing</p>
+                        <p>Policy statement - We a local sourcing partner with a global network providing bespoke solutions that meets your organisational and financial requirements.  </p>
                         <div class="divider"></div>
                         <a href="order-form.html" class="btn animation" data-animation="tada">Get a Free Estimate</a>
                     </div>

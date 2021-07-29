@@ -8,7 +8,7 @@
     <meta name="description" content="html 5 template, cleaning service template, cleaning template, cleaning company template">
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favamecro.ico">
     <title>ProClena - HTML Website Template - Home Page</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
