@@ -51,7 +51,7 @@
                 </div>
                 <div id="mainSlider">
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/slide-3.jpg);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/slide-1.jpg);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
