@@ -1001,7 +1001,7 @@
                                 alt=""></div>
                     </div>
                     <div class="col-sm-6">
-                        <h2>Kindergarden Furniture</h2>
+                        <h2>Kindergarten Furniture</h2>
                         <!-- <p class="p-lg">We feel good about cleaning with our self-formulated, natural products that are
                             better for the environment</p> -->
                         <!-- <div class="marker-box">

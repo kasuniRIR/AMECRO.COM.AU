@@ -13,7 +13,7 @@ if (!isset($_SESSION['email'])) {
 
 <head>
 
-    <title>ADMIN PANEL</title>
+    <title>ADMIN PANEL - ADD KINDERGARTEN SOLUTIONS</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,45 +21,40 @@ if (!isset($_SESSION['email'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
     </script>
     <link rel="icon" href="../favamecro.ico">
 
     <style>
-    form {
-        width: 45%;
-        margin: 50px auto;
-        text-align: left;
-        padding: 20px;
-        border: 1px solid #bbbbbb;
-        border-radius: 5px;
-    }
+        form {
+            width: 45%;
+            margin: 50px auto;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid #bbbbbb;
+            border-radius: 5px;
+        }
 
-    .msg {
-        margin: 30px auto;
-        padding: 10px;
-        border-radius: 5px;
-        color: #3c763d;
-        background: #dff0d8;
-        border: 1px solid #3c763d;
-        width: 50%;
-        text-align: center;
-    }
+        .msg {
+            margin: 30px auto;
+            padding: 10px;
+            border-radius: 5px;
+            color: #3c763d;
+            background: #dff0d8;
+            border: 1px solid #3c763d;
+            width: 50%;
+            text-align: center;
+        }
     </style>
 
-    <title>ADMIN PANEL - ADD MEDICALS</title>
+    <title>ADMIN PANEL</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="../admin//styles//sb-admin-2.min.css" rel="stylesheet">
@@ -138,6 +133,7 @@ if (!isset($_SESSION['email'])) {
             </li>
 
         </ul>
+
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -158,17 +154,14 @@ if (!isset($_SESSION['email'])) {
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                                 <img class="img-profile rounded-circle" src="../images/admin-img.jpg">
                             </a>
                         </li>
                         <!--logout btn-->
                         <li class="nav-item dropdown no-arrow" style="padding-top:15px; ">
-                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button"
-                                aria-pressed="true"><i
-                                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
+                            <a href="logout.php?logout" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>Logout</a>
                         </li>
                     </ul>
 
@@ -179,22 +172,24 @@ if (!isset($_SESSION['email'])) {
                 <div class="container-fluid" style="width: 1300px;">
                     <!-- Page Heading -->
                     <center>
-                        <h1 class="h3 mb-1 text-gray-800">ADD MEDICAL FURNITURE</h1>
+                        <h1 class="h3 mb-1 text-gray-800">ADD KINDERGARTEN SOLUTIONS</h1>
                     </center>
 
-                    <form method="post" action="viewMedicalDashboard.php" enctype="multipart/form-data"
-                        style="width: 100%">
+                    <form method="post" action="viewKindergartenDashboard.php" enctype="multipart/form-data" style="width: 60%">
                         <div class="row">
 
                             <div class="col-md-offset-1"><br>
-                                <div class="col-15">
+                                <div class="col-13">
                                     <label>Product Name</label>
-                                    <input type="text" name="prdName" class="form-control" value="" required>
+                                    <input type="text" name="k_name" class="form-control" value="" required>
                                 </div><br>
-                                <div class="col-15">
-                                    <label>Feature</label>
-                                    <textarea name="prdFeature" class="form-control" value=""></textarea>
-
+                                <div class="col-13">
+                                    <label>Product Model</label>
+                                    <input type="text" name="k_model" class="form-control" value="" required>
+                                </div><br>
+                                <div class="col-13">
+                                    <label>Product Size</label>
+                                    <input type="text" name="k_size" class="form-control" value="" required>
                                 </div><br>
                                 <div class="col-15">
                                     <label for="img">Product Image (please upload 270 x 355 size)</label>
@@ -202,74 +197,9 @@ if (!isset($_SESSION['email'])) {
                                 </div><br>
                             </div>
                         </div>
-                        <div class="row">
-                            <hr style="width: 98%" />
-                            <div class="col-md-offset-1 col-md-6">
-                                <strong>Specifications</strong>
-                                <br /><br />
-                                <div class="col-15">
-                                    <label>Table top size</label>
-                                    <input type="text" name="tableTop" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Elevation range of table</label>
-                                    <input type="text" name="elevationTable" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Elevation range of chair</label>
-                                    <input type="text" name="elevationChair" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Max load</label>
-                                    <input type="text" name="maxLoad" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Elevation range of phoropter arm</label>
-                                    <input type="text" name="elevationPhoropterarm" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Phoropter Rotation degree</label>
-                                    <input type="text" name="phoropterRotation" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Table rotation degree</label>
-                                    <input type="text" name="tableRotation" class="form-control" value="">
-                                </div><br>
-                            </div>
-                            <div class="col-md-offset-1 col-md-6" style="bottom: -60px;">
-                                <div class="col-15">
-                                    <label>Charging port</label>
-                                    <input type="text" name="chargingPort" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Top lamp</label>
-                                    <input type="text" name="topLamp" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Fuse</label>
-                                    <input type="text" name="fuse" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Voltage</label>
-                                    <input type="text" name="voltage" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Max. Input power</label>
-                                    <input type="text" name="inputPower" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Net weight of whole table</label>
-                                    <input type="text" name="tableWeight" class="form-control" value="">
-                                </div><br>
-                                <div class="col-15">
-                                    <label>Net weight of Chair</label>
-                                    <input type="text" name="chairWeight" class="form-control" value="">
-                                </div><br>
-                            </div>
-                        </div>
 
                         <div class="col-md-20">
-                            <button type="submit" name="medical" class="btn btn-primary">Add</button>
+                            <button type="submit" name="kindergarten" class="btn btn-primary">Add</button>
                         </div>
 
                     </form>

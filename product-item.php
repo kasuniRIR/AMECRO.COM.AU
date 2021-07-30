@@ -108,15 +108,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="product-block-actions">
-                                <div class="qty-count">
+                            <div class="product-block-actions">
+                            <h3><span class="label label-warning">Authorized Suppliers</span></h3>
+                                <!-- <div class="qty-count">
                                     <span class="count-reduce">–</span>
                                     <input type="text" class="count-input" value="1">
                                     <span class="count-add">+</span>
                                 </div>
                                 <a href="#" class="btn btn-invert btn-lg product-block-add-to-cart "><i
-                                        class="icon-market"></i>Add To Cart</a>
-                            </div> -->
+                                        class="icon-market"></i>Add To Cart</a> -->
+                            </div>
                         </div>
                     </div>
                 </div>
