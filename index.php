@@ -399,7 +399,7 @@
                     </div>
                 </div>
                 <div class="img-right-wrap">
-                    <img src="images/content/index-right-img.png" alt="">
+                    <img src="images/content/single-person.png" alt="">
                 </div>
             </div>
         </div>
