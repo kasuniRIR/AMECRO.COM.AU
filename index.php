@@ -455,7 +455,7 @@
                                     items for our operations at great prices.</i></p>
                         </div>
                         <div class="testimonial-item-author">
-                            <img src="images/content/testimonial-author-1.png" alt="">
+                            <img src="./images/person-feedback.png" alt="">
                             <div><span class="testimonial-item-name">Nathan Donnarumma.</span> <span
                                     class="testimonial-item-position">- Operations Manager - Servicing SA, Adelaide.
                                 </span></div>
@@ -863,10 +863,10 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="./images/Why-Us.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"
+                    <div class="col-sm-5 col-md-5 col-lg-6" style="margin-top: -100px">
+                        <img src="./images/girl-specialOrder.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"
                             alt="">
-                        <img src="./images/Why-Us.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"
+                        <img src="./images/girl-specialOrder.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"
                             alt="">
                     </div>
                 </div>
