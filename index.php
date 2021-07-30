@@ -300,7 +300,7 @@
         </div> -->
         <!-- /Services block -->
         <!-- About Us block -->
-        <div class="block fullwidth-bg bg-cover inset-lg-3 pb-xs-0 block-1" data-bg="./images/About-company.png">
+        <div class="block fullwidth-bg bg-cover inset-lg-3 pb-xs-0 block-1" data-bg="images/block-bg-1.jpg">
             <div class="container">
                 <div class="row zindex-1">
                     <div class="col-sm-7 col-lg-9">
@@ -398,9 +398,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="img-right-wrap">
-                    <img src="images/content/index-right-img.png" alt="">
-                </div> -->
+                <div class="img-right-wrap">
+                    <img src="images/content/single-person.png" alt="">
+                </div>
             </div>
         </div>
         <!-- /About Us block -->
