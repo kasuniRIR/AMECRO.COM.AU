@@ -409,10 +409,10 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="./images/Why-Us.png"
-                            class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
-                        <img src="./images/Why-Us.png"
-                            class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
+                        <img src="./images/Why-Us.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"
+                            alt="">
+                        <img src="./images/Why-Us.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"
+                            alt="">
                     </div>
                     <div class="divider-xl visible-xs"></div>
                     <div class="col-sm-7 col-md-7 col-lg-6">
@@ -835,12 +835,9 @@
                         <h2><span>Special Orders<br class="clearfix visible-xs"></span></h2>
                         <h5>Ready for a cleaner facility</h5>
                         <div class="divider-sm"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore, nemo
-                            praesentium mollitia vel veniam, porro veritatis accusamus ut repellendus libero delectus
-                            voluptatem. Aliquam saepe porro, magnam illo a eveniet!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis, blanditiis
-                            placeat magni tenetur quod cupiditate provident fugiat ex, architecto quas, perspiciatis
-                            saepe. Soluta perferendis officiis consequatur dolore, odit eius.</p>
+                        <p>If you do not find the products that you're looking for on our website, please send us a
+                            message with what you are looking for and we could source it for you through our extensive
+                            network of trading partners and manufacturers.</p>
                         <div class="divider-sm"></div>
                         <a href="contact.php" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
@@ -867,15 +864,15 @@
                         </div>
                     </div> -->
                     <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="./images/Why-Us.png"
-                            class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
-                        <img src="./images/Why-Us.png"
-                            class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
+                        <img src="./images/Why-Us.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"
+                            alt="">
+                        <img src="./images/Why-Us.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"
+                            alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="block fullwidth-bg inset-lg-1 bg-cover js-bg-parallax" data-bg="images/block-bg-5.jpg">
+        <div class="block fullwidth-bg inset-lg-1 bg-cover js-bg-parallax" data-bg="images/Stats.png">
             <div class="container">
                 <center>
                     <div class="row counter-row">
