@@ -5,8 +5,7 @@
             <div class="col-sm-4">
                 <!-- <div class="footer-ribbon"><img src="images/footer-ribbon.png" alt=""></div> -->
                 <div class="page-footer-text">
-                    <p>Group Companies
-                    </p>
+                    <h4>Group Companies</h4>
                     <br><br><br><br>
                 </div>
                 <h4>Newsletter</h4>
