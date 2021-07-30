@@ -92,14 +92,17 @@
                                 <p>Something went wrong, try refreshing and submitting the form again.</p>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="name" placeholder="Your name*">
+                                <input type="text" class="input-custom input-full" name="name" placeholder="Your name*" required>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="email" placeholder="Email*">
+                                <input type="text" class="input-custom input-full" name="email" placeholder="Email*" required>
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="text" class="input-custom input-full" name="phone" placeholder="Phone">
                             </div>
                             <div class="input-wrapper">
                                 <textarea class="textarea-custom input-full" name="message"
-                                    placeholder="Message"></textarea>
+                                    placeholder="Message*" required></textarea>
                             </div>
                             <div class="g-recaptcha text-center" data-sitekey="YOUR SITE KEY"
                                 style="display: inline-block;"></div>

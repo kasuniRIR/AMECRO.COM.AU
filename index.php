@@ -409,9 +409,9 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="images/content/index-img-1.jpg"
+                        <img src="./images/Why-Us.png"
                             class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
-                        <img src="images/content/index-img-1-mobile.jpg"
+                        <img src="./images/Why-Us.png"
                             class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
                     </div>
                     <div class="divider-xl visible-xs"></div>
@@ -825,6 +825,8 @@
         </div> -->
         <!-- /Prices block -->
 
+
+
         <!-- Text Block -->
         <div class="block fullwidth-bg">
             <div class="container">
@@ -842,7 +844,7 @@
                         <div class="divider-sm"></div>
                         <a href="contact.php" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
-                    <div class="col-lg-7">
+                    <!-- <div class="col-lg-7">
                         <div class="service-house-wrap">
                             <div class="service-house">
                                 <a href="service-page-9.html" class="service-house-item">
@@ -863,11 +865,16 @@
                                 </a>
                             </div>
                         </div>
+                    </div> -->
+                    <div class="col-sm-5 col-md-5 col-lg-6">
+                        <img src="./images/Why-Us.png"
+                            class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
+                        <img src="./images/Why-Us.png"
+                            class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="block fullwidth-bg inset-lg-1 bg-cover js-bg-parallax" data-bg="images/block-bg-5.jpg">
             <div class="container">
                 <center>
