@@ -15,7 +15,7 @@ if (!isset($_SESSION['email'])) {
 <head>
 
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <title>ADMIN PANEL - VIEW MEDICALS</title>
+    <title>ADMIN PANEL - VIEW KINDERGARTEN SOLUTIONS</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -163,7 +163,7 @@ if (!isset($_SESSION['email'])) {
                 </nav>
 
                 <center>
-                    <h1 class="h3 mb-1 text-gray-800">View Medicals</h1>
+                    <h1 class="h3 mb-1 text-gray-800">View Kindergarten Solutions</h1>
                 </center><br>
 
                 <center>
@@ -174,21 +174,8 @@ if (!isset($_SESSION['email'])) {
                                     <th>#</th>
                                     <th>Product Image</th>
                                     <th>Product Name</th>
-                                    <th>Product Feature</th>
-                                    <th>TableTop</th>
-                                    <th>ElevationTable</th>
-                                    <th>ElevationChair</th>
-                                    <th>Max Load</th>
-                                    <th>Elevation Phoropteraram</th>
-                                    <th>Phoropter Rotation</th>
-                                    <th>Table Rotation</th>
-                                    <th>Charging Port</th>
-                                    <th>Top Lamp</th>
-                                    <th>Fuse</th>
-                                    <th>Voltage</th>
-                                    <th>Input Power</th>
-                                    <th>Table Weight</th>
-                                    <th>Chair Weight</th>
+                                    <th>Product Model</th>
+                                    <th>Product Size</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
                                 </tr>
@@ -196,42 +183,25 @@ if (!isset($_SESSION['email'])) {
 
                             <?php
                             $i   = 1;
-                            $qry = "select * from medical";
+                            $qry = "select * from kindergarten";
                             $run = $db->query($qry);
                             if ($run->num_rows > 0) {
                                 while ($row = $run->fetch_assoc()) {
-                                    $id = $row['m_id'];
+                                    $id = $row['k_id'];
                             ?>
 
                                     <tr>
                                         <td><?php echo $i++ ?></td>
-                                        <td><?php echo '<img src="upload/medical/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
+                                        <td><?php echo '<img src="upload/kindergarten/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
                                         </td>
-                                        <td><?php echo $row['prdName']; ?></td>
+                                        <td><?php echo $row['k_name']; ?></td>
+                                        <td><?php echo $row['k_model']; ?></td>
+                                        <td><?php echo $row['k_size']; ?></td>
                                         <td>
-                                            <textarea disabled style="width: 400px; height: 200px;">
-                                                <?php echo $row['prdFeature']; ?>
-                                            </textarea>
-                                        </td>
-                                        <td><?php echo $row['tableTop']; ?></td>
-                                        <td><?php echo $row['elevationTable']; ?></td>
-                                        <td><?php echo $row['elevationChair']; ?></td>
-                                        <td><?php echo $row['maxLoad']; ?></td>
-                                        <td><?php echo $row['elevationPhoropterarm']; ?></td>
-                                        <td><?php echo $row['phoropterRotation']; ?></td>
-                                        <td><?php echo $row['tableRotation']; ?></td>
-                                        <td><?php echo $row['chargingPort']; ?></td>
-                                        <td><?php echo $row['topLamp']; ?></td>
-                                        <td><?php echo $row['fuse']; ?></td>
-                                        <td><?php echo $row['voltage']; ?></td>
-                                        <td><?php echo $row['inputPower']; ?></td>
-                                        <td><?php echo $row['tableWeight']; ?></td>
-                                        <td><?php echo $row['chairWeight']; ?></td>
-                                        <td>
-                                            <a href="editMedicalDashboard.php?m_edit=<?php echo $row['m_id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
+                                            <a href="editkindergartenDashboard.php?k_edit=<?php echo $row['k_id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
                                         </td>
                                         <td>
-                                            <a href="php_code.php?m_del=<?php echo $row['m_id']; ?>" class="del_btn"><i class="fa fa-trash" style="color:grey"></i></a>
+                                            <a href="php_code.php?k_del=<?php echo $row['k_id']; ?>" class="del_btn"><i class="fa fa-trash" style="color:grey"></i></a>
                                         </td>
                                     </tr>
 

@@ -9,29 +9,16 @@ if (!isset($_SESSION['email'])) {
 ?>
 
 <?php
-if (isset($_GET['m_edit'])) {
-    $id = $_GET['m_edit'];
+if (isset($_GET['e_edit'])) {
+    $id = $_GET['e_edit'];
     $update = true;
-    $record = mysqli_query($db, "SELECT * FROM medical WHERE m_id=$id");
+    $record = mysqli_query($db, "SELECT * FROM environmental WHERE e_id=$id");
     if ($record->num_rows > 0) {
         while ($n = $record->fetch_assoc()) {
-            $id   = $n['m_id'];
-            $prdName = $n['prdName'];
-            $prdFeature = $n['prdFeature'];
-            $tableTop = $n['tableTop'];
-            $elevationTable = $n['elevationTable'];
-            $elevationChair = $n['elevationChair'];
-            $maxLoad        = $n['maxLoad'];
-            $elevationPhoropterarm = $n['elevationPhoropterarm'];
-            $phoropterRotation  = $n['phoropterRotation'];
-            $tableRotation  = $n['tableRotation'];
-            $chargingPort   = $n['chargingPort'];
-            $topLamp    = $n['topLamp'];
-            $fuse       = $n['fuse'];
-            $voltage    = $n['voltage'];
-            $inputPower = $n['inputPower'];
-            $tableWeight = $n['tableWeight'];
-            $chairWeight = $n['chairWeight'];
+            $id   = $n['e_id'];
+            $e_name = $n['e_name'];
+            $e_model = $n['e_model'];
+            $e_size = $n['e_size'];
         }
     }
 }
@@ -70,7 +57,7 @@ if (isset($_GET['m_edit'])) {
         }
     </style>
 
-    <title>ADMIN PANEL - EDIT MEDICALS</title>
+    <title>ADMIN PANEL - EDIT ENV SOLUTIONS</title>
 
     <!-- Custom fonts for this template-->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -202,95 +189,33 @@ if (isset($_GET['m_edit'])) {
                     <div class="container-fluid" style="width: 1300px;">
                         <!-- Page Heading -->
                         <center>
-                            <h1 class="h3 mb-1 text-gray-800">Update Medicals</h1>
+                            <h1 class="h3 mb-1 text-gray-800">Update Environmental</h1>
                         </center>
 
-                        <form method="post" action="viewMedicalDashboard.php">
+                        <form method="post" action="viewEnvironmentalDashboard.php">
                             <div class="row">
-
                                 <div class="col-md-offset-1"><br>
-                                    <div class="col-15">
+                                    <div class="col-13">
                                         <label>Product Name</label>
-                                        <input type="text" name="prdName" class="form-control" value="<?php echo $prdName ?>" required>
+                                        <input type="text" name="e_name" class="form-control" value="<?php echo $e_name ?>" required>
                                     </div><br>
-                                    <div class="col-15">
-                                        <label>Feature</label>
-                                        <textarea name="prdFeature" class="form-control"><?php echo $prdFeature ?></textarea>
-
+                                    <div class="col-13">
+                                        <label>Product Model</label>
+                                        <input type="text" name="e_model" class="form-control" value="<?php echo $e_model ?>" required>
                                     </div><br>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <hr />
-                                <div class="col-md-offset-1 col-md-6">
-                                    <strong>Specifications</strong>
-                                    <br /><br />
-                                    <div class="col-15">
-                                        <label>Table top size</label>
-                                        <input type="text" name="tableTop" class="form-control" value="<?php echo $tableTop ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Elevation range of table</label>
-                                        <input type="text" name="elevationTable" class="form-control" value="<?php echo $elevationTable ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Elevation range of chair</label>
-                                        <input type="text" name="elevationChair" class="form-control" value="<?php echo $elevationChair ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Max load</label>
-                                        <input type="text" name="maxLoad" class="form-control" value="<?php echo $maxLoad ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Elevation range of phoropter arm</label>
-                                        <input type="text" name="elevationPhoropterarm" class="form-control" value="<?php echo $elevationPhoropterarm ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Phoropter Rotation degree</label>
-                                        <input type="text" name="phoropterRotation" class="form-control" value="<?php echo $phoropterRotation ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Table rotation degree</label>
-                                        <input type="text" name="tableRotation" class="form-control" value="<?php echo $tableRotation ?>">
-                                    </div><br>
-                                </div>
-                                <div class="col-md-offset-1 col-md-6" style="bottom: -60px;">
-                                    <div class="col-15">
-                                        <label>Charging port</label>
-                                        <input type="text" name="chargingPort" class="form-control" value="<?php echo $chargingPort ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Top lamp</label>
-                                        <input type="text" name="topLamp" class="form-control" value="<?php echo $topLamp ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Fuse</label>
-                                        <input type="text" name="fuse" class="form-control" value="<?php echo $fuse ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Voltage</label>
-                                        <input type="text" name="voltage" class="form-control" value="<?php echo $voltage ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Max. Input power</label>
-                                        <input type="text" name="inputPower" class="form-control" value="<?php echo $inputPower ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Net weight of whole table</label>
-                                        <input type="text" name="tableWeight" class="form-control" value="<?php echo $tableWeight ?>">
-                                    </div><br>
-                                    <div class="col-15">
-                                        <label>Net weight of Chair</label>
-                                        <input type="text" name="chairWeight" class="form-control" value="<?php echo $chairWeight ?>">
+                                    <div class="col-13">
+                                        <label>Product Size</label>
+                                        <input type="text" name="e_size" class="form-control" value="<?php echo $e_size ?>" required>
                                     </div><br>
                                 </div>
                             </div>
-                            <input type="hidden" name="m_id" value="<?php echo $id; ?>">
+                            <input type="hidden" name="e_id" value="<?php echo $id; ?>">
                             <?php if ($update == true) : ?>
-                                <button class="btn btn-primary" type="submit" name="m_update">update</button>
+                                <button class="btn btn-primary" type="submit" name="e_update">update</button>
                             <?php else : ?>
-                                <button class="btn" type="submit" name="medical">Update</button>
+                                <button class="btn" type="submit" name="environmental">Update</button>
                             <?php endif ?>
+
 
                     </div>
 
