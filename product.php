@@ -60,7 +60,7 @@
                                 <ul class="category-list">
                                     <li><a href="#">Environmental Solutions</a></li>
                                     <li><a href="#">Medical Furniture Solutions</a></li>
-                                    <li><a href="#">Kindergarden Furniture Solutions</a></li>
+                                    <li><a href="#">Kindergarten Furniture Solutions</a></li>
                                 </ul>
                             </div>
                             <!-- <div class="side-block">
