@@ -833,7 +833,7 @@
                 <div class="row service-house-row">
                     <div class="col-lg-5 inset-pad">
                         <h2><span>Special Orders<br class="clearfix visible-xs"></span></h2>
-                        <h5>Ready for a cleaner facility</h5>
+                        <!-- <h5>Ready for a cleaner facility</h5> -->
                         <div class="divider-sm"></div>
                         <p>If you do not find the products that you're looking for on our website, please send us a
                             message with what you are looking for and we could source it for you through our extensive
@@ -922,21 +922,19 @@
                     </div>
                     <div class="col-sm-6">
                         <h2>Environmental Solution</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, assumenda explicabo quia
-                            dolorem eaque odit totam quas provident, eum quo nobis, aut commodi iure tenetur praesentium
-                            perspiciatis asperiores. Neque, blanditiis?</p>
-                        <div class="marker-box">
+                        <p>We offer a wide range of environmental solutions from top manufacturers meeting ISO 9001 / 14000, OSHAS 18001, CE, EN840 standards. We could accommodate customized designs for large orders under your own label.</p>
+                        <!-- <div class="marker-box">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">100% Safe & Organic</h4>
                             <p>We combine high concentrates of pure organic essential oils with quality plant-derived
                                 ingredients.</p>
-                        </div>
-                        <div class="marker-box">
+                        </div> -->
+                        <!-- <div class="marker-box">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">We Care About The Earth</h4>
                             <p>All of our packaging, bottles, cleaning equipment, even our uniforms come from recycled,
                                 fairtrade or low impact origins.</p>
-                        </div><br />
+                        </div><br /> -->
                         <div class="divider-sm"></div>
                         <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
@@ -957,9 +955,7 @@
                             cost perspective, it is important to ensure the accuracy of all costs involved.</p>
                         <p>This cost calculator is provided to clients to assist you in establishing the estimated
                             cleaning cost for your company:</p> -->
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed et tempore ipsum placeat
-                            dolores dolor aliquid deserunt sit aspernatur, quo, molestiae sequi. Optio distinctio
-                            voluptas, ex dolore dicta expedita quod.</p>
+                        <p>We offer a range of Medical furniture built and tested under CE standards. Tabletop made with Formaldehyde-free plywood,  environment-friendly without detriment to the health of eye care practitioners. Plastic covers are added with inflammable and anti-UV materials, fire-proof and corrosion-free. All powered tables come with Medical-grade plugs. When designing these furniture electrical safety is given high priority to protect the doctors and patients.</p>
                         <div class="divider-sm"></div>
                         <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
@@ -1007,9 +1003,7 @@
                             <p>We combine high concentrates of pure organic essential oils with quality plant-derived
                                 ingredients.</p>
                         </div> -->
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vero sit beatae, ut unde
-                            eveniet enim ipsa quas blanditiis excepturi ipsum in, dignissimos facere nulla pariatur!
-                            Exercitationem doloremque praesentium nostrum!</p>
+                        <p>The kid's range of plastic furniture is made to ISO 9001 / 14000 and CE standards keeping children's safety in mind.</p>
                         <div class="marker-box">
                             <!-- <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">We Care About The Earth</h4>
