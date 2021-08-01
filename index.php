@@ -1,3 +1,6 @@
+<?php
+    include('./database/connection.php')
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -113,192 +116,97 @@
                         cleaning products, recycling practices and advice for working with professional cleaners.</p> -->
                 </div>
                 <div class="news-carousel row">
+                    <!-- medical -->
+                    <?php
+                        $query = "SELECT * FROM medical";
+                        $data  = mysqli_query($db, $query) or die('error');
+
+                        if(mysqli_num_rows($data) > 0){
+                            while ($row = mysqli_fetch_assoc($data)) {
+                                $id     = $row['m_id'];
+                                $pName  = $row['prdName'];
+                                $img    = $row['img'];
+                    ?>
+
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-1.jpg" alt="">
+                                <a href="product-item.php?view=<?php echo $id ?>">
+                                    <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
-                            <h3 class="news-prw-title">Outdoor Trash Bin</h3>
-                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
+                            <h3 class="news-prw-title"><?php echo $pName ?></h3>
+                            <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
                         </div>
                     </div>
+
+                    <?php
+                        }
+                    } ?>
+
+                    <!-- medical -->
+                    <?php
+                        $query = "SELECT * FROM medical";
+                        $data  = mysqli_query($db, $query) or die('error');
+
+                        if(mysqli_num_rows($data) > 0){
+                            while ($row = mysqli_fetch_assoc($data)) {
+                                $id     = $row['m_id'];
+                                $pName  = $row['prdName'];
+                                $img    = $row['img'];
+                    ?>
+
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-2.jpg" alt="">
+                                <a href="product-item.php?view=<?php echo $id ?>">
+                                    <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <!-- <div class="news-prw-date">22 December, 2018</div> -->
-                            <h3 class="news-prw-title">Indoor Trash Bin</h3>
-                            <!-- <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
-                                regular cleaning.</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
+                            <h3 class="news-prw-title"><?php echo $pName ?></h3>
+                            <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
                         </div>
                     </div>
+
+                    <?php
+                        }
+                    } ?>
+
+                    <!-- medical -->
+                    <?php
+                        $query = "SELECT * FROM medical";
+                        $data  = mysqli_query($db, $query) or die('error');
+
+                        if(mysqli_num_rows($data) > 0){
+                            while ($row = mysqli_fetch_assoc($data)) {
+                                $id     = $row['m_id'];
+                                $pName  = $row['prdName'];
+                                $img    = $row['img'];
+                    ?>
+
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-3.jpg" alt="">
+                                <a href="product-item.php?view=<?php echo $id ?>">
+                                    <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <!-- <div class="news-prw-date">27 December, 2018</div> -->
-                            <h3 class="news-prw-title">Sorting Bin</h3>
-                            <!-- <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
-                                the office vacuumed a few times a week...</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
+                            <h3 class="news-prw-title"><?php echo $pName ?></h3>
+                            <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-1.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
-                            <h3 class="news-prw-title">Medical Trash Can</h3>
-                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-2.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <!-- <div class="news-prw-date">22 December, 2018</div> -->
-                            <h3 class="news-prw-title">Instrument Table</h3>
-                            <!-- <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
-                                regular cleaning.</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-3.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <!-- <div class="news-prw-date">27 December, 2018</div> -->
-                            <h3 class="news-prw-title">Refraction unit</h3>
-                            <!-- <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
-                                the office vacuumed a few times a week...</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-1.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
-                            <h3 class="news-prw-title">Table</h3>
-                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-1.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
-                            <h3 class="news-prw-title">Chair</h3>
-                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p> -->
-                            <a href="blog-post-page.html" class="btn btn-border">View</a>
-                        </div>
-                    </div>
+
+                    <?php
+                        }
+                    } ?>
                 </div>
             </div>
         </div>
         <!-- End Product Range  -->
 
-        <!-- Services block -->
-        <!-- <div class="block">
-            <div class="container">
-                <h2 class="text-center h-lg h-decor">Our Cleaning Services</h2>
-                <div class="text-center max-750">
-                    <p class="p-lg">Let us use our years of experience, skilled employees, and advanced procedures to
-                        ensure a clean and healthy environment for your employees, customers and guests.</p>
-                </div>
-                <div class="row services-carousel arrows-center">
-                    <div class="col-sm-2 col-lg-4">
-                        <div class="service-card">
-                            <div class="service-card-icon"><i class="icon icon-house"></i></div>
-                            <h5 class="service-card-title">Apartment Cleaning</h5>
-                            <ul class="service-card-list">
-                                <li>Vacuum / mop floors</li>
-                                <li>Dust all furniture</li>
-                                <li>Clean the toilet</li>
-                            </ul>
-                            <a href="service-page-1.html" class="btn btn-border">View</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 col-lg-4">
-                        <div class="service-card">
-                            <div class="service-card-icon"><i class="icon icon-house-1"></i></div>
-                            <h5 class="service-card-title">Commercial Cleaning</h5>
-                            <ul class="service-card-list">
-                                <li>Hard surface floor cleaning</li>
-                                <li>Tile and grout cleaning</li>
-                                <li>Carpet Cleaning</li>
-                            </ul>
-                            <a href="service-page-1.html" class="btn btn-border">Read more</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 col-lg-4">
-                        <div class="service-card">
-                            <div class="service-card-icon"><i class="icon icon-house-3"></i></div>
-                            <h5 class="service-card-title">Residential Cleaning</h5>
-                            <ul class="service-card-list">
-                                <li>Hard Surface Cleaning</li>
-                                <li>Upholstery Cleaning</li>
-                                <li>Carpet Cleaning</li>
-                            </ul>
-                            <a href="service-page-1.html" class="btn btn-border">Read more</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 col-lg-4">
-                        <div class="service-card">
-                            <div class="service-card-icon"><i class="icon icon-window"></i></div>
-                            <h5 class="service-card-title">Window Cleaning</h5>
-                            <ul class="service-card-list">
-                                <li>Hard surface floor cleaning</li>
-                                <li>Dust all furniture</li>
-                                <li>Carpet Cleaning</li>
-                            </ul>
-                            <a href="service-page-1.html" class="btn btn-border">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- /Services block -->
         <!-- About Us block -->
         <div class="block fullwidth-bg bg-cover inset-lg-3 pb-xs-0 block-1" data-bg="images/block-bg-1.jpg">
             <div class="container">
@@ -524,309 +432,14 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <!-- <div class="news-prw-date">27 December, 2018</div> -->
                             <h3 class="news-prw-title">Kindergarten Furniture</h3>
-                            <!-- <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
-                                the office vacuumed a few times a week...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
-                    <!-- <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-1.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <div class="news-prw-date">16 December, 2018</div>
-                            <h3 class="news-prw-title">Confessions of an Office Cleaner</h3>
-                            <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-2.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <div class="news-prw-date">22 December, 2018</div>
-                            <h3 class="news-prw-title">Professional Carpet Cleaning: Which Is Best?</h3>
-                            <p>Over time, all carpets endure stains, spills and discolouration. That’s why they require
-                                regular cleaning.</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-sm-4">
-                        <div class="news-prw">
-                            <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-3.jpg" alt="">
-                                    <span><i class="icon-link"></i></span>
-                                </a>
-                            </div>
-                            <div class="news-prw-date">27 December, 2018</div>
-                            <h3 class="news-prw-title">Ensure Good Hygiene at the Office</h3>
-                            <p>Your office is probably not as clean as you think it is. You might have a cleaner or get
-                                the office vacuumed a few times a week...</p>
-                            <a href="blog-post-page.html" class="btn btn-border">Read more</a>
-                        </div>
-                    </div> -->
+
                 </div>
             </div>
         </div>
         <!-- /News block -->
-        <!-- Facts block -->
-        <!-- /Facts block -->
-        <!-- Prices block  -->
-        <!-- <div class="block">
-            <div class="container">
-                <h2 class="text-center h-lg h-decor">Choose Your Pricing Plan</h2>
-                <div class="text-center max-800">
-                    <p class="p-lg">After trading for a few years we have learnt that the one size does not fit all. We
-                        try our best to tailor a package that meets your particular needs and stays within your budget.
-                    </p>
-                </div>
-                <div class="nav-tabs-wrap text-center">
-                    <ul class="nav nav-tabs nav-tabs--rounded">
-                        <li class="active"><a data-toggle="tab" href="#plan1">One Day</a></li>
-                        <li><a data-toggle="tab" href="#plan2">Weekly</a></li>
-                        <li><a data-toggle="tab" href="#plan3">Bi-weekly</a></li>
-                        <li><a data-toggle="tab" href="#plan4">Monthly Service</a></li>
-                    </ul>
-                </div>
-                <div class="tab-content tab-content-nopad">
-                    <div id="plan1" class="tab-pane fade in active">
-                        <div class="row price-row price-carousel-tab">
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Start Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>10<sup>95</sup></b>
-                                        <span>Per Hour</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Liability Insurance</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>Feedback Centre Access</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box prices-box--primary">
-                                    <h3 class="prices-box-title">Standard Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>15<sup>95</sup></b>
-                                        <span>Per Hour</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose from 3 Cleaning Days</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Premium Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>19<sup>95</sup></b>
-                                        <span>Per Hour</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose Cleaning Day</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="plan2" class="tab-pane fade in">
-                        <div class="row price-row price-carousel-tab">
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Start Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>59<sup>95</sup></b>
-                                        <span>Per Day</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Liability Insurance</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>Feedback Centre Access</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box prices-box--primary">
-                                    <h3 class="prices-box-title">Standard Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>69<sup>95</sup></b>
-                                        <span>Per Day</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose from 3 Cleaning Days</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Premium Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>89<sup>95</sup></b>
-                                        <span>Per Day</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose Cleaning Day</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="plan3" class="tab-pane fade in">
-                        <div class="row price-row price-carousel-tab">
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Start Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>99<sup>95</sup></b>
-                                        <span>Per Week</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Liability Insurance</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>Feedback Centre Access</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box prices-box--primary">
-                                    <h3 class="prices-box-title">Standard Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>119<sup>95</sup></b>
-                                        <span>Per Week</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose from 3 Cleaning Days</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Premium Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>299<sup>95</sup></b>
-                                        <span>Per Week</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose Cleaning Day</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="plan4" class="tab-pane fade in">
-                        <div class="row price-row price-carousel-tab">
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Start Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>499<sup>95</sup></b>
-                                        <span>Per Month</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Liability Insurance</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>Feedback Centre Access</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box prices-box--primary">
-                                    <h3 class="prices-box-title">Standard Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>599<sup>95</sup></b>
-                                        <span>Per Month</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose from 3 Cleaning Days</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="prices-box">
-                                    <h3 class="prices-box-title">Premium Plan</h3>
-                                    <div class="prices-box-price">
-                                        <b><sup>&nbsp;&nbsp;$</sup>799<sup>95</sup></b>
-                                        <span>Per Month</span>
-                                    </div>
-                                    <div class="prices-box-row"><span>Experienced & Trained Cleaner</span></div>
-                                    <div class="prices-box-row"><span><b>Maintenance</b> Cleaning</span></div>
-                                    <div class="prices-box-row"><span>Insured Liability & Damage</span></div>
-                                    <div class="prices-box-row"><span>Planned <b>Holiday</b> Cover</span></div>
-                                    <div class="prices-box-row"><span>You Choose Cleaning Day</span></div>
-                                    <div class="prices-box-link">
-                                        <a href="order-form.html" class="btn">Order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- /Prices block -->
-
-
-
         <!-- Text Block -->
         <div class="block fullwidth-bg">
             <div class="container">
@@ -841,33 +454,11 @@
                         <div class="divider-sm"></div>
                         <a href="contact.php" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
-                    <!-- <div class="col-lg-7">
-                        <div class="service-house-wrap">
-                            <div class="service-house">
-                                <a href="service-page-9.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-1.jpg" alt="">
-                                    <span class="service-house-item-title">Residential Cleaning</span>
-                                </a>
-                                <a href="service-page-7.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-2.jpg" alt="">
-                                    <span class="service-house-item-title">Window Cleaning</span>
-                                </a>
-                                <a href="service-page-3.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-3.jpg" alt="">
-                                    <span class="service-house-item-title">Move In / Move Out Cleaning</span>
-                                </a>
-                                <a href="service-page-1.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-4.jpg" alt="">
-                                    <span class="service-house-item-title">Apartment Cleaning</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="col-sm-5 col-md-5 col-lg-6" style="margin-top: -100px">
-                        <img src="./images/girl-specialOrder.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"
-                            alt="">
-                        <img src="./images/girl-specialOrder.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"
-                            alt="">
+                        <img src="./images/girl-specialOrder.png"
+                            class="img-responsive visible-lg visible-md hidden-sm visible-xs" alt="">
+                        <img src="./images/girl-specialOrder.png"
+                            class="img-responsive hidden-lg hidden-md hidden-xs visible-sm" alt="">
                     </div>
                 </div>
             </div>
@@ -900,13 +491,6 @@
                                 <div class="counter-item-text">Trusted Brands</div>
                             </div>
                         </div>
-                        <!-- <div class="col-xs-6 col-sm-3">
-                        <div class="counter-item">
-                            <div class="counter-item-icon"><i class="icon-cleaning"></i></div>
-                            <span class="counter-item-number number"><span class="count" data-to="1000" data-speed="1000">1000+</span></span>
-                            <div class="counter-item-text">Cleans Completed</div>
-                        </div>
-                    </div> -->
                     </div>
                 </center>
             </div>
@@ -922,7 +506,9 @@
                     </div>
                     <div class="col-sm-6">
                         <h2>Environmental Solution</h2>
-                        <p>We offer a wide range of environmental solutions from top manufacturers meeting ISO 9001 / 14000, OSHAS 18001, CE, EN840 standards. We could accommodate customized designs for large orders under your own label.</p>
+                        <p>We offer a wide range of environmental solutions from top manufacturers meeting ISO 9001 /
+                            14000, OSHAS 18001, CE, EN840 standards. We could accommodate customized designs for large
+                            orders under your own label.</p>
                         <!-- <div class="marker-box">
                             <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">100% Safe & Organic</h4>
@@ -955,7 +541,11 @@
                             cost perspective, it is important to ensure the accuracy of all costs involved.</p>
                         <p>This cost calculator is provided to clients to assist you in establishing the estimated
                             cleaning cost for your company:</p> -->
-                        <p>We offer a range of Medical furniture built and tested under CE standards. Tabletop made with Formaldehyde-free plywood,  environment-friendly without detriment to the health of eye care practitioners. Plastic covers are added with inflammable and anti-UV materials, fire-proof and corrosion-free. All powered tables come with Medical-grade plugs. When designing these furniture electrical safety is given high priority to protect the doctors and patients.</p>
+                        <p>We offer a range of Medical furniture built and tested under CE standards. Tabletop made with
+                            Formaldehyde-free plywood, environment-friendly without detriment to the health of eye care
+                            practitioners. Plastic covers are added with inflammable and anti-UV materials, fire-proof
+                            and corrosion-free. All powered tables come with Medical-grade plugs. When designing these
+                            furniture electrical safety is given high priority to protect the doctors and patients.</p>
                         <div class="divider-sm"></div>
                         <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
@@ -1003,7 +593,8 @@
                             <p>We combine high concentrates of pure organic essential oils with quality plant-derived
                                 ingredients.</p>
                         </div> -->
-                        <p>The kid's range of plastic furniture is made to ISO 9001 / 14000 and CE standards keeping children's safety in mind.</p>
+                        <p>The kid's range of plastic furniture is made to ISO 9001 / 14000 and CE standards keeping
+                            children's safety in mind.</p>
                         <div class="marker-box">
                             <!-- <div class="marker-box-marker"><i class="icon-leaf"></i></div>
                             <h4 class="marker-box-title">We Care About The Earth</h4>
