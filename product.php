@@ -54,8 +54,8 @@
                 <h1 class="text-center h-decor">Product Range</h1>
                 <div class="row">
                     <div class="col-md-4 col-lg-3 column-filters">
-                        <div class="column-filters-inside" style = "width: 280px;">
-                            <div class="side-block" style = "width: 350px;">
+                        <div  class="column-filters-inside" style="width: 280px;">
+                            <div class="side-block" style="width: 350px;">
                                 <h3>Categories</h3>
                                 <ul class="category-list">
                                     <li><a href="#">Environmental Solutions</a></li>
@@ -74,8 +74,8 @@
                                 <h3>Popular Products</h3>
                                 <div class="prd-sm">
                                     <div class="prd-sm-img">
-                                        <a href="product.html"><img src="images/outdoor-bin.png"
-                                                class="img-responsive" alt=""></a>
+                                        <a href="product.html"><img src="images/outdoor-bin.png" class="img-responsive"
+                                                alt=""></a>
                                     </div>
                                     <div class="prd-sm-info">
                                         <h3><a href="product.html">Outdoor Bin</a></h3>
@@ -91,11 +91,11 @@
                                         <h3><a href="product.html">Medical Table</a></h3>
                                         <div class="price">$2.11</div>
                                     </div>
-                                </div> 
+                                </div>
                                 <div class="prd-sm">
                                     <div class="prd-sm-img">
-                                        <a href="product.html"><img src="images/kids-chair.png"
-                                                class="img-responsive" alt=""></a>
+                                        <a href="product.html"><img src="images/kids-chair.png" class="img-responsive"
+                                                alt=""></a>
                                     </div>
                                     <div class="prd-sm-info">
                                         <h3><a href="product.html">Kids Chair</a></h3>
@@ -176,79 +176,9 @@
                                     <a href="#" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                 </div>
                             </div>
-                            <!-- <div class="prd">
-                                <div class="prd-img">
-                                    <a href="product.html"><img src="images/product/prd-5.jpg" class="img-responsive"
-                                            alt=""></a>
-                                </div>
-                                <div class="prd-info">
-                                    <h3><a href="product.html">Fast Easy Broom with Dust Pan, 9.7 Ounces 2pk</a></h3>
-                                    <div class="rating rating-4"><i class="icon-star-black"></i><i
-                                            class="icon-star-black"></i><i class="icon-star-black"></i><i
-                                            class="icon-star-black"></i><i class="icon-star-black"></i></div>
-                                    <div class="price">$5.99</div>
-                                    <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
-                                </div>
-                            </div> -->
-                            <!-- <div class="prd">
-                                <div class="prd-img">
-                                    <a href="product.html"><img src="images/product/prd-6.jpg" class="img-responsive"
-                                            alt=""></a>
-                                </div>
-                                <div class="prd-info">
-                                    <h3><a href="product.html">Pledge Multi Surface Antibacterial Everyday Cleaner</a>
-                                    </h3>
-                                    <div class="rating rating-5"><i class="icon-star-black"></i><i
-                                            class="icon-star-black"></i><i class="icon-star-black"></i><i
-                                            class="icon-star-black"></i><i class="icon-star-black"></i></div>
-                                    <div class="price">$2.11</div>
-                                    <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
-                                </div>
-                            </div> -->
-                            <!-- <div class="prd">
-                                <div class="prd-img">
-                                    <a href="product.html"><img src="images/product/prd-7.jpg" class="img-responsive"
-                                            alt=""></a>
-                                </div>
-                                <div class="prd-info">
-                                    <h3><a href="product.html">Wet Ones Antibacterial Hand Wipes Citrus Scent Travel
-                                            Pack</a></h3>
-                                    <div class="price">$1.99</div>
-                                    <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
-                                </div>
-                            </div> -->
-                            <!-- <div class="prd">
-                                <div class="prd-img">
-                                    <a href="product.html"><img src="images/product/prd-8.jpg" class="img-responsive"
-                                            alt=""></a>
-                                </div>
-                                <div class="prd-info">
-                                    <h3><a href="product.html">Windex Original Glass Cleaner 26 Ounces</a></h3>
-                                    <div class="price">$3.12</div>
-                                    <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
-                                </div>
-                            </div> -->
-                            <!-- <div class="prd">
-                                <div class="prd-img">
-                                    <a href="product.html"><img src="images/product/prd-9.jpg" class="img-responsive"
-                                            alt=""></a>
-                                </div>
-                                <div class="prd-info">
-                                    <h3><a href="product.html">Handmaster Medium Utility Stretch Knit Gloves (93TM)</a>
-                                    </h3>
-                                    <div class="price">$9.99</div>
-                                    <a href="#" class="btn"><i class="icon-market"></i>Add To Cart</a>
-                                </div>
-                            </div> -->
+
                         </div>
                         <div class="clearfix"></div>
-                        <!-- <div class="text-center">
-                            <ul class="pagination">
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">...</a></li>
-                            </ul>
-                        </div> -->
                     </div>
                 </div>
             </div>
