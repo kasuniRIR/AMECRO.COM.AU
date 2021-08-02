@@ -112,8 +112,6 @@
             <div class="container">
                 <h2 class="text-center h-lg h-decor">Product Range</h2>
                 <div class="text-center max-700">
-                    <!-- <p class="p-lg">We write about industry developments, training, health and safety, eco-friendly
-                        cleaning products, recycling practices and advice for working with professional cleaners.</p> -->
                 </div>
                 <div class="news-carousel row">
                     <!-- medical -->
@@ -409,11 +407,7 @@
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
                             <h3 class="news-prw-title">Environmental Solutions</h3>
-                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p> -->
-                            <!-- <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -498,7 +492,7 @@
                                 <div class="counter-item-text">Trusted Brands</div>
                             </div>
                         </div>
-                    </div>
+                    </div>S
                 </center>
             </div>
         </div>
