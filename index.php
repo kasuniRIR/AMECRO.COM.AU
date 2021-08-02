@@ -56,7 +56,7 @@
                 </div>
                 <div id="mainSlider">
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/slide-3.jpg);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider1.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider2.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider_2Medical.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider3.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -581,7 +581,7 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-6">
-                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive"
+                        <div class="img-left-wrap1"><img src="images/content/Kindergarten_Solution.png" class="img-responsive"
                                 alt=""></div>
                     </div>
                     <div class="col-sm-6">
