@@ -56,7 +56,7 @@
                 </div>
                 <div id="mainSlider">
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/slide-3.jpg);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider1.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/Slider.png);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider2.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="slide mask">
-                        <div class="img--holder" style="background-image: url(images/slider/slide-1.jpg);"></div>
+                        <div class="img--holder" style="background-image: url(images/slider/Slider3.png);"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
@@ -112,13 +112,11 @@
             <div class="container">
                 <h2 class="text-center h-lg h-decor">Product Range</h2>
                 <div class="text-center max-700">
-                    <!-- <p class="p-lg">We write about industry developments, training, health and safety, eco-friendly
-                        cleaning products, recycling practices and advice for working with professional cleaners.</p> -->
                 </div>
                 <div class="news-carousel row">
                     <!-- medical -->
                     <?php
-                        $query = "SELECT * FROM medical";
+                        $query = "SELECT * FROM medical limit 2";
                         $data  = mysqli_query($db, $query) or die('error');
 
                         if(mysqli_num_rows($data) > 0){
@@ -126,12 +124,13 @@
                                 $id     = $row['m_id'];
                                 $pName  = $row['prdName'];
                                 $img    = $row['img'];
+                                $type = $row['type'];
                     ?>
 
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="product-item.php?view=<?php echo $id ?>">
+                                <a href="product-item.php?view=<?php echo $id?>&type=<?php echo $type?>">
                                     <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
@@ -145,27 +144,30 @@
                         }
                     } ?>
 
-                    <!-- medical -->
+                    <!-- environmental -->
                     <?php
-                        $query = "SELECT * FROM medical";
+                        $query = "SELECT * FROM environmental limit 2";
                         $data  = mysqli_query($db, $query) or die('error');
 
                         if(mysqli_num_rows($data) > 0){
                             while ($row = mysqli_fetch_assoc($data)) {
-                                $id     = $row['m_id'];
-                                $pName  = $row['prdName'];
+                                $id     = $row['e_id'];
+                                $eName  = $row['e_name'];
+                                $eModel  = $row['e_model'];
+                                $eSize  = $row['e_size'];
                                 $img    = $row['img'];
+                                $type = $row['type'];
                     ?>
 
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="product-item.php?view=<?php echo $id ?>">
-                                    <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
+                                <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>">
+                                    <?php echo '<img src="./admin/upload/environmental/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <h3 class="news-prw-title"><?php echo $pName ?></h3>
+                            <h3 class="news-prw-title"><?php echo $eName ?></h3>
                             <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
                         </div>
                     </div>
@@ -176,25 +178,28 @@
 
                     <!-- medical -->
                     <?php
-                        $query = "SELECT * FROM medical";
+                        $query = "SELECT * FROM kindergarten limit 2";
                         $data  = mysqli_query($db, $query) or die('error');
 
                         if(mysqli_num_rows($data) > 0){
                             while ($row = mysqli_fetch_assoc($data)) {
-                                $id     = $row['m_id'];
-                                $pName  = $row['prdName'];
+                                $id     = $row['k_id'];
+                                $kName  = $row['k_name'];
+                                $kModel  = $row['k_model'];
+                                $kSize  = $row['k_size'];
                                 $img    = $row['img'];
+                                $type = $row['type'];
                     ?>
 
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="product-item.php?view=<?php echo $id ?>">
-                                    <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
+                                <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>">
+                                    <?php echo '<img src="./admin/upload/kindergarten/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <h3 class="news-prw-title"><?php echo $pName ?></h3>
+                            <h3 class="news-prw-title"><?php echo $kName ?></h3>
                             <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
                         </div>
                     </div>
@@ -397,16 +402,12 @@
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-1.jpg" alt="">
+                                 <a href="product.php?page=environment">
+                                    <img src="images/content/Env.png" alt="">
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
-                            <!-- <div class="news-prw-date">16 December, 2018</div> -->
                             <h3 class="news-prw-title">Environmental Solutions</h3>
-                            <!-- <p>We make sure that our customers know what cleaning services we offer and reassure them
-                                that our office cleaners...</p> -->
-                            <!-- <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
 
@@ -417,8 +418,8 @@
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-2.jpg" alt="">
+                                 <a href="product.php?page=medical">
+                                    <img src="images/content/Medical.png" alt="">
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
@@ -432,8 +433,8 @@
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="blog-post-page.html">
-                                    <img src="images/content/news-img-3.jpg" alt="">
+                                 <a href="product.php?page=kidergarten">
+                                    <img src="images/content/Kindergarten - A.png" alt="">
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
@@ -496,7 +497,7 @@
                                 <div class="counter-item-text">Trusted Brands</div>
                             </div>
                         </div>
-                    </div>
+                    </div>S
                 </center>
             </div>
         </div>
@@ -535,7 +536,7 @@
         <!--/Text Block -->
 
         <!-- Text Block -->
-        <div class="block fullwidth-bg block-bg-grey">
+        <div class="block fullwidth-bg bg-cover inset-lg-3 pb-xs-0 block-1" data-bg="images/Medical_Solutions.png">
             <div class="container">
                 <div class="row service-house-row">
                     <div class="col-lg-5 inset-pad">
@@ -554,7 +555,7 @@
                         <div class="divider-sm"></div>
                         <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
-                    <div class="col-lg-7">
+                    <!-- <div class="col-lg-7">
                         <div class="service-house-wrap">
                             <div class="service-house">
                                 <a href="service-page-9.html" class="service-house-item">
@@ -575,7 +576,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -585,7 +586,7 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-6">
-                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive"
+                        <div class="img-left-wrap1"><img src="images/content/Kindergarten_Solution.png" class="img-responsive"
                                 alt=""></div>
                     </div>
                     <div class="col-sm-6">

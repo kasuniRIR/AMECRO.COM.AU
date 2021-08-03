@@ -18,6 +18,7 @@ $voltage        = "";
 $inputPower     = "";
 $tableWeight    = "";
 $chairWeight    = "";
+$type = "";
 
 if (isset($_POST['medical'])) {
     $prdName = $_POST['prdName'];
@@ -37,6 +38,7 @@ if (isset($_POST['medical'])) {
     $inputPower = $_POST['inputPower'];
     $tableWeight = $_POST['tableWeight'];
     $chairWeight = $_POST['chairWeight'];
+    $type = "medical";
 
     if (file_exists("upload/medical/" . $_FILES["img"]["name"])) {
         $store = $_FILES["img"]["name"];
@@ -45,7 +47,7 @@ if (isset($_POST['medical'])) {
         $temp = explode(".", $_FILES["img"]["name"]);
         $newfilename = round(microtime(true)) . '.' . end($temp);
         move_uploaded_file($_FILES["img"]["tmp_name"], "upload/medical/" . $newfilename);
-        $qry = "INSERT INTO medical (prdName, prdFeature, img, tableTop, elevationTable, elevationChair, maxLoad, elevationPhoropterarm, phoropterRotation, tableRotation, chargingPort, topLamp, fuse, voltage, inputPower, tableWeight, chairWeight) VALUES ('$prdName', '$prdFeature', '$newfilename', '$tableTop', '$elevationTable', '$elevationChair', '$maxLoad', '$elevationPhoropterarm','$phoropterRotation', '$tableRotation', '$chargingPort', '$topLamp', '$fuse','$voltage', '$inputPower', '$tableWeight', '$chairWeight')";
+        $qry = "INSERT INTO medical (prdName, prdFeature, img, tableTop, elevationTable, elevationChair, maxLoad, elevationPhoropterarm, phoropterRotation, tableRotation, chargingPort, topLamp, fuse, voltage, inputPower, tableWeight, chairWeight, type) VALUES ('$prdName', '$prdFeature', '$newfilename', '$tableTop', '$elevationTable', '$elevationChair', '$maxLoad', '$elevationPhoropterarm','$phoropterRotation', '$tableRotation', '$chargingPort', '$topLamp', '$fuse','$voltage', '$inputPower', '$tableWeight', '$chairWeight', '$type')";
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully";
     }
@@ -87,12 +89,14 @@ $e_name  = "";
 $e_model = "";
 $e_size  = "";
 $img   = [];
+$type = "";
 
 if (isset($_POST['environmental'])) {
     $e_name = $_POST['e_name'];
     $e_model = $_POST['e_model'];
     $e_size = $_POST['e_size'];
     $img = $_FILES['img']['name'];
+    $type = "env";
 
     if (file_exists("upload/environmental/" . $_FILES["img"]["name"])) {
         $store = $_FILES["img"]["name"];
@@ -101,7 +105,7 @@ if (isset($_POST['environmental'])) {
         $temp = explode(".", $_FILES["img"]["name"]);
         $newfilename = round(microtime(true)) . '.' . end($temp);
         move_uploaded_file($_FILES["img"]["tmp_name"], "upload/environmental/" . $newfilename);
-        $qry = "INSERT INTO environmental (e_name, e_model, e_size, img) VALUES ('$e_name', '$e_model', '$e_size', '$newfilename')";
+        $qry = "INSERT INTO environmental (e_name, e_model, e_size, img, type) VALUES ('$e_name', '$e_model', '$e_size', '$newfilename', '$type')";
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully";
     }
@@ -130,12 +134,14 @@ $k_name  = "";
 $k_model = "";
 $k_size  = "";
 $img   = [];
+$type = "";
 
 if (isset($_POST['kindergarten'])) {
     $k_name = $_POST['k_name'];
     $k_model = $_POST['k_model'];
     $k_size = $_POST['k_size'];
     $img = $_FILES['img']['name'];
+    $type = "kindergarten";
 
     if (file_exists("upload/kindergarten/" . $_FILES["img"]["name"])) {
         $store = $_FILES["img"]["name"];
@@ -144,7 +150,7 @@ if (isset($_POST['kindergarten'])) {
         $temp = explode(".", $_FILES["img"]["name"]);
         $newfilename = round(microtime(true)) . '.' . end($temp);
         move_uploaded_file($_FILES["img"]["tmp_name"], "upload/kindergarten/" . $newfilename);
-        $qry = "INSERT INTO kindergarten (k_name, k_model, k_size, img) VALUES ('$k_name', '$k_model', '$k_size', '$newfilename')";
+        $qry = "INSERT INTO kindergarten (k_name, k_model, k_size, img, type) VALUES ('$k_name', '$k_model', '$k_size', '$newfilename', '$type')";
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully";
     }
