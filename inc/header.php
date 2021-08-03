@@ -72,7 +72,7 @@
                                 <li><a href="gallery-simple.html">Simple Gallery</a></li>
                             </ul> -->
                         </li>
-                        <li class="<?php if($page == 'product.php'){ echo 'active';} ?>"><a href="product.php">Products</a>
+                        <li class="<?php if($page == 'product.php'){ echo 'active';} ?>"><a href="product.php?page=environment">Products</a>
                             <!-- <ul class="sub-menu">
                                 <li><a href="service-page-1.html">Apartment Cleaning</a></li>
                                 <li><a href="service-page-2.html">House Cleaning</a></li>

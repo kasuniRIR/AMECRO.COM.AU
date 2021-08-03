@@ -528,7 +528,7 @@
                                 fairtrade or low impact origins.</p>
                         </div><br /> -->
                         <div class="divider-sm"></div>
-                        <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
+                        <a href="product.php?page=environment" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -553,7 +553,7 @@
                             and corrosion-free. All powered tables come with Medical-grade plugs. When designing these
                             furniture electrical safety is given high priority to protect the doctors and patients.</p>
                         <div class="divider-sm"></div>
-                        <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn More</a>
+                        <a href="product.php?page=medical" class="btn btn-lg animation" data-animation="tada">Learn More</a>
                     </div>
                     <!-- <div class="col-lg-7">
                         <div class="service-house-wrap">
@@ -608,7 +608,7 @@
                                 fairtrade or low impact origins.</p> -->
 
                             <div class="divider-sm"></div>
-                            <a href="calculate-form.html" class="btn btn-lg animation" data-animation="tada">Learn
+                            <a href="product.php?page=kidergarten" class="btn btn-lg animation" data-animation="tada">Learn
                                 More</a>
                         </div>
                     </div>
