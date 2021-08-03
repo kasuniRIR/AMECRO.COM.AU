@@ -8,7 +8,7 @@
                     <h4>Group Companies</h4>
                     <br><br><br><br>
                 </div>
-                <h4>Newsletter</h4>
+                <h4>Email</h4>
                 <form action="#" class="form-newsletter">
                     <div class="newsletter-input-row">
                         <input type="text" class="form-control" placeholder="Email address">
@@ -67,7 +67,7 @@
                     <i class="icon icon-clock1"></i>8:00 am – 5:00 pm
                     <br>
                 </div>
-                <div class="btn-wrap"><a href="order-form.html" class="btn animation" data-animation="tada">Contact
+                <div class="btn-wrap"><a href="contact.php" class="btn animation" data-animation="tada">Contact
                         Us</a></div>
             </div>
         </div>

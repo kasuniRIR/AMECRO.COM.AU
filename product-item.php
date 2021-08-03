@@ -128,7 +128,7 @@ include('./database/connection.php');
                                                     <li>Table top size</li>
                                                     <li>Elevation range of table</li>
                                                     <li>Elevation range of chair</li>
-                                                    <li>Max load</li>
+                                                    <li>Max load </li>
                                                     <li>Elevation range of phoropter arm</li>
                                                     <li>Phoropter Rotation degree</li>
                                                     <li>Table rotation degree</li>
@@ -143,20 +143,20 @@ include('./database/connection.php');
                                             </div>
                                             <div class="col-sm-6">
                                                 <ul class="no-marker">
-                                                    <li><?php echo $tableTop ?></li>
-                                                    <li><?php echo $elevationTable ?></li>
-                                                    <li><?php echo $elevationChair ?></li>
-                                                    <li><?php echo $maxLoad ?></li>
-                                                    <li><?php echo $elevationPhoropterarm ?></li>
-                                                    <li><?php echo $phoropterRotation ?></li>
-                                                    <li><?php echo $tableRotation ?></li>
-                                                    <li><?php echo $chargingPort ?></li>
-                                                    <li><?php echo $topLamp ?></li>
-                                                    <li><?php echo $fuse ?></li>
-                                                    <li><?php echo $voltage ?></li>
-                                                    <li><?php echo $inputPower ?></li>
-                                                    <li><?php echo $chairWeight ?></li>
-                                                    <li><?php echo $tableWeight ?></li>
+                                                    <li><?php if(empty($tableTop)){ echo "N/A"; } else { echo $tableTop;} ?></li>
+                                                    <li><?php if(empty($elevationTable)){ echo "N/A"; } else { echo $elevationTable;} ?></li>
+                                                    <li><?php if(empty($elevationChair)){ echo "N/A"; } else { echo $elevationChair;} ?></li>
+                                                    <li><?php if(empty($maxLoad)){ echo "N/A"; } else { echo $maxLoad;} ?></li>
+                                                    <li><?php if(empty($elevationPhoropterarm)){ echo "N/A"; } else { echo $elevationPhoropterarm;} ?></li>
+                                                    <li><?php if(empty($phoropterRotation)){ echo "N/A"; } else { echo $phoropterRotation;} ?></li>
+                                                    <li><?php if(empty($tableRotation)){ echo "N/A"; } else { echo $tableRotation; } ?></li>
+                                                    <li><?php if(empty($chargingPort)){ echo "N/A"; } else { echo $chargingPort;} ?></li>
+                                                    <li><?php if(empty($topLamp)){ echo "N/A"; } else { echo $topLamp; } ?></li>
+                                                    <li><?php if(empty($fuse)){ echo "N/A"; } else { echo $fuse;} ?></li>
+                                                    <li><?php if(empty($voltage)){ echo "N/A"; } else { echo $voltage; } ?></li>
+                                                    <li><?php if(empty($inputPower)){ echo "N/A"; } else { echo $inputPower; } ?></li>
+                                                    <li><?php if(empty($chairWeight)){ echo "N/A"; } else { echo $chairWeight; } ?></li>
+                                                    <li><?php if(empty($tableWeight)){ echo "N/A"; } else { echo $tableWeight; } ?></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -188,7 +188,7 @@ include('./database/connection.php');
                         <div class="tab-content tab-content-nopad">
                             <div role="tabpanel" class="tab-pane active" id="tab1">
                                 <p><?php echo nl2br($prdFeature,false) ?></p>
-                                <div id="faq1" class="panel-collapse collapse in">
+                                <!-- <div id="faq1" class="panel-collapse collapse in">
                                     <div class="panel-body">
                                         <p>Simply visit the signup flow to book a cleaning and as you provide information about your house and schedule, your quote will dynamically adjust.</p>
                                     </div>
@@ -201,9 +201,9 @@ include('./database/connection.php');
                                     <li>Available in two fresh scents: Citrus Sparkle Zest and Oxygen Splash</li>
                                     <li>Kills 99.9% of Viruses & Bacteria when used as directed,No harsh chemical residue,Does
                                         not contain chlorine bleach</li>
-                                </ul>
+                                </ul> -->
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="tab2">
+                            <!-- <div role="tabpanel" class="tab-pane" id="tab2">
                                 <h5><span class="rating"><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i></span>Joseph C. Lane</h5>
                                 <p>Yesterday's crown preparation went great. I expected the same level of discomfort that I had
                                     experienced with another crown done by different dentist. Technique caused so much less
@@ -212,7 +212,7 @@ include('./database/connection.php');
                                 <h5><span class="rating"><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i></span>Jenny M. Fischer</h5>
                                 <p>Fast and painless service, very happy with this establishment. I Highly Recommend them. I had
                                     my semiannual cleaning and checkup. And as always, it was an excellent experience.</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
