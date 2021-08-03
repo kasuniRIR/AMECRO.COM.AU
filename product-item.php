@@ -256,14 +256,14 @@ include('./database/connection.php');
                                 </a> -->
                                     </div>
                                     <div class="product-block-mainimage">
-                                        <img id="mainImage" src="images/product/prd-big-1.jpg" data-zoom-image="images/product/prd-big-1.jpg" />
+                                    <?php echo '<img src="./admin/upload/environmental/' . $img . '" data-zoom-image="./admin/upload/environmental/' . $img . '" id="mainImage" alt="">' ?>
                                     </div>
                                 </div>
                             </div>
                             <div class="cleafix visible-xs"></div>
                             <div class="col-sm-6">
                                 <div class="product-block-info">
-                                    <h2 class="product-block-title">Super Angle Pro Broom Dustpan</h2>
+                                    <h2 class="product-block-title"><?php echo $e_name ?></h2>
                                     <!-- <div class="rating"><span class="rating rating-4"><i class="icon-star-black"></i><i
                                         class="icon-star-black"></i><i class="icon-star-black"></i><i
                                         class="icon-star-black"></i><i class="icon-star-black"></i></span>
@@ -275,22 +275,14 @@ include('./database/connection.php');
                                         <div class="row no-gutter">
                                             <div class="col-sm-6 hidden-xs">
                                                 <ul class="marker-list-arrow">
-                                                    <li>Scent</li>
-                                                    <li>Brand</li>
-                                                    <li>Recommended Surface</li>
-                                                    <li>Form</li>
-                                                    <li>Manufacturer Part Number</li>
-                                                    <li>Assembled Product Weight</li>
+                                                    <li>Model</li>
+                                                    <li>Size</li>
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
                                                 <ul class="no-marker">
-                                                    <li>Oxygen Splash Scent</li>
-                                                    <li>Lysol</li>
-                                                    <li>Multi Surface</li>
-                                                    <li>Sprays</li>
-                                                    <li>85018</li>
-                                                    <li>1.61 oz</li>
+                                                    <li><?php if(empty($e_model)){ echo "N/A"; } else { echo $e_model;} ?></li>
+                                                    <li><?php if(empty($e_size)){ echo "N/A"; } else { echo $e_size;} ?></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -311,25 +303,19 @@ include('./database/connection.php');
                     </div>
                 </div>
 
-                <div class="block bottom-sm">
-                    <div class="container">
+                <!-- <div class="block bottom-sm">
+                    <div class="container"> -->
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs nav-tabs--sm" role="tablist">
-                            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Description</a></li>
+                        <!-- <ul class="nav nav-tabs nav-tabs--sm" role="tablist">
+                            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Description</a></li> -->
                             <!-- <li><a href="#tab2" role="tab" data-toggle="tab">Reviews (2)</a></li> -->
-                        </ul>
+                        <!-- </ul> -->
                         <!-- Tab panels -->
-                        <div class="tab-content tab-content-nopad">
+                        <!-- <div class="tab-content tab-content-nopad">
                             <div role="tabpanel" class="tab-pane active" id="tab1">
-                                <p>Lysol Power & Free is a new cleaning formula that uses Hydrogen Peroxide to release thousands
-                                    of micro bubbles to penetrate to dissolve tough stains for a powerful clean without the
-                                    harshness of bleach. Lysol Power and Free is a range of family friendly cleaners for a truly
-                                    healthy home. The multi-purpose cleaner can be used throughout the home to clean household
-                                    areas and kill 99.9% of viruses & bacteria.Powerful Cleaner the hydrogen peroxide formula
-                                    releases thousands of micro bubbles that penetrate to dissolve grease and soap scum.Cuts
-                                    through tough grease and soap scum.</p>
-                                <p><b>Specification</b></p>
-                                <ul class="marker-list">
+                                <p></p>
+                                <p><b>Specification</b></p> -->
+                                <!-- <ul class="marker-list">
                                     <li>Kills 99.9% of Viruses & Bacteria when used as directed</li>
                                     <li>No harsh chemical residue</li>
                                     <li>Does not contain chlorine bleach</li>
@@ -337,9 +323,9 @@ include('./database/connection.php');
                                     <li>Available in two fresh scents: Citrus Sparkle Zest and Oxygen Splash</li>
                                     <li>Kills 99.9% of Viruses & Bacteria when used as directed,No harsh chemical residue,Does
                                         not contain chlorine bleach</li>
-                                </ul>
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="tab2">
+                                </ul> -->
+                            <!-- </div> -->
+                            <!-- <div role="tabpanel" class="tab-pane" id="tab2">
                                 <h5><span class="rating"><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i></span>Joseph C. Lane</h5>
                                 <p>Yesterday's crown preparation went great. I expected the same level of discomfort that I had
                                     experienced with another crown done by different dentist. Technique caused so much less
@@ -348,14 +334,14 @@ include('./database/connection.php');
                                 <h5><span class="rating"><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i><i class="icon-star-black"></i></span>Jenny M. Fischer</h5>
                                 <p>Fast and painless service, very happy with this establishment. I Highly Recommend them. I had
                                     my semiannual cleaning and checkup. And as always, it was an excellent experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            </div> -->
+                        <!-- </div> -->
+                    <!-- </div>
+                </div> -->
 
             <?php
             } else {
-                $qry  = "select * from kindegarten where k_id = $id";
+                $qry  = "select * from kindergarten where k_id = $id";
                 $data = mysqli_query($db, $qry) or die('error');
                 if (mysqli_num_rows($data) > 0) {
                     while ($row = mysqli_fetch_assoc($data)) {
@@ -392,14 +378,14 @@ include('./database/connection.php');
                                 </a> -->
                                     </div>
                                     <div class="product-block-mainimage">
-                                        <img id="mainImage" src="images/product/prd-big-1.jpg" data-zoom-image="images/product/prd-big-1.jpg" />
+                                    <?php echo '<img src="./admin/upload/kindergarten/' . $img . '" data-zoom-image="./admin/upload/kindergarten/' . $img . '" id="mainImage" alt="">' ?>
                                     </div>
                                 </div>
                             </div>
                             <div class="cleafix visible-xs"></div>
                             <div class="col-sm-6">
                                 <div class="product-block-info">
-                                    <h2 class="product-block-title">Super Angle Pro Broom Dustpan</h2>
+                                    <h2 class="product-block-title"><?php echo $k_name ?></h2>
                                     <!-- <div class="rating"><span class="rating rating-4"><i class="icon-star-black"></i><i
                                         class="icon-star-black"></i><i class="icon-star-black"></i><i
                                         class="icon-star-black"></i><i class="icon-star-black"></i></span>
@@ -411,28 +397,21 @@ include('./database/connection.php');
                                         <div class="row no-gutter">
                                             <div class="col-sm-6 hidden-xs">
                                                 <ul class="marker-list-arrow">
-                                                    <li>Scent</li>
-                                                    <li>Brand</li>
-                                                    <li>Recommended Surface</li>
-                                                    <li>Form</li>
-                                                    <li>Manufacturer Part Number</li>
-                                                    <li>Assembled Product Weight</li>
+                                                    <li>Model</li>
+                                                    <li>Size</li>
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
                                                 <ul class="no-marker">
-                                                    <li>Oxygen Splash Scent</li>
-                                                    <li>Lysol</li>
-                                                    <li>Multi Surface</li>
-                                                    <li>Sprays</li>
-                                                    <li>85018</li>
-                                                    <li>1.61 oz</li>
+                                                    <li><?php if(empty($k_model)){ echo "N/A"; } else { echo $k_model;} ?></li>
+                                                    <li><?php if(empty($k_size)){ echo "N/A"; } else { echo $k_size;} ?></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
+                                    </div>
                                         <!-- <div class="qty-count">
                                     <span class="count-reduce">–</span>
                                     <input type="text" class="count-input" value="1">
@@ -440,22 +419,22 @@ include('./database/connection.php');
                                 </div>
                                 <a href="#" class="btn btn-invert btn-lg product-block-add-to-cart "><i
                                         class="icon-market"></i>Add To Cart</a> -->
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="block bottom-sm">
-                    <div class="container">
+                <!-- <div class="block bottom-sm">
+                    <div class="container"> -->
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs nav-tabs--sm" role="tablist">
-                            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Description</a></li>
+                        <!-- <ul class="nav nav-tabs nav-tabs--sm" role="tablist">
+                            <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Description</a></li> -->
                             <!-- <li><a href="#tab2" role="tab" data-toggle="tab">Reviews (2)</a></li> -->
-                        </ul>
+                        <!-- </ul> -->
                         <!-- Tab panels -->
-                        <div class="tab-content tab-content-nopad">
+                        <!-- <div class="tab-content tab-content-nopad">
                             <div role="tabpanel" class="tab-pane active" id="tab1">
                                 <p>Lysol Power & Free is a new cleaning formula that uses Hydrogen Peroxide to release thousands
                                     of micro bubbles to penetrate to dissolve tough stains for a powerful clean without the
@@ -485,9 +464,9 @@ include('./database/connection.php');
                                 <p>Fast and painless service, very happy with this establishment. I Highly Recommend them. I had
                                     my semiannual cleaning and checkup. And as always, it was an excellent experience.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> -->
+                    <!-- </div>
+                </div> -->
 
         <?php
             }

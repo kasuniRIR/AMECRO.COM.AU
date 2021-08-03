@@ -6,7 +6,11 @@
                 <!-- <div class="footer-ribbon"><img src="images/footer-ribbon.png" alt=""></div> -->
                 <div class="page-footer-text">
                     <h4>Group Companies</h4>
-                    <br><br><br><br>
+                <div class="brand-carousel">
+                    <img src="images/content/brand-img-7.png" class="img-responsive" alt="">
+                    <img src="images/content/brand-img-7.png" class="img-responsive" alt="">
+                </div>
+                    <br>
                 </div>
                 <h4>Email</h4>
                 <form action="#" class="form-newsletter">
