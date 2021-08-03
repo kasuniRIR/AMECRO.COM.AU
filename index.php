@@ -409,6 +409,11 @@
                             <!-- <a href="blog-post-page.html" class="btn btn-border">Read more</a> -->
                         </div>
                     </div>
+
+
+                    
+
+
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
@@ -501,7 +506,7 @@
             <div class="container">
                 <div class="row row-revert-xs">
                     <div class="col-sm-6">
-                        <div class="img-left-wrap1"><img src="images/content/index-img-2.jpg" class="img-responsive"
+                        <div class="img-left-wrap1"><img src="images/EnvironmentalSolution.png" class="img-responsive"
                                 alt=""></div>
                     </div>
                     <div class="col-sm-6">
@@ -554,19 +559,19 @@
                             <div class="service-house">
                                 <a href="service-page-9.html" class="service-house-item">
                                     <img src="images/content/index-service-house-1.jpg" alt="">
-                                    <span class="service-house-item-title">Residential Cleaning</span>
+                                    <!-- <span class="service-house-item-title">Residential Cleaning</span> -->
                                 </a>
                                 <a href="service-page-7.html" class="service-house-item">
                                     <img src="images/content/index-service-house-2.jpg" alt="">
-                                    <span class="service-house-item-title">Window Cleaning</span>
+                                    <!-- <span class="service-house-item-title">Window Cleaning</span> -->
                                 </a>
                                 <a href="service-page-3.html" class="service-house-item">
                                     <img src="images/content/index-service-house-3.jpg" alt="">
-                                    <span class="service-house-item-title">Move In / Move Out Cleaning</span>
+                                    <!-- <span class="service-house-item-title">Move In / Move Out Cleaning</span> -->
                                 </a>
                                 <a href="service-page-1.html" class="service-house-item">
                                     <img src="images/content/index-service-house-4.jpg" alt="">
-                                    <span class="service-house-item-title">Apartment Cleaning</span>
+                                    <!-- <span class="service-house-item-title">Apartment Cleaning</span> -->
                                 </a>
                             </div>
                         </div>
