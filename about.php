@@ -50,10 +50,9 @@
         <!--About Text block-->
         <div class="block fullwidth no-pad">
             <div class="container">
-                <h1 class="text-center h-decor">About Our Company</h1>
+                <h1 class="text-center h-decor">About Us</h1>
                 <div class="text-center max-700">
-                    <p class="p-lg">Cleaning can be a chore and we know you have many choices when you consider hiring a
-                        comprehensive, high quality, reliable cleaning service.</p>
+                    <p class="p-lg">Your local partner in Global Sourcing</p>
                 </div>
             </div>
             <div class="container-fluid">
@@ -85,7 +84,7 @@
         </div>
         <!--/About Text block-->
         <!--About Text block with icons -->
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -114,10 +113,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--/About Text block with icons -->
         <!-- Our team block -->
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <h2 class="text-center h-lg h-decor">Our Team</h2>
                 <div class="text-center max-700">
@@ -172,8 +171,42 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- /Our team block -->
+
+        <div class="block">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="h-decor">Policy Statement</h1>
+                    <!-- <h4>Providing house and offices cleaning services for more than 10 years</h4> -->
+                </div>
+                <div class="divider"></div>
+                <div class="text-center max-900">
+                    <p class="p-lg">We a local sourcing partner with a global network providing bespoke solutions that meets your organisational and financial requirements.</p>
+                </div>
+                <!-- <p class="info"><i class="icon-write"></i>Franchising began in 1996 and has grown to include more than
+                    215 locations across North America.</p> -->
+                <!-- <div class="row">
+                    <div class="col-sm-4">
+                        <p class="p-lg">The Cleaning Company is widely recognized for our commitment to serving our
+                            customers while staying friendly to the environment. We have a history of excellence and
+                            dedication to our clients, providing professional and quality house cleaning services across
+                            America.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="p-lg">This quality commitment and reputation for excellent service attracted outside
+                            investors. In 2014, the company announced a majority acquisition by PNC Riverarch Capital.
+                            This exciting change didn't mean a complete overhaul:</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="p-lg">The management team did not change and Steve continued on in his leadership
+                            position with the Board of Directors. We are excited to announce a new era of growth for
+                            both new and existing units under the guidance of PNC.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
         <!--About Text block-->
         <div class="block">
             <div class="container">
@@ -215,22 +248,19 @@
         </div>
         <!--/About Text block-->
         <!--About Text block-->
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <div class="text-center">
-                    <h1 class="h-decor">History of Cleaning Company</h1>
-                    <h4>Providing house and offices cleaning services for more than 10 years</h4>
-                </div>
+                    <h1 class="h-decor">Policy Statement</h1> -->
+                    <!-- <h4>Providing house and offices cleaning services for more than 10 years</h4> -->
+                <!-- </div>
                 <div class="divider"></div>
                 <div class="text-center max-900">
-                    <p class="p-lg">The Cleaning Company is widely recognized for our commitment to serving our
-                        customers while staying friendly to the environment. We have a history of excellence and
-                        dedication to our clients, providing professional and high-quality house cleaning services
-                        across America.</p>
-                </div>
-                <p class="info"><i class="icon-write"></i>Franchising began in 1996 and has grown to include more than
-                    215 locations across North America.</p>
-                <div class="row">
+                    <p class="p-lg">We a local sourcing partner with a global network providing bespoke solutions that meets your organisational and financial requirements.</p>
+                </div> -->
+                <!-- <p class="info"><i class="icon-write"></i>Franchising began in 1996 and has grown to include more than
+                    215 locations across North America.</p> -->
+                <!-- <div class="row">
                     <div class="col-sm-4">
                         <p class="p-lg">The Cleaning Company is widely recognized for our commitment to serving our
                             customers while staying friendly to the environment. We have a history of excellence and
@@ -247,12 +277,12 @@
                             position with the Board of Directors. We are excited to announce a new era of growth for
                             both new and existing units under the guidance of PNC.</p>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div> -->
+            <!-- </div>
+        </div> -->
         <!--/About Text block-->
         <!-- About Text block -->
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <div class="row row-flex flex-column-sm align-center">
                     <div class="col-sm-6">
@@ -270,7 +300,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--/About Text block -->
         <!--About Text block with icons -->
         <div class="block">

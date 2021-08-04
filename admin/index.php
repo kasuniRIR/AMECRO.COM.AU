@@ -37,7 +37,7 @@ if (@$_GET['Invalid'] == true) {
             <div class="user_card">
                 <div class="d-flex justify-content-center">
                     <div class="brand_logo_container">
-                        <img src="../images/logo-new_withcap.png" class="brand_logo" alt="AMECRO">
+                        <img src="../images/admin_logo.png" class="brand_logo" alt="AMECRO">
                     </div>
                 </div>
 
