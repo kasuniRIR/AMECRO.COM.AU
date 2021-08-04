@@ -560,23 +560,23 @@
                             <div class="service-house">
                                 <a href="service-page-9.html" class="service-house-item">
                                     <img src="images/content/index-service-house-1.jpg" alt="">
-                                    <!-- <span class="service-house-item-title">Residential Cleaning</span> -->
-                                <!-- </a>
+                                    <span class="service-house-item-title">Residential Cleaning</span> 
+                                </a>
                                 <a href="service-page-7.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-2.jpg" alt=""> -->
-                                    <!-- <span class="service-house-item-title">Window Cleaning</span> -->
-                                <!-- </a>
+                                    <img src="images/content/index-service-house-2.jpg" alt="">
+                                    <span class="service-house-item-title">Window Cleaning</span>
+                                </a>
                                 <a href="service-page-3.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-3.jpg" alt=""> -->
-                                    <!-- <span class="service-house-item-title">Move In / Move Out Cleaning</span> -->
-                                <!-- </a>
+                                    <img src="images/content/index-service-house-3.jpg" alt="">
+                                    <span class="service-house-item-title">Move In / Move Out Cleaning</span>
+                                </a>
                                 <a href="service-page-1.html" class="service-house-item">
-                                    <img src="images/content/index-service-house-4.jpg" alt=""> -->
-                                    <!-- <span class="service-house-item-title">Apartment Cleaning</span> -->
+                                    <img src="images/content/index-service-house-4.jpg" alt="">
+                                    <span class="service-house-item-title">Apartment Cleaning</span>
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
