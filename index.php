@@ -13,7 +13,7 @@
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favamecro.ico">
-    <title>ProClena - HTML Website Template - Home Page</title>
+    <title>AMECRO - Home Page</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="css/vendor/animate.min.css" rel="stylesheet">
@@ -64,7 +64,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                        <a href="contact.php" class="btn" data-animation="fadeInUp"
                                             data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                        <a href="contact.php" class="btn" data-animation="fadeInUp"
                                             data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                        <a href="contact.php" class="btn" data-animation="fadeInUp"
                                             data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
@@ -130,13 +130,13 @@
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="product-item.php?view=<?php echo $id?>&type=<?php echo $type?>">
+                                <a href="product.php?page=medical">
                                     <?php echo '<img src="./admin/upload/medical/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
                             <h3 class="news-prw-title"><?php echo $pName ?></h3>
-                            <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
+                            <a href="product.php?page=medical" class="btn btn-border">View</a>
                         </div>
                     </div>
 
@@ -162,13 +162,13 @@
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>">
+                                <a href="product.php?page=environmental">
                                     <?php echo '<img src="./admin/upload/environmental/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
                             <h3 class="news-prw-title"><?php echo $eName ?></h3>
-                            <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
+                            <a href="product.php?page=environmental" class="btn btn-border">View</a>
                         </div>
                     </div>
 
@@ -194,13 +194,13 @@
                     <div class="col-sm-4">
                         <div class="news-prw">
                             <div class="news-prw-image">
-                                <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>">
+                                <a href="product.php?page=kindergarten">
                                     <?php echo '<img src="./admin/upload/kindergarten/' .$img. '" alt="">' ?>
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
                             <h3 class="news-prw-title"><?php echo $kName ?></h3>
-                            <a href="product-item.php?view=<?php echo $id ?>" class="btn btn-border">View</a>
+                            <a href="product.php?page=kindergarten" class="btn btn-border">View</a>
                         </div>
                     </div>
 
@@ -403,7 +403,7 @@
                         <div class="news-prw">
                             <div class="news-prw-image">
                                  <a href="product.php?page=environment">
-                                    <img src="images/content/Env.png" alt="">
+                                    <img src="images/content/env.png" alt="">
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
@@ -419,7 +419,7 @@
                         <div class="news-prw">
                             <div class="news-prw-image">
                                  <a href="product.php?page=medical">
-                                    <img src="images/content/Medical.png" alt="">
+                                    <img src="images/content/medical.png" alt="">
                                     <span><i class="icon-link"></i></span>
                                 </a>
                             </div>
@@ -511,7 +511,7 @@
                                 alt=""></div>
                     </div>
                     <div class="col-sm-6">
-                        <h2>Environmental Solution</h2>
+                        <h2>Environmental Solutions</h2>
                         <p>We offer a wide range of environmental solutions from top manufacturers meeting ISO 9001 /
                             14000, OSHAS 18001, CE, EN840 standards. We could accommodate customized designs for large
                             orders under your own label.</p>
@@ -539,8 +539,8 @@
         <div class="block fullwidth-bg bg-cover inset-lg-3 pb-xs-0 block-1" data-bg="images/Medical_Solutions.png">
             <div class="container">
                 <div class="row service-house-row">
-                    <div class="col-lg-5 inset-pad">
-                        <h2><span>Medical Furniture<br class="clearfix visible-xs"></span></h2>
+                    <div class="col-lg-7 inset-pad">
+                        <h2><span>Medical Furniture Solutions<br class="clearfix visible-xs"></span></h2>
                         <!-- <h5>Ready for a cleaner facility</h5> -->
                         <div class="divider-sm"></div>
                         <!-- <p>When it comes to gauging a complete and effective cleaning and sanitation solution, from a
@@ -590,7 +590,7 @@
                                 alt=""></div>
                     </div>
                     <div class="col-sm-6">
-                        <h2>Kindergarten Furniture</h2>
+                        <h2>Kindergarten Furniture Solutions</h2>
                         <!-- <p class="p-lg">We feel good about cleaning with our self-formulated, natural products that are
                             better for the environment</p> -->
                         <!-- <div class="marker-box">

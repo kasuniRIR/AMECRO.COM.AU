@@ -12,7 +12,7 @@ include('./database/connection.php');
     <meta name="author" content="">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favamecro.ico">
-    <title>ProClena - HTML Website Template - Our Shop</title>
+    <title>AMECRO - Product Page</title>
     <!-- Vendors -->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="css/vendor/animate.min.css" rel="stylesheet">
