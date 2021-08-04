@@ -7,10 +7,10 @@
                 <div class="page-footer-text">
                     <h4>Group Companies</h4>
                 <div class="brand-carousel">
-                    <img src="images/content/brand-img-7.png" class="img-responsive" alt="">
-                    <img src="images/content/brand-img-7.png" class="img-responsive" alt="">
+                    <img src="images/content/group_logo.png" class="img-responsive" alt="">
+                    <!-- <img src="images/logo.png" class="img-responsive" alt="" style = "height:50px;"> -->
                 </div>
-                    <br>
+               
                 </div>
                 <h4>Email</h4>
                 <form action="#" class="form-newsletter">

@@ -64,7 +64,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                        <a href="contact.php" class="btn" data-animation="fadeInUp"
                                             data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                        <a href="contact.php" class="btn" data-animation="fadeInUp"
                                             data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                         <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
-                                        <a href="order-form.html" class="btn" data-animation="fadeInUp"
+                                        <a href="contact.php" class="btn" data-animation="fadeInUp"
                                             data-animation-delay="2s">Get a Quote</a>
                                     </div>
                                 </div>
