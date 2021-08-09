@@ -85,8 +85,8 @@
                                 <li><a href="service-page-9.html">Residential Cleaning</a></li>
                             </ul> -->
                         </li>
-                        <li class="<?php if($page == '#'){ echo 'active';} ?>"><a href="#">Solution</a></li>
-                        <li class="<?php if($page == '#'){ echo 'active';} ?>"><a href="#">News</a>
+                        <!-- <li class="<?php if($page == '#'){ echo 'active';} ?>"><a href="#">Solution</a></li>
+                        <li class="<?php if($page == '#'){ echo 'active';} ?>"><a href="#">News</a> -->
                             <!-- <ul class="sub-menu">
                                 <li><a href="blog-posts.html">Blog Posts</a></li>
                                 <li><a href="blog-posts-masonry.html">Blog Posts Masonry</a></li>

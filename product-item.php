@@ -203,6 +203,7 @@ include('./database/connection.php');
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
                                        
                                     </div>
+                                    <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                 </div>
                             </div>
                         </div>
