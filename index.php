@@ -153,8 +153,8 @@
                             while ($row = mysqli_fetch_assoc($data)) {
                                 $id     = $row['e_id'];
                                 $eName  = $row['e_name'];
-                                $eModel  = $row['e_model'];
-                                $eSize  = $row['e_size'];
+                                $eCapacity  = $row['e_capacity'];
+                                $eCustomization  = $row['e_customization'];
                                 $img    = $row['img'];
                                 $type = $row['type'];
                     ?>
@@ -185,8 +185,8 @@
                             while ($row = mysqli_fetch_assoc($data)) {
                                 $id     = $row['k_id'];
                                 $kName  = $row['k_name'];
-                                $kModel  = $row['k_model'];
-                                $kSize  = $row['k_size'];
+                                $kCode  = $row['k_code'];
+                                $kWeight  = $row['k_weight'];
                                 $img    = $row['img'];
                                 $type = $row['type'];
                     ?>
