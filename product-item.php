@@ -171,6 +171,7 @@ include('./database/connection.php');
                                 <a href="#" class="btn btn-invert btn-lg product-block-add-to-cart "><i
                                         class="icon-market"></i>Add To Cart</a> -->
                                     </div>
+                                    <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                 </div>
                             </div>
                         </div>

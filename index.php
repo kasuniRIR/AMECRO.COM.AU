@@ -497,7 +497,7 @@
                                 <div class="counter-item-text">Trusted Brands</div>
                             </div>
                         </div>
-                    </div>S
+                    </div>
                 </center>
             </div>
         </div>
