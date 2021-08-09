@@ -174,7 +174,10 @@ if (!isset($_SESSION['email'])) {
                                     <th>#</th>
                                     <th>Product Image</th>
                                     <th>Product Name</th>
-                                    <th>Product Model</th>
+                                    <th>Product No</th>
+                                    <th>Product Code</th>
+                                    <th>Product Weight</th>
+                                    <th>Product Capacity</th>
                                     <th>Product Size</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
@@ -195,7 +198,10 @@ if (!isset($_SESSION['email'])) {
                                         <td><?php echo '<img src="upload/kindergarten/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
                                         </td>
                                         <td><?php echo $row['k_name']; ?></td>
-                                        <td><?php echo $row['k_model']; ?></td>
+                                        <td><?php echo $row['k_no']; ?></td>
+                                        <td><?php echo $row['k_code']; ?></td>
+                                        <td><?php echo $row['k_weight']; ?></td>
+                                        <td><?php echo $row['k_capacity']; ?></td>
                                         <td><?php echo $row['k_size']; ?></td>
                                         <td>
                                             <a href="editkindergartenDashboard.php?k_edit=<?php echo $row['k_id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>

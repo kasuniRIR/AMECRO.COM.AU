@@ -17,8 +17,9 @@ if (isset($_GET['e_edit'])) {
         while ($n = $record->fetch_assoc()) {
             $id   = $n['e_id'];
             $e_name = $n['e_name'];
-            $e_model = $n['e_model'];
-            $e_size = $n['e_size'];
+            $e_capacity = $n['e_capacity'];
+            $e_color = $n['e_color'];
+            $e_customization = $n['e_customization'];
         }
     }
 }
@@ -201,11 +202,15 @@ if (isset($_GET['e_edit'])) {
                                     </div><br>
                                     <div class="col-13">
                                         <label>Product Model</label>
-                                        <input type="text" name="e_model" class="form-control" value="<?php echo $e_model ?>" required>
+                                        <input type="text" name="e_capacity" class="form-control" value="<?php echo $e_capacity ?>">
                                     </div><br>
                                     <div class="col-13">
-                                        <label>Product Size</label>
-                                        <input type="text" name="e_size" class="form-control" value="<?php echo $e_size ?>" required>
+                                        <label>Colors</label>
+                                        <input type="text" name="e_color" class="form-control" value="<?php echo $e_color ?>">
+                                    </div><br>
+                                    <div class="col-13">
+                                        <label>Customization</label>
+                                        <input type="text" name="e_customization" class="form-control" value="<?php echo $e_customization ?>">
                                     </div><br>
                                 </div>
                             </div>

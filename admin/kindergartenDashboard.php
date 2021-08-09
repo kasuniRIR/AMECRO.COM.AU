@@ -184,12 +184,24 @@ if (!isset($_SESSION['email'])) {
                                     <input type="text" name="k_name" class="form-control" value="" required>
                                 </div><br>
                                 <div class="col-13">
-                                    <label>Product Model</label>
-                                    <input type="text" name="k_model" class="form-control" value="" required>
+                                    <label>Product Item No</label>
+                                    <input type="text" name="k_no" class="form-control" value="">
+                                </div><br>
+                                <div class="col-13">
+                                    <label>Product Code</label>
+                                    <input type="text" name="k_code" class="form-control" value="">
+                                </div><br>
+                                <div class="col-13">
+                                    <label>Net Weight (Kgs)</label>
+                                    <input type="text" name="k_weight" class="form-control" value="">
                                 </div><br>
                                 <div class="col-13">
                                     <label>Product Size</label>
-                                    <input type="text" name="k_size" class="form-control" value="" required>
+                                    <input type="text" name="k_size" class="form-control" value="">
+                                </div><br>
+                                <div class="col-13">
+                                    <label>Weight Capacity(Kgs)</label>
+                                    <input type="text" name="k_capacity" class="form-control" value="">
                                 </div><br>
                                 <div class="col-15">
                                     <label for="img">Product Image (please upload 270 x 355 size)</label>

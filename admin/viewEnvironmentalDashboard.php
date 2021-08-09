@@ -174,8 +174,9 @@ if (!isset($_SESSION['email'])) {
                                     <th>#</th>
                                     <th>Product Image</th>
                                     <th>Product Name</th>
-                                    <th>Product Model</th>
-                                    <th>Product Size</th>
+                                    <th>Capacity</th>
+                                    <th>Color</th>
+                                    <th>Customization</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
                                 </tr>
@@ -195,8 +196,9 @@ if (!isset($_SESSION['email'])) {
                                         <td><?php echo '<img src="upload/environmental/' . $row['img'] . '" width = "70px;" height = "60px;" alt = "Image">' ?>
                                         </td>
                                         <td><?php echo $row['e_name']; ?></td>
-                                        <td><?php echo $row['e_model']; ?></td>
-                                        <td><?php echo $row['e_size']; ?></td>
+                                        <td><?php echo $row['e_capacity']; ?></td>
+                                        <td><?php echo $row['e_color']; ?></td>
+                                        <td><?php echo $row['e_customization']; ?></td>
                                         <td>
                                             <a href="editEnvironmentalDashboard.php?e_edit=<?php echo $row['e_id']; ?>" class="edit_btn"><i class="fas fa-edit" style="color:grey"></i></a>
                                         </td>
