@@ -127,8 +127,9 @@ include('./database/connection.php');
                                         while ($row = mysqli_fetch_assoc($data)) {
                                             $id     = $row['e_id'];
                                             $eName  = $row['e_name'];
-                                            $eModel  = $row['e_model'];
-                                            $eSize  = $row['e_size'];
+                                            $eCapacity = $row['e_capacity'];
+                                            $eColor  = $row['e_color'];
+                                            $eCustomization = $row['e_customization'];
                                             $img    = $row['img'];
                                             $type = $row['type'];
                                     ?>
@@ -138,8 +139,7 @@ include('./database/connection.php');
                                                 </div>
                                                 <div class="prd-info">
                                                     <h3><a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>"><?php echo $eName ?></a></h3>
-                                                    <!-- <h3><?php echo $eModel ?></h3>
-                                                        <h3><?php echo $eSize ?></h3> -->
+                                           
                                                     <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                                 </div>
                                             </div>
@@ -212,8 +212,8 @@ include('./database/connection.php');
                                         while ($row = mysqli_fetch_assoc($data)) {
                                             $id     = $row['k_id'];
                                             $kName  = $row['k_name'];
-                                            $kModel  = $row['k_model'];
-                                            $kSize  = $row['k_size'];
+                                            $kNo  = $row['k_no'];
+                                            $kCode  = $row['k_code'];
                                             $img    = $row['img'];
                                             $type = $row['type'];
                                     ?>

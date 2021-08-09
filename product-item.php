@@ -126,72 +126,72 @@ include('./database/connection.php');
                                             <div class="col-sm-6">
                                                 <ul class="no-marker">
                                                     <li><?php if (empty($tableTop)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $tableTop;
                                                         } ?></li>
                                                     <li><?php if (empty($elevationTable)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $elevationTable;
                                                         } ?></li>
                                                     <li><?php if (empty($elevationChair)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $elevationChair;
                                                         } ?></li>
                                                     <li><?php if (empty($maxLoad)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $maxLoad;
                                                         } ?></li>
                                                     <li><?php if (empty($elevationPhoropterarm)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $elevationPhoropterarm;
                                                         } ?></li>
                                                     <li><?php if (empty($phoropterRotation)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $phoropterRotation;
                                                         } ?></li>
                                                     <li><?php if (empty($tableRotation)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $tableRotation;
                                                         } ?></li>
                                                     <li><?php if (empty($chargingPort)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $chargingPort;
                                                         } ?></li>
                                                     <li><?php if (empty($topLamp)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $topLamp;
                                                         } ?></li>
                                                     <li><?php if (empty($fuse)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $fuse;
                                                         } ?></li>
                                                     <li><?php if (empty($voltage)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $voltage;
                                                         } ?></li>
                                                     <li><?php if (empty($inputPower)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $inputPower;
                                                         } ?></li>
                                                     <li><?php if (empty($chairWeight)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $chairWeight;
                                                         } ?></li>
                                                     <li><?php if (empty($tableWeight)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $tableWeight;
                                                         } ?></li>
@@ -201,9 +201,8 @@ include('./database/connection.php');
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                       
-                                    </div>
-                                    <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -268,9 +267,10 @@ include('./database/connection.php');
                     while ($row = mysqli_fetch_assoc($data)) {
                         $id = $row['e_id'];
                         $e_name = $row['e_name'];
-                        $e_model = $row['e_model'];
+                        $e_capacity = $row['e_capacity'];
+                        $e_color = $row['e_color'];
+                        $e_customization = $row['e_customization'];
                         $img = $row['img'];
-                        $e_size = $row['e_size'];
                         $type = $row['type'];
                     }
                 }
@@ -300,21 +300,27 @@ include('./database/connection.php');
                                         <div class="row no-gutter">
                                             <div class="col-sm-6 hidden-xs">
                                                 <ul class="marker-list-arrow">
-                                                    <li>Model</li>
-                                                    <li>Size</li>
+                                                    <li>Capacity</li>
+                                                    <li>Color</li>
+                                                    <li>Customization</li>
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
                                                 <ul class="no-marker">
-                                                    <li><?php if (empty($e_model)) {
-                                                            echo "N/A";
+                                                    <li><?php if (empty($e_capacity)) {
+                                                            echo "-";
                                                         } else {
-                                                            echo $e_model;
+                                                            echo $e_capacity;
                                                         } ?></li>
-                                                    <li><?php if (empty($e_size)) {
-                                                            echo "N/A";
+                                                    <li><?php if (empty($e_color)) {
+                                                            echo "-";
                                                         } else {
-                                                            echo $e_size;
+                                                            echo $e_color;
+                                                        } ?></li>
+                                                    <li><?php if (empty($e_customization)) {
+                                                            echo "-";
+                                                        } else {
+                                                            echo $e_customization;
                                                         } ?></li>
                                                 </ul>
                                             </div>
@@ -322,8 +328,9 @@ include('./database/connection.php');
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                      
+                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>                
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -342,8 +349,9 @@ include('./database/connection.php');
                             while ($row = mysqli_fetch_assoc($data)) {
                                 $id     = $row['e_id'];
                                 $e_name  = $row['e_name'];
-                                $e_model  = $row['e_model'];
-                                $e_size  = $row['e_size'];
+                                $e_capacity  = $row['e_capacity'];
+                                $e_color = $row['e_color'];
+                                $e_customization = $row['e_customization'];
                                 $img    = $row['img'];
                                 $type = $row['type'];
                         ?>
@@ -356,6 +364,7 @@ include('./database/connection.php');
                                     <h3><?php echo $e_name?></h3>
                                     <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                 </div>
+                                <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
                             </div>
 
                             <?php
@@ -374,9 +383,12 @@ include('./database/connection.php');
                     while ($row = mysqli_fetch_assoc($data)) {
                         $id = $row['k_id'];
                         $k_name = $row['k_name'];
-                        $k_model = $row['k_model'];
-                        $img = $row['img'];
+                        $k_no = $row['k_no'];
+                        $k_code = $row['k_code'];
+                        $k_weight = $row['k_weight'];
+                        $k_capacity = $row['k_capacity'];
                         $k_size = $row['k_size'];
+                        $img = $row['img'];
                         $type = $row['type'];
                     }
                 }
@@ -404,21 +416,39 @@ include('./database/connection.php');
                                         <div class="row no-gutter">
                                             <div class="col-sm-6 hidden-xs">
                                                 <ul class="marker-list-arrow">
-                                                    <li>Model</li>
+                                                    <li>Item No</li>
+                                                    <li>Item Code</li>
+                                                    <li>Net Weight</li>
                                                     <li>Size</li>
+                                                    <li>Weight Capacity</li>
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
                                                 <ul class="no-marker">
-                                                    <li><?php if (empty($k_model)) {
-                                                            echo "N/A";
+                                                    <li><?php if (empty($k_no)) {
+                                                            echo "-";
                                                         } else {
-                                                            echo $k_model;
+                                                            echo $k_no;
+                                                        } ?></li>
+                                                    <li><?php if (empty($k_code)) {
+                                                            echo "-";
+                                                        } else {
+                                                            echo $k_code;
+                                                        } ?></li>
+                                                    <li><?php if (empty($k_weight)) {
+                                                            echo "-";
+                                                        } else {
+                                                            echo $k_weight;
                                                         } ?></li>
                                                     <li><?php if (empty($k_size)) {
-                                                            echo "N/A";
+                                                            echo "-";
                                                         } else {
                                                             echo $k_size;
+                                                        } ?></li>
+                                                    <li><?php if (empty($k_capacity)) {
+                                                            echo "-";
+                                                        } else {
+                                                            echo $k_capacity;
                                                         } ?></li>
                                                 </ul>
                                             </div>
@@ -426,7 +456,9 @@ include('./database/connection.php');
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
+                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -446,8 +478,11 @@ include('./database/connection.php');
                             while ($row = mysqli_fetch_assoc($data)) {
                                 $id     = $row['k_id'];
                                 $k_name  = $row['k_name'];
-                                $k_model  = $row['k_model'];
-                                $k_size  = $row['k_size'];
+                                $k_no  = $row['k_no'];
+                                $k_code  = $row['k_code'];
+                                $k_weight  = $row['k_weight'];
+                                $k_capacity  = $row['k_capacity'];
+                                $k_size = $row['k_size'];
                                 $img    = $row['img'];
                                 $type = $row['type'];
                         ?>
