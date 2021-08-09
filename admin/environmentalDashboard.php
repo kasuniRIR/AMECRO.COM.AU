@@ -184,12 +184,16 @@ if (!isset($_SESSION['email'])) {
                                     <input type="text" name="e_name" class="form-control" value="" required>
                                 </div><br>
                                 <div class="col-13">
-                                    <label>Product Model</label>
-                                    <input type="text" name="e_model" class="form-control" value="" required>
+                                    <label>Capacity</label>
+                                    <input type="text" name="e_capacity" class="form-control" value="">
                                 </div><br>
                                 <div class="col-13">
-                                    <label>Product Size</label>
-                                    <input type="text" name="e_size" class="form-control" value="" required>
+                                    <label>Color</label>
+                                    <input type="text" name="e_color" class="form-control" value="">
+                                </div><br>
+                                <div class="col-13">
+                                    <label>Customization</label>
+                                    <input type="text" name="e_customization" class="form-control" value="">
                                 </div><br>
                                 <div class="col-15">
                                     <label for="img">Product Image (please upload 270 x 355 size)</label>

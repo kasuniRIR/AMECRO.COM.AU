@@ -86,15 +86,17 @@ if (isset($_GET['m_del'])) {
 
 // initialize variables - Env Solutions
 $e_name  = "";
-$e_model = "";
-$e_size  = "";
+$e_capacity = "";
+$e_color  = "";
+$e_customization  = "";
 $img   = [];
 $type = "";
 
 if (isset($_POST['environmental'])) {
     $e_name = $_POST['e_name'];
-    $e_model = $_POST['e_model'];
-    $e_size = $_POST['e_size'];
+    $e_capacity = $_POST['e_capacity'];
+    $e_color = $_POST['e_color'];
+    $e_customization = $_POST['e_customization'];
     $img = $_FILES['img']['name'];
     $type = "env";
 
@@ -105,7 +107,7 @@ if (isset($_POST['environmental'])) {
         $temp = explode(".", $_FILES["img"]["name"]);
         $newfilename = round(microtime(true)) . '.' . end($temp);
         move_uploaded_file($_FILES["img"]["tmp_name"], "upload/environmental/" . $newfilename);
-        $qry = "INSERT INTO environmental (e_name, e_model, e_size, img, type) VALUES ('$e_name', '$e_model', '$e_size', '$newfilename', '$type')";
+        $qry = "INSERT INTO environmental (e_name, e_capacity, e_color, e_customization, img, type) VALUES ('$e_name', '$e_capacity', '$e_color', '$e_customization', '$newfilename', '$type')";
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully";
     }
@@ -114,10 +116,11 @@ if (isset($_POST['environmental'])) {
 if (isset($_POST['e_update'])) {
     $id = $_POST['e_id'];
     $e_name = $_POST['e_name'];
-    $e_model = $_POST['e_model'];
-    $e_size = $_POST['e_size'];
+    $e_capacity = $_POST['e_capacity'];
+    $e_color = $_POST['e_color'];
+    $e_customization = $_POST['e_customization'];
 
-    mysqli_query($db, "UPDATE environmental SET e_name = '$e_name', e_model = '$e_model', e_size = '$e_size'  WHERE e_id=$id");
+    mysqli_query($db, "UPDATE environmental SET e_name = '$e_name', e_capacity = '$e_capacity', e_color = '$e_color', e_customization = '$e_customization'  WHERE e_id=$id");
     $_SESSION['message'] = "Updated successfully!";
     header('location: viewEnvironmentalDashboard.php');
 }
@@ -131,15 +134,21 @@ if (isset($_GET['e_del'])) {
 
 // initialize variables - Kindergarten Solutions
 $k_name  = "";
-$k_model = "";
-$k_size  = "";
+$k_no = "";
+$k_code  = "";
+$k_weight = "";
+$k_size = "";
+$k_capacity = "";
 $img   = [];
 $type = "";
 
 if (isset($_POST['kindergarten'])) {
     $k_name = $_POST['k_name'];
-    $k_model = $_POST['k_model'];
-    $k_size = $_POST['k_size'];
+    $k_no   = $_POST['k_no'];
+    $k_code = $_POST['k_code'];
+    $k_weight = $_POST['k_weight'];
+    $k_size  = $_POST['k_size'];
+    $k_capacity = $_POST['k_capacity'];
     $img = $_FILES['img']['name'];
     $type = "kindergarten";
 
@@ -150,7 +159,7 @@ if (isset($_POST['kindergarten'])) {
         $temp = explode(".", $_FILES["img"]["name"]);
         $newfilename = round(microtime(true)) . '.' . end($temp);
         move_uploaded_file($_FILES["img"]["tmp_name"], "upload/kindergarten/" . $newfilename);
-        $qry = "INSERT INTO kindergarten (k_name, k_model, k_size, img, type) VALUES ('$k_name', '$k_model', '$k_size', '$newfilename', '$type')";
+        $qry = "INSERT INTO kindergarten (k_name, k_no, k_code, k_weight, k_capacity, k_size, img, type) VALUES ('$k_name', '$k_no', '$k_code', '$k_weight', '$k_capacity', '$k_size', '$newfilename', '$type')";
         $run = mysqli_query($db, $qry);
         $_SESSION['message'] = "Added successfully";
     }
@@ -159,10 +168,14 @@ if (isset($_POST['kindergarten'])) {
 if (isset($_POST['k_update'])) {
     $id = $_POST['k_id'];
     $k_name = $_POST['k_name'];
-    $k_model = $_POST['k_model'];
-    $k_size = $_POST['k_size'];
+    $k_no = $_POST['k_no'];
+    $k_code = $_POST['k_code'];
+    $k_weight = $_POST['k_weight'];
+    $k_capacity = $_POST['k_capacity'];
+    $k_size   = $_POST['k_size'];
 
-    mysqli_query($db, "UPDATE kindergarten SET k_name = '$k_name', k_model = '$k_model', k_size = '$k_size'  WHERE k_id=$id");
+
+    mysqli_query($db, "UPDATE kindergarten SET k_name = '$k_name', k_no = '$k_no', k_code = '$k_code', k_weight = '$k_weight', k_capacity = '$k_capacity', k_size = '$k_size' WHERE k_id=$id");
     $_SESSION['message'] = "Updated successfully!";
     header('location: viewKindergartenDashboard.php');
 }
