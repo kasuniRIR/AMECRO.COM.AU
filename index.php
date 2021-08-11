@@ -458,7 +458,7 @@
                             message with what you are looking for and we could source it for you through our extensive
                             network of trading partners and manufacturers.</p>
                         <div class="divider-sm"></div>
-                        <a href="contact.php" class="btn btn-lg animation" data-animation="tada">Request</a>
+                        <a href="contact.php#contact" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
                     <div class="col-sm-5 col-md-5 col-lg-6" style="margin-top: -100px">
                         <img src="./images/girl-specialOrder.png"

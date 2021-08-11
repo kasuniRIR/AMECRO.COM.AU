@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +65,7 @@
             </div>
         </div>
         <div class=" block">
-            <div class="container">
+            <div class="container" id="contact">
                 <div class="row">
                     <div class="col-md-4">
                         <h2>General Office</h2>
@@ -92,16 +95,17 @@
                                 <p>Something went wrong, try refreshing and submitting the form again.</p>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="name" placeholder="Your name*" required>
+                                <input type="text" class="input-custom input-full" name="name" id="name" placeholder="Your name*" required>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="email" placeholder="Email*" required>
+                                <input type="text" class="input-custom input-full" name="email" id="email" placeholder="Email*" required>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="phone" placeholder="Phone" >
+                                <input type="text" class="input-custom input-full" name="phone" id="phone" placeholder="Phone">
+
                             </div>
                             <div class="input-wrapper">
-                                <textarea class="textarea-custom input-full" name="message"
+                                <textarea class="textarea-custom input-full" name="message" id="message"
                                     placeholder="Message*" required></textarea>
                             </div>
                             <!-- <div class="g-recaptcha text-center" data-sitekey="YOUR SITE KEY"
@@ -109,7 +113,7 @@
                             <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha"
                                 id="hiddenRecaptcha"> -->
                             <br>
-                            <button type="submit" class="btn">Send Message</button>
+                            <button type="submit" name="submit" class="btn">Send Message</button>
                         </form>
                     </div>
                 </div>
