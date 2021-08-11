@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-50 bg-text">
                         <div class="bg-text-inside">
-                            <h4>We are a team of a well-experienced</h4>
+                            <p>We are a team of a well-experienced</p>
                             <p>international trading team with over 30 years
                                of experience in providing tailored solutions for clients' requirements. We source 
                                products from simple office solutions to complicated engineering solutions through 
