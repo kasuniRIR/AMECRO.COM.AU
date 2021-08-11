@@ -28,7 +28,7 @@
     <!-- Google map -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- Google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
 </head>
 
 <body>
@@ -98,16 +98,16 @@
                                 <input type="text" class="input-custom input-full" name="email" placeholder="Email*" required>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="phone" placeholder="Phone">
+                                <input type="text" class="input-custom input-full" name="phone" placeholder="Phone" >
                             </div>
                             <div class="input-wrapper">
                                 <textarea class="textarea-custom input-full" name="message"
                                     placeholder="Message*" required></textarea>
                             </div>
-                            <div class="g-recaptcha text-center" data-sitekey="YOUR SITE KEY"
+                            <!-- <div class="g-recaptcha text-center" data-sitekey="YOUR SITE KEY"
                                 style="display: inline-block;"></div>
                             <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha"
-                                id="hiddenRecaptcha">
+                                id="hiddenRecaptcha"> -->
                             <br>
                             <button type="submit" class="btn">Send Message</button>
                         </form>
