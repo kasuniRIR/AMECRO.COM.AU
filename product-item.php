@@ -201,7 +201,7 @@ include('./database/connection.php');
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                        <a href="contact.php#contact" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                     </div> 
                                 </div>
                             </div>
@@ -328,7 +328,7 @@ include('./database/connection.php');
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>                
+                                        <a href="contact.php#contact" class="btn"><i class="icon-market"></i>Get a Quote</a>                
                                     </div>
                                     
                                 </div>
@@ -456,7 +456,7 @@ include('./database/connection.php');
                                     </div>
                                     <div class="product-block-actions">
                                         <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                        <a href="contact.php#contact" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                     </div>
                                     
                                 </div>
