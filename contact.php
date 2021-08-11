@@ -31,7 +31,7 @@
     <!-- Google map -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- Google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
 </head>
 
 <body>
@@ -102,6 +102,7 @@
                             </div>
                             <div class="input-wrapper">
                                 <input type="text" class="input-custom input-full" name="phone" id="phone" placeholder="Phone">
+
                             </div>
                             <div class="input-wrapper">
                                 <textarea class="textarea-custom input-full" name="message" id="message"

@@ -58,13 +58,13 @@
             <div class="container-fluid">
                 <div class="divider"></div>
                 <div class="row-flex-text">
-                    <div class="col-50 bg-cover hide-bg-sm" data-bg="images/content/about-page-img-1.jpg">
-                        <div class="visible-sm visible-xs"><img src="images/content/about-page-img-1.jpg"
+                    <div class="col-50 bg-cover hide-bg-sm" data-bg="images/content/abou-us.png">
+                        <div class="visible-sm visible-xs"><img src="./images/content/abou-us.png"
                                 class="img-fullwidth" alt="About Us"></div>
                     </div>
                     <div class="col-50 bg-text">
                         <div class="bg-text-inside">
-                            <h4>We are a team of a well-experienced</h4>
+                            <p>We are a team of a well-experienced</p>
                             <p>international trading team with over 30 years
                                of experience in providing tailored solutions for clients' requirements. We source 
                                products from simple office solutions to complicated engineering solutions through 
