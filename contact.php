@@ -1,3 +1,30 @@
+<?php
+    
+    $name = "";
+    $email = "";
+    $phone = "";
+    $message = "";
+
+    if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $message = $_POST['message'];
+        
+        $_SESSION['status'] = "Your message was sent successfully!";
+		$_SESSION['status_code'] = "success";
+    
+    // Create the email and send the message
+    $to =  'thisaradilshanbens99@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+    $email_subject = "Your Have Email From AMECRO";
+    $email_body = "$name Send You an Email\n\n" . "Here are the details!!\n\nName: $name \n\nEmail: $email\n\nPhone: $phone\n\nMessage: $message";
+    $headers = "From: amecro\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+    $headers .= "Reply-To: amecro";
+ 
+    mail($to, $email_subject, $email_body, $headers);
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +55,7 @@
     <!-- Google map -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- Google recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
 </head>
 
 <body>
@@ -62,7 +89,7 @@
             </div>
         </div>
         <div class=" block">
-            <div class="container">
+            <div class="container" id="contact">
                 <div class="row">
                     <div class="col-md-4">
                         <h2>General Office</h2>
@@ -84,7 +111,7 @@
                     <div class="divider visible-sm visible-xs"></div>
                     <div class="col-md-8">
                         <h2 class="text-center h-lg h-decor">Get in Touch</h2>
-                        <form class="contact-form" id="contactForm" method="post" novalidate="novalidate">
+                        <form method="POST">
                             <div class="successform text-center">
                                 <p>Your message was sent successfully!</p>
                             </div>
@@ -92,26 +119,30 @@
                                 <p>Something went wrong, try refreshing and submitting the form again.</p>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="name" placeholder="Your name*" required>
+                                <input type="text" class="input-custom input-full" name="name" id="name" placeholder="Your name*" required>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="email" placeholder="Email*" required>
+                                <input type="text" class="input-custom input-full" name="email" id="email" placeholder="Email*" required>
                             </div>
                             <div class="input-wrapper">
-                                <input type="text" class="input-custom input-full" name="phone" placeholder="Phone">
+                                <input type="text" class="input-custom input-full" name="phone" id="phone" placeholder="Phone">
+
                             </div>
                             <div class="input-wrapper">
-                                <textarea class="textarea-custom input-full" name="message"
+                                <textarea class="textarea-custom input-full" name="message" id="message"
                                     placeholder="Message*" required></textarea>
                             </div>
-                            <div class="g-recaptcha text-center" data-sitekey="YOUR SITE KEY"
+                            <!-- <div class="g-recaptcha text-center" data-sitekey="YOUR SITE KEY"
                                 style="display: inline-block;"></div>
                             <input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha"
-                                id="hiddenRecaptcha">
+                                id="hiddenRecaptcha"> -->
                             <br>
-                            <button type="submit" class="btn">Send Message</button>
+                            <button type="submit" name="submit" class="btn">Send Message</button>
                         </form>
                     </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -143,6 +174,17 @@
     <!-- Custom JavaScripts -->
     <script src="js/custom.js"></script>
     <script src="js/forms.js"></script>
+    
+    <script>
+    if (window.history.replaceState) {
+     window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
+    
 </body>
 
 </html>
+
+<?php
+include('includes/scripts.php');
+?>

@@ -64,8 +64,7 @@
                     </div>
                     <div class="col-50 bg-text">
                         <div class="bg-text-inside">
-                            <h4>We are a team of a well-experienced</h4>
-                            <p>international trading team with over 30 years
+                            <p>We are a team of a well-experienced international trading team with over 30 years
                                of experience in providing tailored solutions for clients' requirements. We source 
                                products from simple office solutions to complicated engineering solutions through 
                                our network of the world's leading manufacturers from the USA, UK, EU, India, and 
@@ -177,12 +176,12 @@
         <div class="block">
             <div class="container">
                 <div class="text-center">
-                    <h1 class="h-decor">Policy Statement</h1>
+                    <h1 class="h-decor">Our Value Proposition</h1>
                     <!-- <h4>Providing house and offices cleaning services for more than 10 years</h4> -->
                 </div>
                 <div class="divider"></div>
                 <div class="text-center max-900">
-                    <p class="p-lg">We a local sourcing partner with a global network providing bespoke solutions that meets your organisational and financial requirements.</p>
+                    <p class="p-lg">We are your local sourcing partner with a global network providing bespoke solutions that meets your organisational and financial requirements.</p>
                 </div>
                 <!-- <p class="info"><i class="icon-write"></i>Franchising began in 1996 and has grown to include more than
                     215 locations across North America.</p> -->
@@ -208,44 +207,44 @@
         </div>
 
         <!--About Text block-->
-        <div class="block">
-            <div class="container">
-                <h1 class="text-center h-decor">Our Values</h1>
-                <div class="text-center max-700">
-                    <p class="p-lg">Our goal is Your satisfaction (of course after our cleaning work). Office Phone
-                        works around the clock (24/7).</p>
-                </div>
-                <div class="divider"></div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="text-center">
-                            <img src="images/content/about-page-img-2.jpg" class="img-responsive" alt="About Us">
-                        </div>
-                    </div>
-                    <div class="divider-lg visible-sm visible-xs"></div>
-                    <div class="col-md-6">
-                        <div class="marker-box">
-                            <div class="marker-box-marker"><i class="icon-leaf"></i></div>
-                            <h4 class="marker-box-title">Client oriented</h4>
-                            <p>We serve our clients as if we were serving ourselves. We value their feedback and we use
-                                it to improve our work.</p>
-                        </div>
-                        <div class="marker-box">
-                            <div class="marker-box-marker"><i class="icon-leaf"></i></div>
-                            <h4 class="marker-box-title">Eco-Friendly Oriented</h4>
-                            <p>We carefully choose the best and most natural cleaning products that give amazing
-                                results.</p>
-                        </div>
-                        <div class="marker-box hidden-md">
-                            <div class="marker-box-marker"><i class="icon-leaf"></i></div>
-                            <h4 class="marker-box-title">Expansion / Growth</h4>
-                            <p>We make ourselves known in the community; we create long term relations, while constantly
-                                expanding. Therefore, we are always bringing in more people to work for us.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--<div class="block">-->
+        <!--    <div class="container">-->
+        <!--        <h1 class="text-center h-decor">Our Values</h1>-->
+        <!--        <div class="text-center max-700">-->
+        <!--            <p class="p-lg">Our goal is Your satisfaction (of course after our cleaning work). Office Phone-->
+        <!--                works around the clock (24/7).</p>-->
+        <!--        </div>-->
+        <!--        <div class="divider"></div>-->
+        <!--        <div class="row">-->
+        <!--            <div class="col-md-6">-->
+        <!--                <div class="text-center">-->
+        <!--                    <img src="images/content/about-page-img-2.jpg" class="img-responsive" alt="About Us">-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="divider-lg visible-sm visible-xs"></div>-->
+        <!--            <div class="col-md-6">-->
+        <!--                <div class="marker-box">-->
+        <!--                    <div class="marker-box-marker"><i class="icon-leaf"></i></div>-->
+        <!--                    <h4 class="marker-box-title">Client oriented</h4>-->
+        <!--                    <p>We serve our clients as if we were serving ourselves. We value their feedback and we use-->
+        <!--                        it to improve our work.</p>-->
+        <!--                </div>-->
+        <!--                <div class="marker-box">-->
+        <!--                    <div class="marker-box-marker"><i class="icon-leaf"></i></div>-->
+        <!--                    <h4 class="marker-box-title">Eco-Friendly Oriented</h4>-->
+        <!--                    <p>We carefully choose the best and most natural cleaning products that give amazing-->
+        <!--                        results.</p>-->
+        <!--                </div>-->
+        <!--                <div class="marker-box hidden-md">-->
+        <!--                    <div class="marker-box-marker"><i class="icon-leaf"></i></div>-->
+        <!--                    <h4 class="marker-box-title">Expansion / Growth</h4>-->
+        <!--                    <p>We make ourselves known in the community; we create long term relations, while constantly-->
+        <!--                        expanding. Therefore, we are always bringing in more people to work for us.</p>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         <!--/About Text block-->
         <!--About Text block-->
         <!-- <div class="block">
@@ -303,77 +302,77 @@
         </div> -->
         <!--/About Text block -->
         <!--About Text block with icons -->
-        <div class="block">
-            <div class="container">
-                <h2 class="text-center h-lg h-decor">Why Hire Us?</h2>
-                <div class="text-center max-800">
-                    <p class="p-lg">Choose us because of our reputation for excellence. For more than 10 years, we've
-                        earned a name for quality and customer service.</p>
-                </div>
-                <div class="row text-icon-row">
-                    <div class="col-xs-6 col-sm-6 col-md-4 text-icon">
-                        <div class="text-icon-icon">
-                            <i class="icon icon-like-lined"></i>
-                        </div>
-                        <h4 class="text-icon-title">With Us, Your Satisfaction<br>Is Guaranteed</h4>
-                        <div class="text-icon-text">
-                            The experts at The Cleaning Company are committed to providing thorough house cleaning
-                            services for our valued customers nationwide.</div>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 text-icon">
-                        <div class="text-icon-icon">
-                            <i class="icon icon-user-lined"></i>
-                        </div>
-                        <h4 class="text-icon-title">Our Bonded & Insured<br>Cleaning Team</h4>
-                        <div class="text-icon-text">
-                            Our company is fully bonded and insured, which means you can have peace of mind when you
-                            hire us as your residential cleaning company. </div>
-                    </div>
-                    <div class="clearfix visible-xs visible-sm"></div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 text-icon">
-                        <div class="text-icon-icon">
-                            <i class="icon icon-users-lined"></i>
-                        </div>
-                        <h4 class="text-icon-title">Our Teams Consist<br>of Fully Trained Employees</h4>
-                        <div class="text-icon-text">
-                            It means every individual goes through a thorough screening process, and then is trained in
-                            every aspect of our home cleaning services.</div>
-                    </div>
-                    <div class="clearfix visible-md visible-lg"></div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 text-icon">
-                        <div class="text-icon-icon">
-                            <i class="icon icon-map-lined"></i>
-                        </div>
-                        <h4 class="text-icon-title">Locally Owned Home<br>Cleaning Services</h4>
-                        <div class="text-icon-text">
-                            You should be able to enjoy peace of mind knowing that your home is in good hands, while
-                            focusing on things that matter more to you.
-                        </div>
-                    </div>
-                    <div class="clearfix visible-xs visible-sm"></div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 text-icon">
-                        <div class="text-icon-icon">
-                            <i class="icon icon-phone-lined"></i>
-                        </div>
-                        <h4 class="text-icon-title">Free Over the Phone<br>Estimates</h4>
-                        <div class="text-icon-text">
-                            Cleaning Company service is the key to keeping a beautiful home while making more time for
-                            yourself and the things you love most.
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 text-icon">
-                        <div class="text-icon-icon">
-                            <i class="icon icon-reward-lined"></i>
-                        </div>
-                        <h4 class="text-icon-title">We Guarantee<br>Our Work</h4>
-                        <div class="text-icon-text">
-                            Cleaning Company strives to provide the highest level of quality, service and value to each
-                            and every customer. If you are not satisfied, please inform us.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--<div class="block">-->
+        <!--    <div class="container">-->
+        <!--        <h2 class="text-center h-lg h-decor">Why Hire Us?</h2>-->
+        <!--        <div class="text-center max-800">-->
+        <!--            <p class="p-lg">Choose us because of our reputation for excellence. For more than 10 years, we've-->
+        <!--                earned a name for quality and customer service.</p>-->
+        <!--        </div>-->
+        <!--        <div class="row text-icon-row">-->
+        <!--            <div class="col-xs-6 col-sm-6 col-md-4 text-icon">-->
+        <!--                <div class="text-icon-icon">-->
+        <!--                    <i class="icon icon-like-lined"></i>-->
+        <!--                </div>-->
+        <!--                <h4 class="text-icon-title">With Us, Your Satisfaction<br>Is Guaranteed</h4>-->
+        <!--                <div class="text-icon-text">-->
+        <!--                    The experts at The Cleaning Company are committed to providing thorough house cleaning-->
+        <!--                    services for our valued customers nationwide.</div>-->
+        <!--            </div>-->
+        <!--            <div class="col-xs-6 col-sm-6 col-md-4 text-icon">-->
+        <!--                <div class="text-icon-icon">-->
+        <!--                    <i class="icon icon-user-lined"></i>-->
+        <!--                </div>-->
+        <!--                <h4 class="text-icon-title">Our Bonded & Insured<br>Cleaning Team</h4>-->
+        <!--                <div class="text-icon-text">-->
+        <!--                    Our company is fully bonded and insured, which means you can have peace of mind when you-->
+        <!--                    hire us as your residential cleaning company. </div>-->
+        <!--            </div>-->
+        <!--            <div class="clearfix visible-xs visible-sm"></div>-->
+        <!--            <div class="col-xs-6 col-sm-6 col-md-4 text-icon">-->
+        <!--                <div class="text-icon-icon">-->
+        <!--                    <i class="icon icon-users-lined"></i>-->
+        <!--                </div>-->
+        <!--                <h4 class="text-icon-title">Our Teams Consist<br>of Fully Trained Employees</h4>-->
+        <!--                <div class="text-icon-text">-->
+        <!--                    It means every individual goes through a thorough screening process, and then is trained in-->
+        <!--                    every aspect of our home cleaning services.</div>-->
+        <!--            </div>-->
+        <!--            <div class="clearfix visible-md visible-lg"></div>-->
+        <!--            <div class="col-xs-6 col-sm-6 col-md-4 text-icon">-->
+        <!--                <div class="text-icon-icon">-->
+        <!--                    <i class="icon icon-map-lined"></i>-->
+        <!--                </div>-->
+        <!--                <h4 class="text-icon-title">Locally Owned Home<br>Cleaning Services</h4>-->
+        <!--                <div class="text-icon-text">-->
+        <!--                    You should be able to enjoy peace of mind knowing that your home is in good hands, while-->
+        <!--                    focusing on things that matter more to you.-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="clearfix visible-xs visible-sm"></div>-->
+        <!--            <div class="col-xs-6 col-sm-6 col-md-4 text-icon">-->
+        <!--                <div class="text-icon-icon">-->
+        <!--                    <i class="icon icon-phone-lined"></i>-->
+        <!--                </div>-->
+        <!--                <h4 class="text-icon-title">Free Over the Phone<br>Estimates</h4>-->
+        <!--                <div class="text-icon-text">-->
+        <!--                    Cleaning Company service is the key to keeping a beautiful home while making more time for-->
+        <!--                    yourself and the things you love most.-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="col-xs-6 col-sm-6 col-md-4 text-icon">-->
+        <!--                <div class="text-icon-icon">-->
+        <!--                    <i class="icon icon-reward-lined"></i>-->
+        <!--                </div>-->
+        <!--                <h4 class="text-icon-title">We Guarantee<br>Our Work</h4>-->
+        <!--                <div class="text-icon-text">-->
+        <!--                    Cleaning Company strives to provide the highest level of quality, service and value to each-->
+        <!--                    and every customer. If you are not satisfied, please inform us.-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         <!--/About Text block with icons -->
     </main>
     <!-- Footer -->

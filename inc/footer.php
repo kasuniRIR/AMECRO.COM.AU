@@ -6,11 +6,11 @@
                 <!-- <div class="footer-ribbon"><img src="images/footer-ribbon.png" alt=""></div> -->
                 <div class="page-footer-text">
                     <h4>Group Companies</h4>
-                <div class="brand-carousel">
-                    <img src="images/content/group_logo.png" class="img-responsive" alt="">
-                    <!-- <img src="images/logo.png" class="img-responsive" alt="" style = "height:50px;"> -->
-                </div>
-               
+                    <div class="brand-carousel">
+                        <img src="images/content/group_logo.png" class="img-responsive" alt="">
+                        <img src="images/content/group_logo_amecro.png" class="img-responsive" alt="">
+                        <!-- <img src="images/group_logo_amecro.png" class="img-responsive" alt="" style = "height:50px;"> -->
+                    </div>
                 </div>
                 <h4>Email</h4>
                 <form action="#" class="form-newsletter">
@@ -43,13 +43,13 @@
                     <li><a href="service-page-7.html">Window Cleaning</a></li>
                     <li><a href="service-page-6.html">Carper Cleaning</a></li> -->
                 <!-- <li> -->
-                <div class="fb-page" data-href="https://www.facebook.com/Amecro-Pvt-Ltd-102080904505046" data-tabs=""
-                    data-width="350" data-height="400" data-small-header="false" data-adapt-container-width="true"
-                    data-hide-cover="false" data-show-facepile="false">
-                    <blockquote cite="https://www.facebook.com/Amecro-Pvt-Ltd-102080904505046"
+                <div class="fb-page" data-href="https://www.facebook.com/Amecro-Australia-Pty-Ltd-108464021539084/"
+                    data-tabs="" data-width="" data-height="" data-small-header="false"
+                    data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/Amecro-Australia-Pty-Ltd-108464021539084/"
                         class="fb-xfbml-parse-ignore"><a
-                            href="https://www.facebook.com/Amecro-Pvt-Ltd-102080904505046">Amecro Pvt Ltd</a>
-                    </blockquote>
+                            href="https://www.facebook.com/Amecro-Australia-Pty-Ltd-108464021539084/">Amecro Australia
+                            Pty Ltd</a></blockquote>
                 </div>
                 <!-- </li> -->
                 <!-- </ul> -->
@@ -97,4 +97,4 @@
 <!-- /Footer -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0"
-    nonce="daJZ3wf8"></script>
+    nonce="jZkqKDr0"></script>

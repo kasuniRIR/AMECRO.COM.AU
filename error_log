@@ -1,0 +1,2 @@
+[11-Aug-2021 08:47:15 UTC] PHP Notice:  Undefined variable: conn in /home/grg4tlquhb2j/public_html/amecro.reachitright.net/contact.php on line 26
+[11-Aug-2021 08:47:15 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/grg4tlquhb2j/public_html/amecro.reachitright.net/contact.php on line 26

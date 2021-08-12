@@ -72,7 +72,7 @@ include('./database/connection.php');
                                     <p>Price: $<span id="number-1-2"></span> - $<span id="number-1-1"></span></p>
                                 </div>
                             </div> -->
-                            <div class="side-block" style="width: 350px;">
+                            <!-- <div class="side-block" style="width: 350px;">
                                 <h3>Popular Products</h3>
                                 <div class="prd-sm">
                                     <div class="prd-sm-img">
@@ -101,7 +101,7 @@ include('./database/connection.php');
                                         <div class="price">$9.99</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-md-8 col-lg-9">

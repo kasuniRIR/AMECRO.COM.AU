@@ -85,7 +85,7 @@ include('./database/connection.php');
                 <!-- //Breadcrumbs Block -->
                 <div class="block bottom-sm">
                     <div class="container">
-                        <h1 class="text-center h-decor">Our Shop</h1>
+                        <!-- <h1 class="text-center h-decor">Our Shop</h1> -->
                         <div class="row product-block">
                             <div class="col-sm-6">
                                 <div class="product-block-gallery">
@@ -200,8 +200,8 @@ include('./database/connection.php');
                                         </div>
                                     </div>
                                     <div class="product-block-actions">
-                                        <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                        <!-- <h3><span class="label label-warning">Authorized Suppliers</span></h3> -->
+                                        <a href="contact.php#contact" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                     </div> 
                                 </div>
                             </div>
@@ -247,7 +247,7 @@ include('./database/connection.php');
                                 </div>
                                 <div class="prd-info">
                                     <h3><?php echo $prdName?></h3>
-                                    <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                    <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                 </div>
                             </div>
 
@@ -279,7 +279,7 @@ include('./database/connection.php');
                 <!-- //Breadcrumbs Block -->
                 <div class="block bottom-sm">
                     <div class="container">
-                        <h1 class="text-center h-decor">Our Shop</h1>
+                        <!-- <h1 class="text-center h-decor">Our Shop</h1> -->
                         <div class="row product-block">
                             <div class="col-sm-6">
                                 <div class="product-block-gallery">
@@ -327,8 +327,9 @@ include('./database/connection.php');
                                         </div>
                                     </div>
                                     <div class="product-block-actions">
-                                        <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>                
+                                        <!-- <h3><span class="label label-warning">Authorized Suppliers</span></h3> -->
+                                        <a href="contact.php#contact" class="btn"><i class="icon-market"></i>Get a Quote</a>                
+
                                     </div>
                                     
                                 </div>
@@ -362,9 +363,9 @@ include('./database/connection.php');
                                 </div>
                                 <div class="prd-info">
                                     <h3><?php echo $e_name?></h3>
-                                    <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                    <a href="product-item.php?view=<?php echo $id ?>&type=<?php echo $type?>" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                 </div>
-                                <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                <!-- <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a> -->
                             </div>
 
                             <?php
@@ -397,7 +398,7 @@ include('./database/connection.php');
                 <!-- //Breadcrumbs Block -->
                 <div class="block bottom-sm">
                     <div class="container">
-                        <h1 class="text-center h-decor">Our Shop</h1>
+                        <!-- <h1 class="text-center h-decor">Our Shop</h1> -->
                         <div class="row product-block">
                             <div class="col-sm-6">
                                 <div class="product-block-gallery">
@@ -455,8 +456,8 @@ include('./database/connection.php');
                                         </div>
                                     </div>
                                     <div class="product-block-actions">
-                                        <h3><span class="label label-warning">Authorized Suppliers</span></h3>
-                                        <a href="contact.php" class="btn"><i class="icon-market"></i>Get a Quote</a>
+                                        <!-- <h3><span class="label label-warning">Authorized Suppliers</span></h3> -->
+                                        <a href="contact.php#contact" class="btn"><i class="icon-market"></i>Get a Quote</a>
                                     </div>
                                     
                                 </div>

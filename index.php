@@ -61,11 +61,11 @@
                             <div class="vert-wrap container">
                                 <div class="vert">
                                     <div class="container">
-                                        <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
+                                        <!-- <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
                                         <a href="contact.php" class="btn" data-animation="fadeInUp"
-                                            data-animation-delay="2s">Get a Quote</a>
+                                            data-animation-delay="2s">Get a Quote</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -77,11 +77,11 @@
                             <div class="vert-wrap container">
                                 <div class="vert">
                                     <div class="container">
-                                        <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
+                                        <!-- <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
                                         <a href="contact.php" class="btn" data-animation="fadeInUp"
-                                            data-animation-delay="2s">Get a Quote</a>
+                                            data-animation-delay="2s">Get a Quote</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -93,11 +93,11 @@
                             <div class="vert-wrap container">
                                 <div class="vert">
                                     <div class="container">
-                                        <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
+                                        <!-- <h2 data-animation="zoomIn" data-animation-delay="1s">So Fresh & So Clean...
                                         </h2>
                                         <h3 data-animation="zoomIn" data-animation-delay="2s">We Promise!</h3>
                                         <a href="contact.php" class="btn" data-animation="fadeInUp"
-                                            data-animation-delay="2s">Get a Quote</a>
+                                            data-animation-delay="2s">Get a Quote</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
             <div class="container">
                 <div class="row zindex-1">
                     <div class="col-sm-7 col-lg-9">
-                        <h2 class="h-lg">About Our Company</h2>
+                        <h2 class="h-lg">About Us</h2>
                         <!-- <ul class="nav nav-tabs nav-tabs--sm">
                             <li class="active"><a data-toggle="tab" href="#about1">Some Words</a></li>
                             <li><a data-toggle="tab" href="#about2">How it Works</a></li>
@@ -318,78 +318,46 @@
         </div>
         <!-- /About Us block -->
         <!-- Text Block -->
-        <div class="block">
-            <div class="container">
-                <div class="row row-revert-xs">
-                    <div class="col-sm-5 col-md-5 col-lg-6">
-                        <img src="./images/Why-Us.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"
-                            alt="">
-                        <img src="./images/Why-Us.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"
-                            alt="">
-                    </div>
-                    <div class="divider-xl visible-xs"></div>
-                    <div class="col-sm-7 col-md-7 col-lg-6">
-                        <h2>Why choose us</h2>
-                        <p class="p-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate
-                            incidunt eius sunt, perspiciatis accusantium molestias ea eum quas. Vero minus magni laborum
-                            vitae dicta, ad consequuntur omnis qui numquam!
-                        </p>
-                        <div class="marker-box">
-                            <div class="marker-box-marker"><i class="icon-leaf"></i></div>
-                            <h4 class="marker-box-title">Top-Rated Company</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius
-                                sunt, </p>
-                        </div>
-                        <div class="marker-box">
-                            <div class="marker-box-marker"><i class="icon-leaf"></i></div>
-                            <h4 class="marker-box-title">Superior Quality</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius
-                                sunt, </p>
-                        </div>
-                        <div class="marker-box hidden-md">
-                            <div class="marker-box-marker"><i class="icon-leaf"></i></div>
-                            <h4 class="marker-box-title">Eco-Friendly Products</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius
-                                sunt, </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--<div class="block">-->
+        <!--    <div class="container">-->
+        <!--        <div class="row row-revert-xs">-->
+        <!--            <div class="col-sm-5 col-md-5 col-lg-6">-->
+        <!--                <img src="./images/Why-Us.png" class="img-responsive visible-lg visible-md hidden-sm visible-xs"-->
+        <!--                    alt="">-->
+        <!--                <img src="./images/Why-Us.png" class="img-responsive hidden-lg hidden-md hidden-xs visible-sm"-->
+        <!--                    alt="">-->
+        <!--            </div>-->
+        <!--            <div class="divider-xl visible-xs"></div>-->
+        <!--            <div class="col-sm-7 col-md-7 col-lg-6">-->
+        <!--                <h2>Why choose us</h2>-->
+        <!--                <p class="p-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate-->
+        <!--                    incidunt eius sunt, perspiciatis accusantium molestias ea eum quas. Vero minus magni laborum-->
+        <!--                    vitae dicta, ad consequuntur omnis qui numquam!-->
+        <!--                </p>-->
+        <!--                <div class="marker-box">-->
+        <!--                    <div class="marker-box-marker"><i class="icon-leaf"></i></div>-->
+        <!--                    <h4 class="marker-box-title">Top-Rated Company</h4>-->
+        <!--                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius-->
+        <!--                        sunt, </p>-->
+        <!--                </div>-->
+        <!--                <div class="marker-box">-->
+        <!--                    <div class="marker-box-marker"><i class="icon-leaf"></i></div>-->
+        <!--                    <h4 class="marker-box-title">Superior Quality</h4>-->
+        <!--                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius-->
+        <!--                        sunt, </p>-->
+        <!--                </div>-->
+        <!--                <div class="marker-box hidden-md">-->
+        <!--                    <div class="marker-box-marker"><i class="icon-leaf"></i></div>-->
+        <!--                    <h4 class="marker-box-title">Eco-Friendly Products</h4>-->
+        <!--                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta cupiditate incidunt eius-->
+        <!--                        sunt, </p>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         <!--/Text Block -->
         <!-- Testimonials Single Block -->
-        <div class="block fullwidth-bg bg-cover block-testimonials-bg inset-lg-1" data-bg="images/block-bg-3.jpg">
-            <div class="container">
-                <h2 class="text-center h-lg">Happy Customers,<br class="clearfix visible-xs"></h2>
-                <div class="testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-item-inside">
-                            <p><i>We appreciate the support that AMECRO has given us to source some of the critical
-                                    items for our operations at great prices.</i></p>
-                        </div>
-                        <div class="testimonial-item-author">
-                            <img src="./images/person-feedback.png" alt="">
-                            <div><span class="testimonial-item-name">Nathan Donnarumma.</span> <span
-                                    class="testimonial-item-position">- Operations Manager - Servicing SA, Adelaide.
-                                </span></div>
-                        </div>
-                    </div>
-                    <!-- <div class="testimonial-item">
-                        <div class="testimonial-item-inside">
-                            <p><i>They are very professional and do a great job cleaning the house!! I locked myself out
-                                    of my house the other day and they were the only ones with a key. They were kind
-                                    enough to drive over to unlock the door. That speaks volumes!!! They really care
-                                    about their clients.</i></p>
-                        </div>
-                        <div class="testimonial-item-author">
-                            <img src="images/content/testimonial-author-2.png" alt="">
-                            <div><span class="testimonial-item-name">Shirley R. Sanchez.</span> <span class="testimonial-item-position">Evanston, Illinois</span></div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-        <!--/ Testimonials Single Block -->
         <!-- News block -->
         <div class="block">
             <div class="container">
@@ -445,6 +413,39 @@
                 </div>
             </div>
         </div>
+        <div class="block fullwidth-bg bg-cover block-testimonials-bg inset-lg-1" data-bg="images/block-bg-3.jpg">
+            <div class="container">
+                <h2 class="text-center h-lg">Happy Customers,<br class="clearfix visible-xs"></h2>
+                <div class="testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-inside">
+                            <p><i>We appreciate the support that AMECRO has given us to source some of the critical
+                                    items for our operations at great prices.</i></p>
+                        </div>
+                        <div class="testimonial-item-author">
+                            <img src="./images/person-feedback.png" alt="">
+                            <div><span class="testimonial-item-name">Nathan Donnarumma.</span> <span
+                                    class="testimonial-item-position">- Operations Manager - Servicing SA, Adelaide.
+                                </span></div>
+                        </div>
+                    </div>
+                    <!-- <div class="testimonial-item">
+                        <div class="testimonial-item-inside">
+                            <p><i>They are very professional and do a great job cleaning the house!! I locked myself out
+                                    of my house the other day and they were the only ones with a key. They were kind
+                                    enough to drive over to unlock the door. That speaks volumes!!! They really care
+                                    about their clients.</i></p>
+                        </div>
+                        <div class="testimonial-item-author">
+                            <img src="images/content/testimonial-author-2.png" alt="">
+                            <div><span class="testimonial-item-name">Shirley R. Sanchez.</span> <span class="testimonial-item-position">Evanston, Illinois</span></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!--/ Testimonials Single Block -->
+        
         <!-- /News block -->
         <!-- Text Block -->
         <div class="block fullwidth-bg">
@@ -458,7 +459,7 @@
                             message with what you are looking for and we could source it for you through our extensive
                             network of trading partners and manufacturers.</p>
                         <div class="divider-sm"></div>
-                        <a href="contact.php" class="btn btn-lg animation" data-animation="tada">Request</a>
+                        <a href="contact.php#contact" class="btn btn-lg animation" data-animation="tada">Request</a>
                     </div>
                     <div class="col-sm-5 col-md-5 col-lg-6" style="margin-top: -100px">
                         <img src="./images/girl-specialOrder.png"
@@ -618,20 +619,20 @@
         <!--/Text Block -->
 
         <!-- Brands Carousel -->
-        <div class="block">
-            <div class="container">
-                <h2 class="text-center h-lg h-decor">Brands</h2>
-                <div class="brand-carousel">
-                    <a href="#"><img src="images/content/brand-img-1.png" alt=""></a>
-                    <a href="#"><img src="images/content/brand-img-2.png" alt=""></a>
-                    <a href="#"><img src="images/content/brand-img-3.png" alt=""></a>
-                    <a href="#"><img src="images/content/brand-img-4.png" alt=""></a>
-                    <a href="#"><img src="images/content/brand-img-5.png" alt=""></a>
-                    <a href="#"><img src="images/content/brand-img-6.png" alt=""></a>
-                    <a href="#"><img src="images/content/brand-img-7.png" alt=""></a>
-                </div>
-            </div>
-        </div>
+        <!--<div class="block">-->
+        <!--    <div class="container">-->
+        <!--        <h2 class="text-center h-lg h-decor">Brands</h2>-->
+        <!--        <div class="brand-carousel">-->
+        <!--            <a href="#"><img src="images/content/brand-img-1.png" alt=""></a>-->
+        <!--            <a href="#"><img src="images/content/brand-img-2.png" alt=""></a>-->
+        <!--            <a href="#"><img src="images/content/brand-img-3.png" alt=""></a>-->
+        <!--            <a href="#"><img src="images/content/brand-img-4.png" alt=""></a>-->
+        <!--            <a href="#"><img src="images/content/brand-img-5.png" alt=""></a>-->
+        <!--            <a href="#"><img src="images/content/brand-img-6.png" alt=""></a>-->
+        <!--            <a href="#"><img src="images/content/brand-img-7.png" alt=""></a>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         <!-- /Brands Carousel -->
 
     </main>
