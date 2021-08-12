@@ -6,11 +6,11 @@
                 <!-- <div class="footer-ribbon"><img src="images/footer-ribbon.png" alt=""></div> -->
                 <div class="page-footer-text">
                     <h4>Group Companies</h4>
-                    <div class="brand-carousel">
-                        <img src="images/content/group_logo.png" class="img-responsive" alt="">
-                        <img src="images/content/group_logo_amecro.png" class="img-responsive" alt="">
-                        <!-- <img src="images/group_logo_amecro.png" class="img-responsive" alt="" style = "height:50px;"> -->
-                    </div>
+                <div class="brand-carousel">
+                    <img src="images/content/group_logo.png" class="img-responsive" alt=""> 
+                    <img src="images/content/group_logo_amecro.png" class="img-responsive" alt="">
+                    <!-- <img src="images/group_logo_amecro.png" class="img-responsive" alt="" style = "height:50px;"> -->
+                </div>
                 </div>
                 <h4>Email</h4>
                 <form action="#" class="form-newsletter">
